@@ -1,0 +1,38 @@
+COMPLEMENTARY LOGISTIC REGRESSION: is_cloned ~ SRP+OCP+DIP+LOC
+Primary RQ2 analysis: Mann-Whitney U (see mann_whitney_results.csv)
+McFadden R² = likelihood-ratio index vs intercept-only null.
+NOT variance explained. Per-project results are DESCRIPTIVE.
+======================================================================
+
+Clone Type  : overall
+  N         : 9,589  |  Cloned: 2,693
+  McF R²    : 0.0222  (intercept-only null; NOT var. explained)
+  AIC       : 11143.6408
+  Controls  : SRP+OCP+DIP+METHOD_LOC
+
+  Pred                 OR                   95% CI         p   Sig
+  --------------------------------------------------------------
+  Intercept        0.3857         [0.3686, 0.4036]    0.0000   Yes
+  SRP              1.0558         [1.0029, 1.1114]    0.0383   Yes
+  OCP              1.2034         [1.1367, 1.2741]    0.0000   Yes
+  DIP              0.8873         [0.8500, 0.9262]    0.0000   Yes
+  METHOD_LOC       1.7521         [1.6147, 1.9012]    0.0000   Yes
+
+----------------------------------------------------------------------
+
+Clone Type  : T3
+  N         : 9,586  |  Cloned: 2,690
+  McF R²    : 0.0223  (intercept-only null; NOT var. explained)
+  AIC       : 11135.5047
+  Controls  : SRP+OCP+DIP+METHOD_LOC
+
+  Pred                 OR                   95% CI         p   Sig
+  --------------------------------------------------------------
+  Intercept        0.3853         [0.3682, 0.4031]    0.0000   Yes
+  SRP              1.0558         [1.0029, 1.1114]    0.0383   Yes
+  OCP              1.2034         [1.1366, 1.2740]    0.0000   Yes
+  DIP              0.8869         [0.8496, 0.9258]    0.0000   Yes
+  METHOD_LOC       1.7532         [1.6157, 1.9025]    0.0000   Yes
+
+----------------------------------------------------------------------
+

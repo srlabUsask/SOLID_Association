@@ -1,0 +1,7 @@
+clone_type,principle,n_cloned,n_non_cloned,mean_cloned,mean_non_cloned,U_statistic,p_value,rank_biserial_r,significant_05
+overall,SRP,2903,13024,1.9439,1.9578,18674336.0,0.003,0.0122,Yes
+overall,OCP,2903,13024,1.9128,1.9217,18720202.0,0.0571,0.0097,No
+overall,DIP,2903,13024,1.6414,1.7687,16900107.0,0.0,0.106,Yes
+T3,SRP,2903,13024,1.9439,1.9578,18674336.0,0.003,0.0122,Yes
+T3,OCP,2903,13024,1.9128,1.9217,18720202.0,0.0571,0.0097,No
+T3,DIP,2903,13024,1.6414,1.7687,16900107.0,0.0,0.106,Yes

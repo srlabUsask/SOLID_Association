@@ -1,0 +1,36 @@
+method_id,principle,agreed_score,Pattern?,Rationale
+1,SRP,2,TRUE,"Method adds pages, traverses, and then checks to confirm."
+2,SRP,2,TRUE,Method adds pages and tests the assertion.
+3,SRP,2,TRUE,Method creates files and then checks to confirm operation.
+4,SRP,0,FALSE,The ENUM case should be delegated to a separate method as the other cases are.
+5,SRP,1,FALSE,Method mainly does one responsibility (setup) but does too many things for setup when it could delegate more.
+6,SRP,2,FALSE,Method acts as a constructor and it is difficult to find any parts that could be delegated.
+7,SRP,1,FALSE,"It is unclear whether this method violates SRP, based on the function of the other methods being called."
+8,SRP,2,TRUE,Method creates objects and then checks to confirm operation.
+9,SRP,0,FALSE,"Too many cases, cases should delegate to another method instead of handling the responsibility of each case."
+10,SRP,1,FALSE,Unclear if LOG messages are outside the scope of one responsibility.
+11,SRP,1,TRUE,Method instantiates objects and values and then checks to confirm operation. It is unclear whether these responsibilities violate SRP.
+12,SRP,2,FALSE,Method only has one responsibility
+13,OCP,2,FALSE,Method has minimal branching and nothing hard-coded.
+14,OCP,1,FALSE,Some hard-coded logic but unclear without knowing the intent/function of the method.
+15,OCP,2,FALSE,Method has minimal branching and nothing hard-coded.
+16,OCP,2,FALSE,Method has no branching and nothing hard-coded.
+17,OCP,2,FALSE,Method has minimal branching and does not encode variants.
+18,OCP,2,FALSE,Method has minimal branching and nothing hard-coded.
+19,OCP,1,FALSE,Method branches off but does not have divergent behavior.
+20,OCP,2,FALSE,Method has minimal branching and nothing hard-coded.
+21,OCP,2,FALSE,Method has no branching and nothing hard-coded.
+22,DIP,2,TRUE,"No replaceable dependencies, only uses class parameters."
+23,DIP,2,TRUE,No replaceable dependencies.
+24,DIP,2,TRUE,No replaceable dependencies.
+25,DIP,2,TRUE,No replaceable dependencies.
+26,DIP,2,TRUE,No replaceable dependencies.
+27,DIP,2,TRUE,No replaceable dependencies.
+28,DIP,0,FALSE,Method uses static singletons for replaceable collaborators.
+29,DIP,0,TRUE,No replaceable dependencies.
+30,DIP,2,FALSE,No replaceable dependencies.
+31,DIP,1,TRUE,It is unclear whether the parameters x and y violate DIP.
+32,DIP,2,FALSE,"No replaceable dependencies, only uses class parameters."
+33,DIP,2,TRUE,Uses given parameters.
+34,DIP,1,TRUE,toNewPatternsSet uses a parameter that was not specified in the method.
+35,DIP,2,TRUE,"No replaceable dependencies, only uses class parameters."

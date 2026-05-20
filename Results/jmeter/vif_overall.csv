@@ -1,0 +1,5 @@
+predictor,VIF,flag
+SRP,1.475,OK<2
+OCP,1.403,OK<2
+DIP,1.149,OK<2
+METHOD_LOC,1.635,OK<2

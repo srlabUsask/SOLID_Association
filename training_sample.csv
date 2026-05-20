@@ -1,0 +1,183 @@
+method_id,project,file_path,startline,endline,method_loc,method_name,method_source,srp_score_llm,srp_label_llm,srp_confidence_llm,srp_notes_llm,ocp_score_llm,ocp_label_llm,ocp_confidence_llm,ocp_notes_llm,dip_score_llm,dip_label_llm,dip_confidence_llm,dip_notes_llm,overall_solid_score,overall_flags
+systems/Projects/struts-main/plugins/tiles/src/main/java/org/apache/tiles/request/velocity/autotag/VelocityAutotagRuntime.java:83-85,struts,systems/Projects/struts-main/plugins/tiles/src/main/java/org/apache/tiles/request/velocity/autotag/VelocityAutotagRuntime.java,83,85,3,getName,"public String getName () {
+    return null;
+}",1,Partial,0.35,"Method is trivially cohesive, but returning null suggests it may be an unimplemented stub; intended responsibility cannot be confirmed from method alone.",2,Compliant,0.7,No structural signals of modification-prone variant handling within this method.,2,Compliant,0.8,Method introduces no observable dependencies.,5,needs_more_context
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/remote/service/DriverFinder.java:172-191,selenium,systems/Projects/selenium-trunk/java/src/org/openqa/selenium/remote/service/DriverFinder.java,172,191,20,getBrowserBinary,"private static String getBrowserBinary (Capabilities options) {
+    List < String > vendorOptionsCapabilities = Arrays.asList (""moz:firefoxOptions"", ""goog:chromeOptions"", ""ms:edgeOptions"");
+    for (String vendorOptionsCapability : vendorOptionsCapabilities) {
+        if (options.asMap ().containsKey (vendorOptionsCapability)) {
+            try {
+                @SuppressWarnings (""unchecked"")
+                Map < String, Object > vendorOptions = (Map < String, Object >) options.getCapability (vendorOptionsCapability);
+                return (String) vendorOptions.get (""binary"");
+            } catch (Exception e) {
+                LOG.warning (String.format (""Exception while retrieving the browser binary path. %s: %s"", options, e.getMessage ()));
+            }
+        }
+    }
+    return null;
+}",2,Compliant,0.72,,0,Violated,0.78,,2,Compliant,0.7,,4,
+systems/Projects/SolidLeaning/fitnesse/src/fitnesse/slim/JavaSlimFactory.java:56-65,fitnesse,systems/Projects/SolidLeaning/fitnesse/src/fitnesse/slim/JavaSlimFactory.java,56,65,10,createInteraction,"public static FixtureInteraction createInteraction (String interactionClassName, ClassLoader classLoader) {
+    if (interactionClassName == null) {
+        return new DefaultInteraction ();
+    }
+    try {
+        return ((Class < FixtureInteraction >) classLoader.loadClass (interactionClassName)).newInstance ();
+    } catch (Exception e) {
+        throw new SlimError (e);
+    }
+}",2,Compliant,0.78,,2,Compliant,0.74,,1,Partial,0.55,"Without broader context, it's unclear whether DefaultInteraction/SlimError are replaceable collaborators (DIP-relevant) or simple local defaults/exceptions.",5,needs_more_context
+systems/Projects/jmeter-master/src/core/src/main/java/org/apache/jmeter/services/FileServer.java:335-360,jmeter,systems/Projects/jmeter-master/src/core/src/main/java/org/apache/jmeter/services/FileServer.java,335,360,26,readLine,"public synchronized String readLine (String filename, boolean recycle, boolean ignoreFirstLine) throws IOException {
+    FileEntry fileEntry = files.get (filename);
+    if (fileEntry != null) {
+        if (fileEntry.inputOutputObject == null) {
+            fileEntry.inputOutputObject = createBufferedReader (fileEntry);
+        }
+        else if (! (fileEntry.inputOutputObject instanceof Reader)) {
+            throw new IOException (""File "" + filename + "" already in use"");
+        }
+        BufferedReader reader = (BufferedReader) fileEntry.inputOutputObject;
+        String line = reader.readLine ();
+        if (line == null && recycle) {
+            reader.close ();
+            reader = createBufferedReader (fileEntry);
+            fileEntry.inputOutputObject = reader;
+            if (ignoreFirstLine) {
+                reader.readLine ();
+            }
+            line = reader.readLine ();
+        }
+        log.debug (""Read:{}"", line);
+        return line;
+    }
+    throw new IOException (""File never reserved: "" + filename);
+}",0,Violated,0.75,"Method combines state management of a shared file entry, IO reading, optional recycle/header-skip policy, and logging.",1,Partial,0.55,Branching is limited but includes policy flags (recycle/ignoreFirstLine) that may require modification if variants grow; cannot tell if helper encapsulates extensibility.,2,Compliant,0.7,Method relies on existing state and standard IO; no obvious hard-coded concrete service creation within the method.,3,
+systems/Projects/jmeter-master/src/dist-check/src/test/java/org/apache/jmeter/junit/JMeterTest.java:272-296,jmeter,systems/Projects/jmeter-master/src/dist-check/src/test/java/org/apache/jmeter/junit/JMeterTest.java,272,296,25,runGUITitle,"public void runGUITitle (GuiComponentHolder componentHolder) throws Exception {
+    JMeterGUIComponent guiItem = componentHolder.getComponent ();
+    if (! guiTitles.isEmpty ()) {
+        String title = guiItem.getDocAnchor ();
+        boolean ct = guiTitles.containsKey (title);
+        if (ct) {
+            guiTitles.put (title, Boolean.TRUE);
+        }
+        String name = guiItem.getClass ().getName ();
+        if (title != null && ! title.isEmpty () && ! title.toUpperCase (Locale.ENGLISH).contains (""(ALPHA"") && ! title.toUpperCase (Locale.ENGLISH).contains (""(BETA"") && ! title.toUpperCase (Locale.ENGLISH).contains (""(DEPRECATED"") && ! title.matches (""Example\\d+"") && ! name.startsWith (""org.apache.jmeter.examples."")) {
+            String s = ""component_reference.xml needs '"" + title + ""' anchor for "" + name;
+            if (! ct) {
+                log.warn (s);
+            }
+            assertTrue (ct, s);
+        }
+    }
+}",1,Partial,0.55,Method appears to both track coverage in a map and enforce/report a rule via logging and assertion; cohesion depends on surrounding test design.,0,Violated,0.8,Adding/removing exclusion rules would require editing this method's conditional logic.,2,Compliant,0.75,Method depends on types passed in/available on the class; no 'new' of likely replaceable services is present.,3,needs_more_context
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/remote/RemoteWebDriver.java:529-532,selenium,systems/Projects/selenium-trunk/java/src/org/openqa/selenium/remote/RemoteWebDriver.java,529,532,4,setLogLevel,"public void setLogLevel (Level level) {
+    this.level = level;
+    LOG.setLevel (level);
+}",2,Compliant,0.78,,2,Compliant,0.74,,1,Partial,0.55,needs_more_context,5,needs_more_context
+systems/Projects/commons-lang-master/src/main/java/org/apache/commons/lang3/time/FastDateParser.java:347-349,commons-lang,systems/Projects/commons-lang-master/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,347,349,3,isNumber,"boolean isNumber () {
+    return false;
+}",2,Compliant,0.7,,2,Compliant,0.65,,2,Compliant,0.8,,6,
+systems/Projects/jmeter-master/src/protocol/http/src/main/java/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java:2084-2086,jmeter,systems/Projects/jmeter-master/src/protocol/http/src/main/java/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,2084,2086,3,getIpSource,"public String getIpSource () {
+    return get (getSchema ().getIpSource ());
+}",2,Compliant,0.78,,2,Compliant,0.7,,2,Compliant,0.74,,6,
+systems/Projects/jmeter-master/src/protocol/jms/src/main/java/org/apache/jmeter/protocol/jms/sampler/JMSSampler.java:503-505,jmeter,systems/Projects/jmeter-master/src/protocol/jms/src/main/java/org/apache/jmeter/protocol/jms/sampler/JMSSampler.java,503,505,3,setJMSProperties,"public void setJMSProperties (JMSProperties jmsProperties) {
+    setProperty (new TestElementProperty (JMS_PROPERTIES, jmsProperties));
+}",2,Compliant,0.9,,2,Compliant,0.85,,1,Partial,0.55,needs_more_context,5,needs_more_context
+systems/Projects/SolidLeaning/fitnesse/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java:115-130,fitnesse,systems/Projects/SolidLeaning/fitnesse/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java,115,130,16,afterTestOnSuccess,"public void afterTestOnSuccess () {
+    TestDescriptor testDescriptor = getTestDescriptor ();
+    TestResult testResult = getTestResult (TestResult.ResultType.SUCCESS, null);
+    jUnitXMLPerPageTestListener.afterTest (testDescriptor, testResult);
+    try {
+        verify (testResultRecorderMock).recordTestResult (testDescriptor.getName (), 0, 0, 0, null, testResult.getEndTime () - testResult.getStartTime ());
+    } catch (IOException e) {
+        fail (""IOException was caught but should have never been thrown."");
+    }
+}",1,Partial,0.55,"As a test method, mixing orchestration and assertions may be expected; method-level cohesion depends on surrounding test conventions.",2,Compliant,0.75,,2,Compliant,0.7,,5,needs_more_context
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/model/source/internal/hbm/Helper.java:76-86,hibernate-orm,systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/model/source/internal/hbm/Helper.java,76,86,11,createCaching,"public static Caching createCaching (JaxbHbmCacheType cacheElement) {
+    return cacheElement == null ? new Caching () : new Caching (cacheElement.getRegion (), cacheElement.getUsage (), cacheElement.getInclude () == null || ! ""non-lazy"".equals (cacheElement.getInclude ().value ()), true);
+}",2,Compliant,0.78,,1,Partial,0.55,needs_more_context,1,Partial,0.6,Cannot determine from the method alone whether Caching is a simple value object (acceptable) or a replaceable collaborator/service (would be a DIP concern).,4,needs_more_context
+systems/Projects/junit5-main/documentation/src/test/java/example/OrderedTestsDemo.java:36-38,junit5,systems/Projects/junit5-main/documentation/src/test/java/example/OrderedTestsDemo.java,36,38,3,validValues,"void validValues () {
+}",1,Partial,0.25,needs_more_context,2,Compliant,0.7,,2,Compliant,0.7,,5,needs_more_context
+systems/Projects/jmeter-master/src/protocol/http/src/main/java/org/apache/jmeter/protocol/http/gui/HeaderPanel.java:231-268,jmeter,systems/Projects/jmeter-master/src/protocol/http/src/main/java/org/apache/jmeter/protocol/http/gui/HeaderPanel.java,231,268,38,addFromClipboard,"protected void addFromClipboard () {
+    GuiUtils.stopTableEditing (this.headerTable);
+    int rowCount = headerTable.getRowCount ();
+    try {
+        String clipboardContent = GuiUtils.getPastedText ();
+        if (clipboardContent == null) {
+            return;
+        }
+        String [] clipboardLines = clipboardContent.split (CLIPBOARD_LINE_DELIMITER);
+        for (String clipboardLine : clipboardLines) {
+            int index = clipboardLine.indexOf (CLIPBOARD_COLON_DELIMITER);
+            if (index < 0) {
+                index = clipboardLine.indexOf (CLIPBOARD_TAB_DELIMITER);
+            }
+            if (index > 0) {
+                Header header = new Header (clipboardLine.substring (0, index).trim (), clipboardLine.substring (index + 1).trim ());
+                headerManager.add (header);
+            }
+        }
+        tableModel.fireTableDataChanged ();
+        if (headerTable.getRowCount () > rowCount) {
+            int rowToSelect = tableModel.getRowCount () - 1;
+            headerTable.setRowSelectionInterval (rowCount, rowToSelect);
+        }
+        checkButtonsStatus ();
+    } catch (IOException ioe) {
+        JOptionPane.showMessageDialog (this, ""Could not add read headers from clipboard:\n"" + ioe.getLocalizedMessage (), ""Error"", JOptionPane.ERROR_MESSAGE);
+    } catch (UnsupportedFlavorException ufe) {
+        JOptionPane.showMessageDialog (this, ""Could not add retrieved "" + DataFlavor.stringFlavor.getHumanPresentableName () + "" from clipboard"" + ufe.getLocalizedMessage (), ""Error"", JOptionPane.ERROR_MESSAGE);
+    }
+}",0,Violated,0.75,"Method combines data acquisition/parsing, state updates, UI refresh/selection, and error presentation.",1,Partial,0.55,Some variation (supported delimiters/clipboard formats) appears encoded directly in the method; unclear if these constants are extensibility points elsewhere.,0,Violated,0.7,Method is tightly coupled to specific UI/clipboard mechanisms via static calls and concrete Swing dialog usage.,1,needs_more_context
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/manager/SeleniumManager.java:120-181,selenium,systems/Projects/selenium-trunk/java/src/org/openqa/selenium/manager/SeleniumManager.java,120,181,62,runCommand,"private static Result runCommand (Path binary, List < String > arguments) {
+    LOG.fine (String.format (""Executing Process: %s"", arguments));
+    String output;
+    int code;
+    try {
+        ExternalProcess.Builder processBuilder = ExternalProcess.builder ().bufferSize (- 1);
+        Properties properties = System.getProperties ();
+        for (String name : properties.stringPropertyNames ()) {
+            if (name.startsWith (SE_ENV_PREFIX)) {
+                String value = properties.getProperty (name, """");
+                if (! value.isEmpty ()) {
+                    processBuilder.environment (name, value);
+                }
+            }
+        }
+        ExternalProcess process = processBuilder.command (binary.toAbsolutePath ().toString (), arguments).start ();
+        if (! process.waitFor (Duration.ofHours (1))) {
+            LOG.warning (""Selenium Manager did not exit, shutting it down"");
+            process.shutdown ();
+        }
+        code = process.exitValue ();
+        output = process.getOutput (StandardCharsets.UTF_8);
+    } catch (Exception e) {
+        throw new WebDriverException (""Failed to run command: "" + arguments, e);
+    }
+    SeleniumManagerOutput jsonOutput = null;
+    JsonException failedToParse = null;
+    String dump = output;
+    if (! output.isEmpty ()) {
+        try {
+            jsonOutput = new Json ().toType (output, SeleniumManagerOutput.class);
+            jsonOutput.getLogs ().forEach (logged -> {
+                Level currentLevel = logged.getLevel () == Level.INFO ? Level.FINE : logged.getLevel ();
+                LOG.log (currentLevel, logged.getMessage ());
+            });
+            dump = jsonOutput.getResult ().getMessage ();
+        } catch (JsonException e) {
+            failedToParse = e;
+        }
+    }
+    if (code != 0) {
+        throw new WebDriverException (""Command failed with code: "" + code + "", executed: "" + arguments + ""\n"" + dump, failedToParse);
+    }
+    else if (failedToParse != null || jsonOutput == null) {
+        throw new WebDriverException (""Failed to parse json output, executed: "" + arguments + ""\n"" + dump, failedToParse);
+    }
+    return jsonOutput.getResult ();
+}",0,Violated,0.75,,0,Violated,0.7,,0,Violated,0.8,,0,
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/grid/web/PathResource.java:42-45,selenium,systems/Projects/selenium-trunk/java/src/org/openqa/selenium/grid/web/PathResource.java,42,45,4,PathResource,"private PathResource (Path base, Predicate < Path > allowedSubpaths) {
+    this.base = Require.nonNull (""Base path"", base).normalize ();
+    this.allowedSubpaths = Require.nonNull (""Sub-path predicate"", allowedSubpaths);
+}",2,Compliant,0.78,,2,Compliant,0.7,,2,Compliant,0.74,,6,

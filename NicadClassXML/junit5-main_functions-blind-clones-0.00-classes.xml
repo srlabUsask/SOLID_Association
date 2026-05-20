@@ -1,0 +1,1838 @@
+<clones>
+<systeminfo processor="nicad6" system="junit5-main" granularity="functions-blind" threshold="0%" minlines="5" maxlines="2500"/>
+<cloneinfo npcs="11749" npairs="1156"/>
+<runinfo ncompares="1098241" cputime="39230"/>
+<classinfo nclasses="328"/>
+
+<class classid="1" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tooling-support-tests/src/test/java/platform/tooling/support/tests/VintageGradleIntegrationTests.java" startline="36" endline="43" pcid="91"></source>
+<source file="systems/NicadRun/junit5-main/platform-tooling-support-tests/src/test/java/platform/tooling/support/tests/VintageMavenIntegrationTests.java" startline="39" endline="46" pcid="108"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-migrationsupport/src/main/java/org/junit/jupiter/migrationsupport/conditions/IgnoreCondition.java" startline="56" endline="60" pcid="135"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/extension/DisabledCondition.java" startline="47" endline="51" pcid="3051"></source>
+</class>
+
+<class classid="3" nclones="7" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/DiscoverySelectorIdentifier.java" startline="89" endline="98" pcid="182"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/FileSource.java" startline="104" endline="113" pcid="827"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FileSelector.java" startline="98" endline="107" pcid="245"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/ClassSource.java" startline="197" endline="206" pcid="810"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ClasspathResourceSelector.java" startline="124" endline="134" pcid="423"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/ClasspathResourceSource.java" startline="148" endline="158" pcid="795"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/UniqueId.java" startline="338" endline="348" pcid="973"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/MethodSelector.java" startline="75" endline="80" pcid="217"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/aggregator/AggregatorIntegrationTests.java" startline="235" endline="240" pcid="8159"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/MethodSelector.java" startline="281" endline="292" pcid="233"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/MethodSource.java" startline="225" endline="236" pcid="868"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FileSelector.java" startline="124" endline="132" pcid="248"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ClasspathResourceSelector.java" startline="156" endline="164" pcid="426"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FileSelector.java" startline="152" endline="160" pcid="251"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ClasspathResourceSelector.java" startline="184" endline="192" pcid="429"></source>
+</class>
+
+<class classid="8" nclones="9" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ModuleSelector.java" startline="54" endline="63" pcid="254"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ClassSelector.java" startline="109" endline="118" pcid="282"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/UniqueIdSelector.java" startline="55" endline="64" pcid="441"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ClasspathRootSelector.java" startline="68" endline="77" pcid="270"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/DefaultUriSource.java" startline="40" endline="49" pcid="832"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/DirectorySelector.java" startline="88" endline="97" pcid="452"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/UriSelector.java" startline="58" endline="67" pcid="432"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/PackageSource.java" startline="72" endline="81" pcid="772"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/PackageSelector.java" startline="54" endline="63" pcid="291"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/IncludePackageNameFilter.java" startline="39" endline="44" pcid="261"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/ExcludePackageNameFilter.java" startline="39" endline="44" pcid="397"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/NestedMethodSelector.java" startline="218" endline="228" pcid="315"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/NestedClassSelector.java" startline="126" endline="136" pcid="468"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/IterationSelector.java" startline="79" endline="88" pcid="408"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="30" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FilePosition.java" startline="85" endline="119" pcid="333"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/FilePosition.java" startline="80" endline="114" pcid="777"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FilePosition.java" startline="124" endline="128" pcid="334"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/FilePosition.java" startline="119" endline="123" pcid="778"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FilePosition.java" startline="130" endline="135" pcid="335"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/FilePosition.java" startline="125" endline="130" pcid="779"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/FilePosition.java" startline="165" endline="174" pcid="339"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/FilePosition.java" startline="152" endline="161" pcid="782"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/discovery/AbstractClassNameFilter.java" startline="36" endline="41" pcid="459"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/AbstractMethodFilter.java" startline="38" endline="43" pcid="1539"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/TestTag.java" startline="135" endline="141" pcid="487"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/TestIdentifier.java" startline="247" endline="253" pcid="1659"></source>
+</class>
+
+<class classid="17" nclones="5" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/CompositeTestSource.java" startline="72" endline="81" pcid="764"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/descriptor/DirectorySource.java" startline="78" endline="87" pcid="817"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/extension/ExtensionContext.java" startline="763" endline="772" pcid="11319"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/store/Namespace.java" startline="75" endline="84" pcid="876"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/UniqueId.java" startline="237" endline="247" pcid="966"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/main/java/org/junit/platform/engine/support/store/Namespace.java" startline="97" endline="104" pcid="878"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/extension/ExtensionContext.java" startline="787" endline="794" pcid="11321"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/testFixtures/java/org/junit/platform/fakes/FaultyTestEngines.java" startline="35" endline="40" pcid="1032"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-engine/src/testFixtures/java/org/junit/platform/fakes/FaultyTestEngines.java" startline="55" endline="60" pcid="1035"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java" startline="256" endline="260" pcid="1251"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java" startline="345" endline="349" pcid="1265"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java" startline="274" endline="282" pcid="1254"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java" startline="357" endline="365" pcid="1267"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/AnnotationUtils.java" startline="111" endline="119" pcid="1305"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/AnnotationUtils.java" startline="251" endline="259" pcid="1311"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/ReflectionUtils.java" startline="1428" endline="1440" pcid="1459"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/ReflectionUtils.java" startline="1715" endline="1727" pcid="1474"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/ReflectionUtils.java" startline="1926" endline="1932" pcid="1488"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/ReflectionUtils.java" startline="1946" endline="1952" pcid="1490"></source>
+</class>
+
+<class classid="25" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/discovery/AbortOnFailureLauncherDiscoveryListener.java" startline="30" endline="38" pcid="1579"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TestLauncherSessionListener.java" startline="16" endline="24" pcid="5450"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/discovery/LoggingLauncherDiscoveryListener.java" startline="98" endline="106" pcid="1601"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/discovery/LauncherDiscoveryListeners.java" startline="76" endline="86" pcid="1584"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/session/LauncherSessionListeners.java" startline="33" endline="43" pcid="1619"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/UniqueIdTrackingListener.java" startline="150" endline="156" pcid="1622"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/UniqueIdTrackingListener.java" startline="159" endline="163" pcid="1623"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/SummaryGeneratingListener.java" startline="62" endline="69" pcid="1640"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/listeners/SummaryGeneratingListener.java" startline="86" endline="93" pcid="1642"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/tagexpression/ParseResults.java" startline="24" endline="31" pcid="1672"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/tagexpression/ParseResults.java" startline="33" endline="40" pcid="1674"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/TagFilter.java" startline="130" endline="140" pcid="1825"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/TagFilter.java" startline="151" endline="161" pcid="1828"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/SessionPerRequestLauncher.java" startline="64" endline="68" pcid="1893"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/SessionPerRequestLauncher.java" startline="71" endline="75" pcid="1894"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/InterceptingLauncher.java" startline="37" endline="42" pcid="1923"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/InterceptingLauncher.java" startline="45" endline="50" pcid="1924"></source>
+</class>
+
+<class classid="33" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherDiscoveryResult.java" startline="122" endline="127" pcid="1975"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/processStarter/java/org/junit/platform/tests/process/WatchedProcess.java" startline="23" endline="27" pcid="3685"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ForkJoinPoolHierarchicalTestExecutorServiceTests.java" startline="312" endline="316" pcid="4777"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-console/src/main/java/org/junit/platform/console/tasks/TreePrinter.java" startline="36" endline="40" pcid="9764"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/execution/JupiterEngineExecutionContext.java" startline="133" endline="138" pcid="3270"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/CompositeTestExecutionListener.java" startline="106" endline="118" pcid="2033"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/CompositeEngineExecutionListener.java" startline="78" endline="91" pcid="2188"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfigurationParameters.java" startline="125" endline="129" pcid="2121"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfigurationParameters.java" startline="131" endline="135" pcid="2122"></source>
+</class>
+
+<class classid="36" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfig.java" startline="281" endline="286" pcid="2155"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfig.java" startline="310" endline="316" pcid="2157"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfig.java" startline="295" endline="301" pcid="2156"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfig.java" startline="342" endline="347" pcid="2159"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/LauncherConfig.java" startline="325" endline="331" pcid="2158"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/SecondCustomEngine.java" startline="48" endline="66" pcid="2514"></source>
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/FirstCustomEngine.java" startline="48" endline="66" pcid="2552"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/exception/ExceptionAssertionExactDemo.java" startline="26" endline="42" pcid="2542"></source>
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/exception/ExceptionAssertionDemo.java" startline="23" endline="39" pcid="2546"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/ParameterizedTestDemo.java" startline="226" endline="230" pcid="2571"></source>
+<source file="systems/NicadRun/junit5-main/documentation/src/test/java/example/ParameterizedTestDemo.java" startline="300" endline="304" pcid="2578"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/execution/InvocationInterceptorChain.java" startline="98" endline="102" pcid="3199"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertLinesMatch.java" startline="89" endline="93" pcid="11687"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/execution/NamespaceAwareStore.java" startline="47" endline="51" pcid="3217"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/execution/NamespaceAwareStore.java" startline="82" endline="86" pcid="3222"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java" startline="189" endline="199" pcid="3437"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java" startline="242" endline="252" pcid="3443"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/NestedClassTestDescriptor.java" startline="75" endline="80" pcid="3491"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/MethodBasedTestDescriptor.java" startline="82" endline="87" pcid="3558"></source>
+</class>
+
+<class classid="44" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java" startline="141" endline="149" pcid="3611"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java" startline="151" endline="158" pcid="3612"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java" startline="178" endline="185" pcid="3615"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="177" endline="192" pcid="3699"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="195" endline="210" pcid="3700"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="213" endline="228" pcid="3701"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="231" endline="246" pcid="3702"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="14" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="249" endline="266" pcid="3703"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="269" endline="286" pcid="3704"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="345" endline="355" pcid="3708"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="358" endline="368" pcid="3709"></source>
+</class>
+
+<class classid="49" nclones="4" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="371" endline="381" pcid="3710"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="384" endline="394" pcid="3711"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="449" endline="459" pcid="3716"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="436" endline="446" pcid="3715"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="410" endline="420" pcid="3713"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="423" endline="433" pcid="3714"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="658" endline="664" pcid="3725"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java" startline="677" endline="683" pcid="3727"></source>
+</class>
+
+<class classid="52" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="91" endline="103" pcid="3745"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="106" endline="116" pcid="3746"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="119" endline="129" pcid="3747"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="349" endline="367" pcid="3767"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="370" endline="392" pcid="3768"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="476" endline="480" pcid="3779"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/DefaultClasspathScannerTests.java" startline="483" endline="487" pcid="3780"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/CloseablePathTests.java" startline="57" endline="69" pcid="3798"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/scanning/CloseablePathTests.java" startline="72" endline="85" pcid="3799"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/AnnotationSupportTests.java" startline="38" endline="42" pcid="3807"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/AnnotationSupportTests.java" startline="61" endline="66" pcid="3809"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/AnnotationSupportTests.java" startline="45" endline="58" pcid="3808"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/AnnotationSupportTests.java" startline="69" endline="82" pcid="3810"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="182" endline="188" pcid="3841"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="213" endline="219" pcid="3843"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="312" endline="318" pcid="3853"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="333" endline="339" pcid="3855"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="387" endline="398" pcid="3861"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/ReflectionSupportTests.java" startline="466" endline="477" pcid="3867"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/support/conversion/ConversionSupportTests.java" startline="60" endline="64" pcid="3871"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/converter/DefaultArgumentConverterTests.java" startline="41" endline="45" pcid="8051"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="44" endline="50" pcid="3943"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="187" endline="193" pcid="3960"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="205" endline="211" pcid="3962"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="223" endline="229" pcid="3964"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="214" endline="220" pcid="3963"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/PreconditionsTests.java" startline="232" endline="238" pcid="3965"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/AnnotationUtilsTests.java" startline="567" endline="571" pcid="4040"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/AnnotationUtilsTests.java" startline="574" endline="578" pcid="4041"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="389" endline="399" pcid="4092"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="402" endline="412" pcid="4093"></source>
+</class>
+
+<class classid="67" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="428" endline="434" pcid="4095"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="464" endline="470" pcid="4099"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="446" endline="452" pcid="4097"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="455" endline="461" pcid="4098"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="437" endline="443" pcid="4096"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="679" endline="683" pcid="4119"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="686" endline="690" pcid="4120"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="747" endline="754" pcid="4128"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="757" endline="764" pcid="4129"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="851" endline="860" pcid="4140"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="863" endline="872" pcid="4141"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="885" endline="894" pcid="4144"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="897" endline="906" pcid="4145"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="909" endline="918" pcid="4146"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="921" endline="930" pcid="4147"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="1031" endline="1037" pcid="4160"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="1040" endline="1046" pcid="4161"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="1520" endline="1538" pcid="4203"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="1541" endline="1560" pcid="4204"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="2103" endline="2109" pcid="4246"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java" startline="2121" endline="2127" pcid="4248"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsWithGenericTypeHierarchiesTests.java" startline="40" endline="50" pcid="4292"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsWithGenericTypeHierarchiesTests.java" startline="54" endline="64" pcid="4294"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/ConsoleLauncherTests.java" startline="37" endline="42" pcid="4455"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/ConsoleLauncherTests.java" startline="47" endline="52" pcid="4456"></source>
+</class>
+
+<class classid="78" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/options/ExecuteTestsCommandTests.java" startline="43" endline="49" pcid="4533"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/options/ExecuteTestsCommandTests.java" startline="89" endline="95" pcid="4537"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/options/ExecuteTestsCommandTests.java" startline="52" endline="58" pcid="4534"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/VerboseTreePrintingListenerTests.java" startline="74" endline="83" pcid="4548"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/VerboseTreePrintingListenerTests.java" startline="86" endline="95" pcid="4549"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="74" endline="85" pcid="4559"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="88" endline="99" pcid="4560"></source>
+</class>
+
+<class classid="81" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="232" endline="239" pcid="4571"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="242" endline="249" pcid="4572"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="252" endline="260" pcid="4573"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="291" endline="300" pcid="4576"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/DiscoveryRequestCreatorTests.java" startline="263" endline="271" pcid="4574"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/ConsoleTestExecutorTests.java" startline="63" endline="72" pcid="4586"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/ConsoleTestExecutorTests.java" startline="75" endline="84" pcid="4587"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/FlatPrintingListenerTests.java" startline="145" endline="157" pcid="4604"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/console/tasks/FlatPrintingListenerTests.java" startline="160" endline="172" pcid="4605"></source>
+</class>
+
+<class classid="84" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ModuleSelectorTests.java" startline="26" endline="32" pcid="4621"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/PackageSelectorTests.java" startline="26" endline="32" pcid="4655"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/DirectorySelectorTests.java" startline="26" endline="32" pcid="4627"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/UriSelectorTests.java" startline="28" endline="34" pcid="4622"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClasspathRootSelectorTests.java" startline="28" endline="34" pcid="4626"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FileSelectorTests.java" startline="26" endline="32" pcid="4624"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClasspathResourceSelectorTests.java" startline="26" endline="32" pcid="4656"></source>
+</class>
+
+<class classid="87" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FileSelectorTests.java" startline="35" endline="41" pcid="4625"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClasspathResourceSelectorTests.java" startline="35" endline="41" pcid="4657"></source>
+</class>
+
+<class classid="88" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="27" endline="37" pcid="4631"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/PackageNameFilterTests.java" startline="78" endline="88" pcid="4649"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="89" endline="99" pcid="4634"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/PackageNameFilterTests.java" startline="27" endline="37" pcid="4647"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="40" endline="58" pcid="4632"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="102" endline="121" pcid="4635"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="61" endline="86" pcid="4633"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/ClassNameFilterTests.java" startline="124" endline="149" pcid="4636"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/NestedMethodSelectorTests.java" startline="56" endline="64" pcid="4643"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/NestedMethodSelectorTests.java" startline="67" endline="75" pcid="4644"></source>
+</class>
+
+<class classid="92" nclones="2" nlines="21" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/PackageNameFilterTests.java" startline="40" endline="75" pcid="4648"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/PackageNameFilterTests.java" startline="91" endline="126" pcid="4650"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/NestedClassSelectorTests.java" startline="42" endline="50" pcid="4652"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/NestedClassSelectorTests.java" startline="53" endline="61" pcid="4653"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FilePositionTests.java" startline="45" endline="50" pcid="4659"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/FilePositionTests.java" startline="50" endline="55" pcid="5119"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FilePositionTests.java" startline="54" endline="59" pcid="4660"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/FilePositionTests.java" startline="59" endline="64" pcid="5120"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FilePositionTests.java" startline="66" endline="79" pcid="4661"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/FilePositionTests.java" startline="71" endline="84" pcid="5121"></source>
+</class>
+
+<class classid="97" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FilePositionTests.java" startline="100" endline="106" pcid="4663"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/FilePositionTests.java" startline="105" endline="111" pcid="5123"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/FilePositionTests.java" startline="115" endline="121" pcid="5124"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/discovery/FilePositionTests.java" startline="110" endline="116" pcid="4664"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="153" endline="172" pcid="4732"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="175" endline="194" pcid="4733"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="18" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="224" endline="247" pcid="4735"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="371" endline="394" pcid="4741"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="18" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="346" endline="368" pcid="4740"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="427" endline="449" pcid="4743"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="637" endline="658" pcid="4752"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java" startline="686" endline="707" pcid="4754"></source>
+</class>
+
+<class classid="102" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/SingleTestExecutorTests.java" startline="40" endline="49" pcid="4785"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/SingleTestExecutorTests.java" startline="52" endline="61" pcid="4786"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/NodeTreeWalkerIntegrationTests.java" startline="61" endline="74" pcid="4788"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/NodeTreeWalkerIntegrationTests.java" startline="93" endline="106" pcid="4790"></source>
+</class>
+
+<class classid="104" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ParallelExecutionIntegrationTests.java" startline="110" endline="115" pcid="4829"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ParallelExecutionIntegrationTests.java" startline="126" endline="131" pcid="4831"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ParallelExecutionIntegrationTests.java" startline="118" endline="123" pcid="4830"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ParallelExecutionIntegrationTests.java" startline="161" endline="166" pcid="4834"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/ParallelExecutionIntegrationTests.java" startline="189" endline="194" pcid="4837"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="128" endline="133" pcid="4959"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="197" endline="202" pcid="4966"></source>
+</class>
+
+<class classid="106" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="136" endline="141" pcid="4960"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="175" endline="180" pcid="4964"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="205" endline="210" pcid="4967"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="167" endline="172" pcid="4963"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/DefaultParallelExecutionConfigurationStrategyTests.java" startline="159" endline="164" pcid="4962"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/TestDescriptorOrderChildrenTests.java" startline="87" endline="95" pcid="4997"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/TestDescriptorOrderChildrenTests.java" startline="98" endline="106" pcid="4998"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/ClasspathResourceSourceTests.java" startline="53" endline="59" pcid="5029"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/ClasspathResourceSourceTests.java" startline="81" endline="87" pcid="5032"></source>
+</class>
+
+<class classid="109" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/ClassSourceTests.java" startline="99" endline="104" pcid="5082"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/ClassSourceTests.java" startline="125" endline="130" pcid="5085"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/descriptor/ClassSourceTests.java" startline="133" endline="138" pcid="5086"></source>
+</class>
+
+<class classid="110" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="85" endline="90" pcid="5129"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="93" endline="98" pcid="5130"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="101" endline="106" pcid="5131"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="169" endline="179" pcid="5137"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="264" endline="274" pcid="5145"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="467" endline="479" pcid="5160"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java" startline="482" endline="494" pcid="5161"></source>
+</class>
+
+<class classid="113" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespaceTests.java" startline="30" endline="35" pcid="5171"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/NamespaceTests.java" startline="22" endline="27" pcid="7756"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/NamespaceTests.java" startline="30" endline="35" pcid="7757"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/EventsTests.java" startline="123" endline="135" pcid="5217"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/EventsTests.java" startline="225" endline="237" pcid="5226"></source>
+</class>
+
+<class classid="115" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="29" endline="37" pcid="5231"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="60" endline="67" pcid="5234"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="40" endline="47" pcid="5232"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="70" endline="77" pcid="5235"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="50" endline="57" pcid="5233"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/ExecutionsIntegrationTests.java" startline="80" endline="87" pcid="5236"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="52" endline="57" pcid="5244"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="60" endline="65" pcid="5245"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="68" endline="74" pcid="5246"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="77" endline="83" pcid="5247"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="86" endline="92" pcid="5248"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="95" endline="101" pcid="5249"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="104" endline="111" pcid="5250"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/testkit/engine/TestExecutionResultConditionsTests.java" startline="114" endline="121" pcid="5251"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/SummaryGenerationTests.java" startline="266" endline="270" pcid="5291"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/SummaryGenerationTests.java" startline="272" endline="276" pcid="5292"></source>
+</class>
+
+<class classid="121" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/OutputDirTests.java" startline="57" endline="62" pcid="5296"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/OutputDirTests.java" startline="65" endline="70" pcid="5297"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/OutputDirTests.java" startline="73" endline="78" pcid="5298"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/OutputDirTests.java" startline="81" endline="86" pcid="5299"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/listeners/OutputDirTests.java" startline="89" endline="94" pcid="5300"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="43" endline="53" pcid="5340"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="90" endline="100" pcid="5343"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="56" endline="69" pcid="5341"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="103" endline="116" pcid="5344"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="72" endline="87" pcid="5342"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/MethodFilterTests.java" startline="119" endline="134" pcid="5345"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/tagexpression/TokenTests.java" startline="20" endline="24" pcid="5396"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/tagexpression/TokenTests.java" startline="34" endline="38" pcid="5398"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/tagexpression/TokenTests.java" startline="27" endline="31" pcid="5397"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagIntegrationTests.java" startline="40" endline="47" pcid="5422"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagIntegrationTests.java" startline="50" endline="57" pcid="5423"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagIntegrationTests.java" startline="61" endline="68" pcid="5424"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagIntegrationTests.java" startline="72" endline="79" pcid="5425"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagFilterTests.java" startline="149" endline="159" pcid="5443"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/TagFilterTests.java" startline="161" endline="171" pcid="5444"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/CompositeEngineExecutionListenerTests.java" startline="139" endline="143" pcid="5465"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/CompositeTestExecutionListenerTests.java" startline="213" endline="217" pcid="5637"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/InternalTestPlanTests.java" startline="37" endline="50" pcid="5472"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/InternalTestPlanTests.java" startline="53" endline="66" pcid="5474"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherFactoryTests.java" startline="343" endline="362" pcid="5507"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherFactoryTests.java" startline="365" endline="384" pcid="5509"></source>
+</class>
+
+<class classid="132" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="350" endline="355" pcid="5555"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="768" endline="773" pcid="5584"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="928" endline="933" pcid="5597"></source>
+</class>
+
+<class classid="133" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="761" endline="765" pcid="5583"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="897" endline="901" pcid="5594"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="921" endline="925" pcid="5596"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java" startline="828" endline="832" pcid="5588"></source>
+</class>
+
+<class classid="134" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherConfigTests.java" startline="106" endline="115" pcid="5609"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherConfigTests.java" startline="130" endline="139" pcid="5611"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherConfigTests.java" startline="118" endline="127" pcid="5610"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherDiscoveryRequestBuilderTests.java" startline="57" endline="68" pcid="5654"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherDiscoveryRequestBuilderTests.java" startline="71" endline="82" pcid="5655"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherEngineFilterTests.java" startline="40" endline="60" pcid="5687"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherEngineFilterTests.java" startline="103" endline="123" pcid="5690"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="153" endline="161" pcid="5731"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="228" endline="236" pcid="5737"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="164" endline="172" pcid="5732"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="239" endline="247" pcid="5738"></source>
+</class>
+
+<class classid="139" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="175" endline="184" pcid="5733"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="250" endline="259" pcid="5739"></source>
+</class>
+
+<class classid="140" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="444" endline="452" pcid="5751"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="575" endline="583" pcid="5762"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="543" endline="551" pcid="5759"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="455" endline="465" pcid="5752"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="515" endline="525" pcid="5757"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="468" endline="480" pcid="5753"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="528" endline="540" pcid="5758"></source>
+</class>
+
+<class classid="143" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="483" endline="491" pcid="5754"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="554" endline="562" pcid="5760"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="504" endline="512" pcid="5756"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="494" endline="501" pcid="5755"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java" startline="565" endline="572" pcid="5761"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/engine/SuiteEngineTests.java" startline="146" endline="160" pcid="5792"></source>
+<source file="systems/NicadRun/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/engine/SuiteEngineTests.java" startline="185" endline="199" pcid="5794"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java" startline="130" endline="148" pcid="5952"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java" startline="173" endline="191" pcid="5954"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java" startline="351" endline="365" pcid="5964"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java" startline="381" endline="395" pcid="5966"></source>
+</class>
+
+<class classid="148" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="55" endline="64" pcid="6043"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="67" endline="77" pcid="6044"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="80" endline="90" pcid="6045"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="93" endline="103" pcid="6046"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="106" endline="116" pcid="6047"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="260" endline="264" pcid="6057"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="267" endline="271" pcid="6058"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="274" endline="278" pcid="6059"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/ExceptionHandlingTests.java" startline="281" endline="285" pcid="6060"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/AbstractJupiterTestEngineTests.java" startline="49" endline="53" pcid="6075"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/AbstractJupiterTestEngineTests.java" startline="67" endline="71" pcid="6079"></source>
+</class>
+
+<class classid="153" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/FailedAssumptionsTests.java" startline="28" endline="33" pcid="6085"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExecutionConditionTests.java" startline="63" endline="68" pcid="6580"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DisabledTests.java" startline="33" endline="38" pcid="7474"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/FailedAssumptionsTests.java" startline="36" endline="41" pcid="6086"></source>
+</class>
+
+<class classid="154" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java" startline="417" endline="426" pcid="6116"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java" startline="429" endline="439" pcid="6117"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java" startline="442" endline="453" pcid="6118"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java" startline="669" endline="677" pcid="6131"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java" startline="680" endline="688" pcid="6132"></source>
+</class>
+
+<class classid="156" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="64" endline="68" pcid="6167"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="71" endline="75" pcid="6168"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/NestedTestClassesTests.java" startline="71" endline="75" pcid="7879"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/NestedTestClassesTests.java" startline="50" endline="54" pcid="7877"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="78" endline="83" pcid="6169"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="86" endline="91" pcid="6170"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="291" endline="310" pcid="6185"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoveryTests.java" startline="313" endline="332" pcid="6186"></source>
+</class>
+
+<class classid="159" nclones="4" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="127" endline="143" pcid="6216"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="184" endline="200" pcid="6219"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="165" endline="181" pcid="6218"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="146" endline="162" pcid="6217"></source>
+</class>
+
+<class classid="160" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="252" endline="263" pcid="6223"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java" startline="281" endline="292" pcid="6225"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/IsTestFactoryMethodTests.java" startline="61" endline="73" pcid="6244"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/IsTestFactoryMethodTests.java" startline="77" endline="89" pcid="6245"></source>
+</class>
+
+<class classid="162" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/IsTestMethodTests.java" startline="71" endline="81" pcid="6267"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/IsTestMethodTests.java" startline="113" endline="123" pcid="6270"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/IsTestMethodTests.java" startline="100" endline="110" pcid="6269"></source>
+</class>
+
+<class classid="163" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="72" endline="80" pcid="6304"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="134" endline="142" pcid="6309"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="83" endline="91" pcid="6305"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="112" endline="120" pcid="6307"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="123" endline="131" pcid="6308"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="94" endline="102" pcid="6306"></source>
+</class>
+
+<class classid="164" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="145" endline="154" pcid="6310"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="185" endline="194" pcid="6313"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="157" endline="168" pcid="6311"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedProgrammaticExtensionRegistrationTests.java" startline="171" endline="182" pcid="6312"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutConfigurationTests.java" startline="127" endline="135" pcid="6324"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutConfigurationTests.java" startline="145" endline="153" pcid="6326"></source>
+</class>
+
+<class classid="167" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="71" endline="78" pcid="6329"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="147" endline="154" pcid="6334"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="132" endline="139" pcid="6333"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="102" endline="109" pcid="6331"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="117" endline="124" pcid="6332"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="185" endline="190" pcid="6337"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="420" endline="425" pcid="6355"></source>
+</class>
+
+<class classid="169" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="332" endline="339" pcid="6349"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="378" endline="385" pcid="6352"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="363" endline="370" pcid="6351"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="409" endline="417" pcid="6354"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="393" endline="401" pcid="6353"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="478" endline="481" pcid="6361"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryCleanupTests.java" startline="490" endline="493" pcid="6362"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/PreInterruptCallbackTests.java" startline="211" endline="220" pcid="6397"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/PreInterruptCallbackTests.java" startline="228" endline="237" pcid="6398"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="69" endline="85" pcid="6451"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="88" endline="104" pcid="6452"></source>
+</class>
+
+<class classid="173" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="131" endline="149" pcid="6454"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="171" endline="189" pcid="6456"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="152" endline="168" pcid="6455"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="192" endline="208" pcid="6457"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="274" endline="287" pcid="6461"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestInstanceFactoryTests.java" startline="356" endline="369" pcid="6465"></source>
+</class>
+
+<class classid="176" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestWatcherTests.java" startline="138" endline="144" pcid="6515"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestWatcherTests.java" startline="147" endline="153" pcid="6516"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestWatcherTests.java" startline="167" endline="173" pcid="6518"></source>
+</class>
+
+<class classid="177" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestReporterParameterResolverTests.java" startline="56" endline="60" pcid="6559"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/extension/support/TypeBasedParameterResolverTests.java" startline="88" endline="92" pcid="8700"></source>
+</class>
+
+<class classid="178" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestExecutionExceptionHandlerTests.java" startline="62" endline="76" pcid="6566"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TestExecutionExceptionHandlerTests.java" startline="96" endline="110" pcid="6568"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExecutionConditionTests.java" startline="109" endline="114" pcid="6586"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExecutionConditionTests.java" startline="117" endline="122" pcid="6587"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/BeforeAndAfterEachTests.java" startline="240" endline="260" pcid="6628"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/BeforeAndAfterEachTests.java" startline="263" endline="283" pcid="6629"></source>
+</class>
+
+<class classid="181" nclones="6" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="68" endline="76" pcid="6663"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="189" endline="197" pcid="6672"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="167" endline="175" pcid="6670"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="91" endline="99" pcid="6665"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="79" endline="88" pcid="6664"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="178" endline="186" pcid="6671"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="102" endline="122" pcid="6666"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="143" endline="164" pcid="6669"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="125" endline="131" pcid="6667"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="134" endline="140" pcid="6668"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="276" endline="281" pcid="6682"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="316" endline="321" pcid="6686"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="292" endline="295" pcid="6683"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="310" endline="313" pcid="6685"></source>
+</class>
+
+<class classid="186" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="362" endline="365" pcid="6693"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="487" endline="490" pcid="6708"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ParameterResolverTests.java" startline="479" endline="482" pcid="6707"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="75" endline="88" pcid="6711"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="151" endline="164" pcid="6715"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="206" endline="220" pcid="6718"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="258" endline="272" pcid="6721"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="224" endline="237" pcid="6719"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="241" endline="254" pcid="6720"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="331" endline="338" pcid="6727"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="488" endline="495" pcid="6738"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="413" endline="428" pcid="6734"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TimeoutExtensionTests.java" startline="453" endline="469" pcid="6736"></source>
+</class>
+
+<class classid="192" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/AutoCloseTests.java" startline="62" endline="68" pcid="6798"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/AutoCloseTests.java" startline="80" endline="85" pcid="6800"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/AutoCloseTests.java" startline="71" endline="77" pcid="6799"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ProgrammaticExtensionRegistrationTests.java" startline="101" endline="120" pcid="6849"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ProgrammaticExtensionRegistrationTests.java" startline="123" endline="142" pcid="6850"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="224" endline="230" pcid="6998"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="314" endline="320" pcid="7007"></source>
+</class>
+
+<class classid="195" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="263" endline="268" pcid="7002"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="283" endline="288" pcid="7004"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="273" endline="278" pcid="7003"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="293" endline="298" pcid="7005"></source>
+</class>
+
+<class classid="196" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="536" endline="539" pcid="7027"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="888" endline="891" pcid="7062"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="939" endline="942" pcid="7067"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="717" endline="720" pcid="7044"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="682" endline="685" pcid="7039"></source>
+</class>
+
+<class classid="197" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="542" endline="545" pcid="7028"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="723" endline="726" pcid="7045"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="688" endline="691" pcid="7040"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="945" endline="948" pcid="7068"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="894" endline="897" pcid="7063"></source>
+</class>
+
+<class classid="198" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="750" endline="757" pcid="7049"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="929" endline="936" pcid="7066"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="878" endline="885" pcid="7061"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="800" endline="802" pcid="7054"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="810" endline="812" pcid="7055"></source>
+</class>
+
+<class classid="200" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1127" endline="1131" pcid="7089"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1134" endline="1138" pcid="7090"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1141" endline="1145" pcid="7091"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1154" endline="1157" pcid="7093"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1160" endline="1163" pcid="7094"></source>
+</class>
+
+<class classid="202" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1179" endline="1182" pcid="7096"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1277" endline="1280" pcid="7110"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1375" endline="1378" pcid="7124"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1381" endline="1384" pcid="7125"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1185" endline="1188" pcid="7097"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1283" endline="1286" pcid="7111"></source>
+</class>
+
+<class classid="203" nclones="15" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1191" endline="1194" pcid="7098"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1313" endline="1316" pcid="7116"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1307" endline="1310" pcid="7115"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1301" endline="1304" pcid="7114"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1387" endline="1390" pcid="7126"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1393" endline="1396" pcid="7127"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1215" endline="1218" pcid="7102"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1405" endline="1408" pcid="7129"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1197" endline="1200" pcid="7099"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1295" endline="1298" pcid="7113"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1399" endline="1402" pcid="7128"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1289" endline="1292" pcid="7112"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1203" endline="1206" pcid="7100"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1411" endline="1414" pcid="7130"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1209" endline="1212" pcid="7101"></source>
+</class>
+
+<class classid="204" nclones="9" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1221" endline="1226" pcid="7103"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1433" endline="1439" pcid="7133"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1425" endline="1430" pcid="7132"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1327" endline="1332" pcid="7118"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1319" endline="1324" pcid="7117"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1417" endline="1422" pcid="7131"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1335" endline="1340" pcid="7119"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1237" endline="1242" pcid="7105"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1229" endline="1234" pcid="7104"></source>
+</class>
+
+<class classid="205" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1245" endline="1249" pcid="7106"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1343" endline="1347" pcid="7120"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1442" endline="1446" pcid="7134"></source>
+</class>
+
+<class classid="206" nclones="6" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1252" endline="1257" pcid="7107"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1358" endline="1363" pcid="7122"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1449" endline="1454" pcid="7135"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1457" endline="1462" pcid="7136"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1350" endline="1355" pcid="7121"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/TempDirectoryPerContextTests.java" startline="1260" endline="1265" pcid="7108"></source>
+</class>
+
+<class classid="207" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExtensionRegistryTests.java" startline="78" endline="91" pcid="7213"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExtensionRegistryTests.java" startline="126" endline="139" pcid="7216"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="81" endline="93" pcid="7233"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="117" endline="129" pcid="7235"></source>
+</class>
+
+<class classid="209" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="96" endline="114" pcid="7234"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="132" endline="150" pcid="7236"></source>
+</class>
+
+<class classid="210" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="153" endline="172" pcid="7237"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="175" endline="193" pcid="7238"></source>
+</class>
+
+<class classid="211" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="303" endline="307" pcid="7245"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="328" endline="332" pcid="7249"></source>
+</class>
+
+<class classid="212" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="310" endline="314" pcid="7246"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="321" endline="325" pcid="7248"></source>
+</class>
+
+<class classid="213" nclones="7" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="393" endline="398" pcid="7254"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="545" endline="550" pcid="7272"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="553" endline="558" pcid="7273"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="409" endline="414" pcid="7256"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="417" endline="422" pcid="7257"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="529" endline="534" pcid="7270"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="401" endline="406" pcid="7255"></source>
+</class>
+
+<class classid="214" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="461" endline="466" pcid="7262"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="469" endline="474" pcid="7263"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="477" endline="482" pcid="7264"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="485" endline="490" pcid="7265"></source>
+</class>
+
+<class classid="215" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="497" endline="501" pcid="7266"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="511" endline="515" pcid="7268"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="518" endline="522" pcid="7269"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/LifecycleMethodExecutionExceptionHandlerTests.java" startline="504" endline="508" pcid="7267"></source>
+</class>
+
+<class classid="216" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/RepeatedTestTests.java" startline="382" endline="387" pcid="7318"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/RepeatedTestTests.java" startline="390" endline="395" pcid="7319"></source>
+</class>
+
+<class classid="217" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/RepeatedTestTests.java" startline="398" endline="403" pcid="7320"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/RepeatedTestTests.java" startline="406" endline="411" pcid="7321"></source>
+</class>
+
+<class classid="218" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedMethodTests.java" startline="87" endline="106" pcid="7326"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedMethodTests.java" startline="109" endline="128" pcid="7327"></source>
+</class>
+
+<class classid="219" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedMethodTests.java" startline="425" endline="432" pcid="7350"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/OrderedMethodTests.java" startline="478" endline="485" pcid="7360"></source>
+</class>
+
+<class classid="220" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DefaultMethodTests.java" startline="76" endline="92" pcid="7481"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DefaultMethodTests.java" startline="95" endline="112" pcid="7482"></source>
+</class>
+
+<class classid="221" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/bridge/NumberTestGroup.java" startline="27" endline="31" pcid="7533"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/bridge/NumberTestGroup.java" startline="46" endline="50" pcid="7535"></source>
+</class>
+
+<class classid="222" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/bridge/NumberTestGroup.java" startline="34" endline="39" pcid="7534"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/bridge/NumberTestGroup.java" startline="53" endline="58" pcid="7536"></source>
+</class>
+
+<class classid="223" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/InstantiatingConfigurationParameterConverterTests.java" startline="113" endline="126" pcid="7555"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/InstantiatingConfigurationParameterConverterTests.java" startline="129" endline="143" pcid="7556"></source>
+</class>
+
+<class classid="224" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/CachingJupiterConfigurationTests.java" startline="43" endline="50" pcid="7558"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/CachingJupiterConfigurationTests.java" startline="53" endline="60" pcid="7559"></source>
+</class>
+
+<class classid="225" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/CachingJupiterConfigurationTests.java" startline="74" endline="81" pcid="7561"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/CachingJupiterConfigurationTests.java" startline="84" endline="91" pcid="7562"></source>
+</class>
+
+<class classid="226" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/DefaultJupiterConfigurationTests.java" startline="53" endline="57" pcid="7569"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/config/DefaultJupiterConfigurationTests.java" startline="60" endline="64" pcid="7570"></source>
+</class>
+
+<class classid="227" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/execution/ParameterResolutionUtilsTests.java" startline="320" endline="324" pcid="7613"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/execution/AbstractExecutableInvokerTests.java" startline="90" endline="94" pcid="7638"></source>
+</class>
+
+<class classid="228" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/execution/ExtensionContextStoreTests.java" startline="65" endline="70" pcid="7661"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/execution/ExtensionContextStoreTests.java" startline="73" endline="78" pcid="7662"></source>
+</class>
+
+<class classid="229" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="48" endline="66" pcid="7701"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="69" endline="87" pcid="7702"></source>
+</class>
+
+<class classid="230" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="90" endline="104" pcid="7703"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="107" endline="121" pcid="7704"></source>
+</class>
+
+<class classid="231" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="159" endline="164" pcid="7709"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/LifecycleMethodUtilsTests.java" startline="167" endline="172" pcid="7710"></source>
+</class>
+
+<class classid="232" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/ExtensionContextTests.java" startline="337" endline="343" pcid="7768"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/ExtensionContextTests.java" startline="355" endline="362" pcid="7770"></source>
+</class>
+
+<class classid="233" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/DisplayNameUtilsTests.java" startline="84" endline="90" pcid="7792"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/DisplayNameUtilsTests.java" startline="93" endline="99" pcid="7793"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/DisplayNameUtilsTests.java" startline="102" endline="108" pcid="7794"></source>
+</class>
+
+<class classid="234" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/DisplayNameUtilsTests.java" startline="161" endline="169" pcid="7799"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/DisplayNameUtilsTests.java" startline="172" endline="180" pcid="7800"></source>
+</class>
+
+<class classid="235" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/TestInstanceLifecycleUtilsTests.java" startline="89" endline="94" pcid="7811"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/descriptor/TestInstanceLifecycleUtilsTests.java" startline="97" endline="102" pcid="7812"></source>
+</class>
+
+<class classid="236" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/StandardTestClassTests.java" startline="38" endline="43" pcid="7851"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/StandardTestClassTests.java" startline="46" endline="51" pcid="7852"></source>
+</class>
+
+<class classid="237" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/NestedTestClassesTests.java" startline="103" endline="121" pcid="7881"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/NestedTestClassesTests.java" startline="124" endline="142" pcid="7882"></source>
+</class>
+
+<class classid="238" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestClassInheritanceTests.java" startline="65" endline="73" pcid="7911"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestClassInheritanceTests.java" startline="93" endline="102" pcid="7913"></source>
+</class>
+
+<class classid="239" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DefaultExecutionModeTests.java" startline="51" endline="55" pcid="7954"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DefaultExecutionModeTests.java" startline="58" endline="63" pcid="7955"></source>
+</class>
+
+<class classid="240" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DynamicNodeGenerationTests.java" startline="102" endline="115" pcid="7972"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DynamicNodeGenerationTests.java" startline="134" endline="148" pcid="7974"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/DynamicNodeGenerationTests.java" startline="118" endline="131" pcid="7973"></source>
+</class>
+
+<class classid="241" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/aggregator/AggregatorIntegrationTests.java" startline="360" endline="370" pcid="8168"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/aggregator/AggregatorIntegrationTests.java" startline="374" endline="384" pcid="8169"></source>
+</class>
+
+<class classid="242" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="43" endline="53" pcid="8189"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="56" endline="66" pcid="8190"></source>
+</class>
+
+<class classid="243" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="295" endline="304" pcid="8209"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="331" endline="340" pcid="8212"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="319" endline="328" pcid="8211"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/CsvFileArgumentsProviderTests.java" startline="307" endline="316" pcid="8210"></source>
+</class>
+
+<class classid="244" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/ArgumentsTests.java" startline="42" endline="48" pcid="8302"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/params/provider/ArgumentsTests.java" startline="51" endline="57" pcid="8303"></source>
+</class>
+
+<class classid="245" nclones="3" nlines="13" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/migrationsupport/rules/ExternalResourceSupportForDifferentDeclaredReturnTypesRulesTests.java" startline="38" endline="50" pcid="8344"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/migrationsupport/rules/ExternalResourceSupportForMultipleMethodRulesTests.java" startline="32" endline="44" pcid="8358"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/migrationsupport/rules/ExternalResourceSupportForMultipleMethodRulesTests.java" startline="47" endline="59" pcid="8361"></source>
+</class>
+
+<class classid="246" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/parallel/ResourceLocksProviderTests.java" startline="205" endline="212" pcid="8413"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/parallel/ResourceLocksProviderTests.java" startline="305" endline="312" pcid="8425"></source>
+</class>
+
+<class classid="247" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/parallel/ResourceLockAnnotationTests.java" startline="73" endline="90" pcid="8429"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/parallel/ResourceLockAnnotationTests.java" startline="308" endline="325" pcid="8440"></source>
+</class>
+
+<class classid="248" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutAssertionsTests.java" startline="43" endline="49" pcid="8476"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutPreemptivelyAssertionsTests.java" startline="54" endline="60" pcid="9480"></source>
+</class>
+
+<class classid="249" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutAssertionsTests.java" startline="52" endline="57" pcid="8477"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutPreemptivelyAssertionsTests.java" startline="63" endline="69" pcid="9481"></source>
+</class>
+
+<class classid="250" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutAssertionsTests.java" startline="90" endline="100" pcid="8482"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutPreemptivelyAssertionsTests.java" startline="116" endline="126" pcid="9487"></source>
+</class>
+
+<class classid="251" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutAssertionsTests.java" startline="103" endline="109" pcid="8483"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTimeoutPreemptivelyAssertionsTests.java" startline="129" endline="135" pcid="9488"></source>
+</class>
+
+<class classid="252" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="43" endline="51" pcid="8642"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="83" endline="91" pcid="9290"></source>
+</class>
+
+<class classid="253" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="54" endline="64" pcid="8643"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="94" endline="104" pcid="9291"></source>
+</class>
+
+<class classid="254" nclones="7" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="67" endline="72" pcid="8644"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="107" endline="112" pcid="9292"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="43" endline="48" pcid="9287"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="139" endline="144" pcid="9296"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="131" endline="136" pcid="9295"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="99" endline="104" pcid="8648"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="91" endline="96" pcid="8647"></source>
+</class>
+
+<class classid="255" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="75" endline="80" pcid="8645"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="115" endline="120" pcid="9293"></source>
+</class>
+
+<class classid="256" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="83" endline="88" pcid="8646"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="123" endline="128" pcid="9294"></source>
+</class>
+
+<class classid="257" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="114" endline="122" pcid="8650"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="154" endline="162" pcid="9298"></source>
+</class>
+
+<class classid="258" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="125" endline="134" pcid="8651"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="165" endline="174" pcid="9299"></source>
+</class>
+
+<class classid="259" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="137" endline="146" pcid="8652"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="177" endline="186" pcid="9300"></source>
+</class>
+
+<class classid="260" nclones="4" nlines="13" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="149" endline="162" pcid="8653"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="51" endline="64" pcid="9288"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="67" endline="80" pcid="9289"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="189" endline="202" pcid="9301"></source>
+</class>
+
+<class classid="261" nclones="2" nlines="14" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="165" endline="181" pcid="8654"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="205" endline="221" pcid="9302"></source>
+</class>
+
+<class classid="262" nclones="2" nlines="14" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="184" endline="200" pcid="8655"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="224" endline="240" pcid="9303"></source>
+</class>
+
+<class classid="263" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="204" endline="222" pcid="8656"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="244" endline="262" pcid="9304"></source>
+</class>
+
+<class classid="264" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="225" endline="239" pcid="8657"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="265" endline="279" pcid="9305"></source>
+</class>
+
+<class classid="265" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java" startline="243" endline="270" pcid="8658"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java" startline="283" endline="310" pcid="9306"></source>
+</class>
+
+<class classid="266" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="98" endline="108" pcid="8676"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="125" endline="135" pcid="8678"></source>
+</class>
+
+<class classid="267" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="111" endline="122" pcid="8677"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="138" endline="150" pcid="8679"></source>
+</class>
+
+<class classid="268" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="239" endline="249" pcid="8688"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="265" endline="275" pcid="8690"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java" startline="252" endline="262" pcid="8689"></source>
+</class>
+
+<class classid="269" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/extension/ExecutableInvokerIntegrationTests.java" startline="27" endline="32" pcid="8710"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/extension/ExecutableInvokerIntegrationTests.java" startline="35" endline="40" pcid="8711"></source>
+</class>
+
+<class classid="270" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/subpackage/SubclassedAssertionsTests.java" startline="25" endline="29" pcid="8780"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertTrueAssertionsTests.java" startline="28" endline="32" pcid="9379"></source>
+</class>
+
+<class classid="271" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertSameAssertionsTests.java" startline="36" endline="41" pcid="8783"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="517" endline="522" pcid="8828"></source>
+</class>
+
+<class classid="272" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="32" endline="38" pcid="8789"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="33" endline="39" pcid="9307"></source>
+</class>
+
+<class classid="273" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="85" endline="91" pcid="8793"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="88" endline="94" pcid="9311"></source>
+</class>
+
+<class classid="274" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="138" endline="142" pcid="8797"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="183" endline="187" pcid="8801"></source>
+</class>
+
+<class classid="275" nclones="4" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="145" endline="154" pcid="8798"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="401" endline="410" pcid="8819"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="190" endline="199" pcid="8802"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="287" endline="296" pcid="8810"></source>
+</class>
+
+<class classid="276" nclones="4" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="157" endline="167" pcid="8799"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="413" endline="423" pcid="8820"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="299" endline="309" pcid="8811"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="202" endline="212" pcid="8803"></source>
+</class>
+
+<class classid="277" nclones="4" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="170" endline="180" pcid="8800"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="312" endline="322" pcid="8812"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="426" endline="436" pcid="8821"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="215" endline="225" pcid="8804"></source>
+</class>
+
+<class classid="278" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="325" endline="333" pcid="8813"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="439" endline="447" pcid="8822"></source>
+</class>
+
+<class classid="279" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="336" endline="345" pcid="8814"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="450" endline="459" pcid="8823"></source>
+</class>
+
+<class classid="280" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="366" endline="374" pcid="8816"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="485" endline="493" pcid="8825"></source>
+</class>
+
+<class classid="281" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="377" endline="385" pcid="8817"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="496" endline="504" pcid="8826"></source>
+</class>
+
+<class classid="282" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="628" endline="639" pcid="8838"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="633" endline="644" pcid="9354"></source>
+</class>
+
+<class classid="283" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="642" endline="653" pcid="8839"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="647" endline="658" pcid="9355"></source>
+</class>
+
+<class classid="284" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="656" endline="667" pcid="8840"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="661" endline="672" pcid="9356"></source>
+</class>
+
+<class classid="285" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="670" endline="681" pcid="8841"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="675" endline="686" pcid="9357"></source>
+</class>
+
+<class classid="286" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="684" endline="701" pcid="8842"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="689" endline="706" pcid="9358"></source>
+</class>
+
+<class classid="287" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="704" endline="721" pcid="8843"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="709" endline="726" pcid="9359"></source>
+</class>
+
+<class classid="288" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="724" endline="735" pcid="8844"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="729" endline="740" pcid="9360"></source>
+</class>
+
+<class classid="289" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java" startline="738" endline="749" pcid="8845"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="743" endline="754" pcid="9361"></source>
+</class>
+
+<class classid="290" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertAllAssertionsTests.java" startline="144" endline="150" pcid="8858"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertAllAssertionsTests.java" startline="162" endline="168" pcid="8860"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertAllAssertionsTests.java" startline="153" endline="159" pcid="8859"></source>
+</class>
+
+<class classid="291" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertionTestUtils.java" startline="41" endline="46" pcid="8886"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertionTestUtils.java" startline="62" endline="67" pcid="8889"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertionTestUtils.java" startline="55" endline="60" pcid="8888"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertionTestUtils.java" startline="48" endline="53" pcid="8887"></source>
+</class>
+
+<class classid="292" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotSameAssertionsTests.java" startline="29" endline="33" pcid="8894"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="584" endline="588" pcid="9349"></source>
+</class>
+
+<class classid="293" nclones="23" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="58" endline="63" pcid="8906"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledForJreRangeConditionTests.java" startline="64" endline="68" pcid="8961"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="132" endline="136" pcid="9242"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="56" endline="60" pcid="8919"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="59" endline="64" pcid="9219"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="158" endline="162" pcid="9229"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="115" endline="119" pcid="8925"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="116" endline="120" pcid="8912"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="125" endline="129" pcid="8926"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="126" endline="131" pcid="8913"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="94" endline="98" pcid="9238"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="84" endline="88" pcid="9237"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="137" endline="142" pcid="8914"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="105" endline="109" pcid="8924"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="88" endline="93" pcid="9222"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledOnOsConditionTests.java" startline="55" endline="59" pcid="9142"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledOnOsConditionTests.java" startline="55" endline="59" pcid="8998"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="95" endline="99" pcid="8923"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="122" endline="126" pcid="9241"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="104" endline="108" pcid="9239"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="118" endline="123" pcid="9225"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="56" endline="60" pcid="9234"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledForJreRangeConditionTests.java" startline="58" endline="62" pcid="9023"></source>
+</class>
+
+<class classid="294" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="87" endline="92" pcid="8909"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfSystemPropertyConditionTests.java" startline="114" endline="119" pcid="9240"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="129" endline="134" pcid="9226"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfSystemPropertyConditionTests.java" startline="84" endline="89" pcid="8922"></source>
+</class>
+
+<class classid="295" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfEnvironmentVariableConditionTests.java" startline="98" endline="110" pcid="8910"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfEnvironmentVariableConditionTests.java" startline="99" endline="112" pcid="9223"></source>
+</class>
+
+<class classid="296" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledForJreRangeConditionTests.java" startline="343" endline="352" pcid="8993"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledForJreRangeConditionTests.java" startline="287" endline="296" pcid="9049"></source>
+</class>
+
+<class classid="297" nclones="2" nlines="20" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledIfConditionClassLoaderTests.java" startline="37" endline="60" pcid="8994"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledIfConditionClassLoaderTests.java" startline="37" endline="60" pcid="9050"></source>
+</class>
+
+<class classid="298" nclones="4" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledOnOsConditionTests.java" startline="234" endline="243" pcid="9018"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledOnOsConditionTests.java" startline="245" endline="254" pcid="9163"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledOnOsConditionTests.java" startline="245" endline="254" pcid="9019"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledOnOsConditionTests.java" startline="234" endline="243" pcid="9162"></source>
+</class>
+
+<class classid="299" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/EnabledOnOsConditionTests.java" startline="256" endline="265" pcid="9020"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/condition/DisabledOnOsConditionTests.java" startline="256" endline="265" pcid="9164"></source>
+</class>
+
+<class classid="300" nclones="4" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="317" endline="325" pcid="9328"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="461" endline="469" pcid="9339"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="339" endline="347" pcid="9330"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="328" endline="336" pcid="9329"></source>
+</class>
+
+<class classid="301" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="396" endline="400" pcid="9334"></source>
+<source file="systems/NicadRun/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertNotEqualsAssertionsTests.java" startline="518" endline="522" pcid="9343"></source>
+</class>
+
+<class classid="302" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-commons/src/main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java" startline="36" endline="46" pcid="9539"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-commons/src/main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java" startline="48" endline="58" pcid="9540"></source>
+</class>
+
+<class classid="303" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-commons/src/main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java" startline="92" endline="102" pcid="9545"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-commons/src/main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java" startline="104" endline="114" pcid="9546"></source>
+</class>
+
+<class classid="304" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-console/src/main/java/org/junit/platform/console/options/SelectorConverter.java" startline="61" endline="66" pcid="9674"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-console/src/main/java/org/junit/platform/console/options/SelectorConverter.java" startline="99" endline="104" pcid="9679"></source>
+</class>
+
+<class classid="305" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-console/src/main/java/org/junit/platform/console/tasks/ColorPalette.java" startline="37" endline="49" pcid="9752"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-console/src/main/java/org/junit/platform/console/tasks/ColorPalette.java" startline="51" endline="63" pcid="9753"></source>
+</class>
+
+<class classid="306" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/main/java/org/junit/vintage/engine/execution/RunListenerAdapter.java" startline="176" endline="180" pcid="9942"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/main/java/org/junit/vintage/engine/execution/RunListenerAdapter.java" startline="204" endline="208" pcid="9946"></source>
+</class>
+
+<class classid="307" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/testFixtures/java/org/junit/vintage/engine/samples/junit3/JUnit3SuiteWithSubsuites.java" startline="29" endline="38" pcid="10057"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/testFixtures/java/org/junit/vintage/engine/samples/junit3/JUnit3ParallelSuiteWithSubsuites.java" startline="30" endline="39" pcid="10063"></source>
+</class>
+
+<class classid="308" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/JUnit4VersionCheckTests.java" startline="31" endline="36" pcid="10160"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/JUnit4VersionCheckTests.java" startline="42" endline="47" pcid="10161"></source>
+</class>
+
+<class classid="309" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineExecutionTests.java" startline="274" endline="289" pcid="10195"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineExecutionTests.java" startline="304" endline="319" pcid="10197"></source>
+</class>
+
+<class classid="310" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="83" endline="95" pcid="10255"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="131" endline="143" pcid="10258"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="146" endline="158" pcid="10259"></source>
+</class>
+
+<class classid="311" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="329" endline="342" pcid="10270"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="345" endline="358" pcid="10271"></source>
+</class>
+
+<class classid="312" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="405" endline="417" pcid="10274"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="420" endline="432" pcid="10275"></source>
+</class>
+
+<class classid="313" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="618" endline="628" pcid="10286"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageTestEngineDiscoveryTests.java" startline="631" endline="641" pcid="10287"></source>
+</class>
+
+<class classid="314" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageLauncherIntegrationTests.java" startline="76" endline="90" pcid="10344"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageLauncherIntegrationTests.java" startline="93" endline="107" pcid="10345"></source>
+</class>
+
+<class classid="315" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageLauncherIntegrationTests.java" startline="110" endline="122" pcid="10346"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageLauncherIntegrationTests.java" startline="235" endline="247" pcid="10353"></source>
+<source file="systems/NicadRun/junit5-main/junit-vintage-engine/src/test/java/org/junit/vintage/engine/VintageLauncherIntegrationTests.java" startline="140" endline="152" pcid="10348"></source>
+</class>
+
+<class classid="316" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-params/src/main/java/org/junit/jupiter/params/BeforeClassTemplateInvocationFieldInjector.java" startline="23" endline="29" pcid="10448"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-params/src/main/java/org/junit/jupiter/params/InstancePostProcessingClassTemplateFieldInjector.java" startline="23" endline="29" pcid="10593"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-params/src/main/java/org/junit/jupiter/params/ParameterizedInvocationParameterResolver.java" startline="30" endline="37" pcid="10596"></source>
+</class>
+
+<class classid="317" nclones="2" nlines="18" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Assertions.java" startline="37" endline="60" pcid="10686"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertAll.java" startline="61" endline="84" pcid="11472"></source>
+</class>
+
+<class classid="318" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Assertions.java" startline="62" endline="66" pcid="10687"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertEquals.java" startline="164" endline="168" pcid="11652"></source>
+</class>
+
+<class classid="319" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/EngineTestKit.java" startline="290" endline="297" pcid="10702"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/EngineTestKit.java" startline="318" endline="325" pcid="10703"></source>
+</class>
+
+<class classid="320" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Events.java" startline="311" endline="315" pcid="10770"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Events.java" startline="346" endline="350" pcid="10771"></source>
+</class>
+
+<class classid="321" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Events.java" startline="381" endline="385" pcid="10774"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Executions.java" startline="222" endline="226" pcid="10873"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Events.java" startline="393" endline="397" pcid="10775"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Executions.java" startline="210" endline="214" pcid="10872"></source>
+</class>
+
+<class classid="322" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Events.java" startline="399" endline="403" pcid="10776"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Executions.java" startline="228" endline="232" pcid="10874"></source>
+</class>
+
+<class classid="323" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/TerminationInfo.java" startline="112" endline="118" pcid="10791"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/TerminationInfo.java" startline="127" endline="133" pcid="10792"></source>
+</class>
+
+<class classid="324" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-engine/src/main/java/org/junit/platform/suite/engine/LifecycleMethodUtils.java" startline="65" endline="72" pcid="10905"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-engine/src/main/java/org/junit/platform/suite/engine/LifecycleMethodUtils.java" startline="83" endline="90" pcid="10907"></source>
+<source file="systems/NicadRun/junit5-main/junit-platform-suite-engine/src/main/java/org/junit/platform/suite/engine/LifecycleMethodUtils.java" startline="74" endline="81" pcid="10906"></source>
+</class>
+
+<class classid="325" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertArrayEquals.java" startline="394" endline="403" pcid="11450"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertIterableEquals.java" startline="127" endline="136" pcid="11529"></source>
+</class>
+
+<class classid="326" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/condition/EnabledOnOsCondition.java" startline="45" endline="51" pcid="11551"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/condition/EnabledOnOsCondition.java" startline="53" endline="59" pcid="11552"></source>
+</class>
+
+<class classid="327" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/condition/DisabledOnOsCondition.java" startline="45" endline="51" pcid="11584"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/condition/DisabledOnOsCondition.java" startline="53" endline="59" pcid="11585"></source>
+</class>
+
+<class classid="328" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertionFailureBuilder.java" startline="95" endline="99" pcid="11614"></source>
+<source file="systems/NicadRun/junit5-main/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertionFailureBuilder.java" startline="107" endline="111" pcid="11615"></source>
+</class>
+
+</clones>

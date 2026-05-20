@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.bak
+.DS_Store
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Bulky artifacts archived in the companion Zenodo deposit
+Clones/
+Extracted_functions/
+Evaluated_Solid_Scores_Jsons/
+corpus.csv
+Results/per_method_scores.csv
+Results/inferential_corpus.csv

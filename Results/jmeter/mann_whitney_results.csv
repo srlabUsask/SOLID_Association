@@ -1,0 +1,7 @@
+clone_type,principle,n_cloned,n_non_cloned,mean_cloned,mean_non_cloned,U_statistic,p_value,rank_biserial_r,significant_05
+overall,SRP,2152,10997,1.8778,1.835,12165592.0,0.0003,-0.0281,Yes
+overall,OCP,2152,10997,1.8783,1.8295,12215331.0,0.0001,-0.0323,Yes
+overall,DIP,2152,10997,1.4136,1.6418,9810794.0,0.0,0.1709,Yes
+T3,SRP,2152,10997,1.8778,1.835,12165592.0,0.0003,-0.0281,Yes
+T3,OCP,2152,10997,1.8783,1.8295,12215331.0,0.0001,-0.0323,Yes
+T3,DIP,2152,10997,1.4136,1.6418,9810794.0,0.0,0.1709,Yes

@@ -1,0 +1,26 @@
+POOLED LOGISTIC REGRESSION — ROBUSTNESS CHECK
+==============================================================
+Model  : is_cloned ~ SRP+OCP+DIP + LOC + Project FE
+SEs    : clustered by project (cov_type='cluster')
+R² null: intercept + project FE + LOC (marginal SOLID contribution)
+N methods   : 92,415
+N cloned    : 15,892 (17.2%)
+N projects  : 8
+llf full    : -39107.81
+llf null    : -39897.70
+Marginal R² : 0.0198  (SOLID contribution over FE+LOC; NOT variance explained)
+AIC         : 78239.63
+Converged   : True
+
+SOLID Predictors (z-standardised, cluster-robust SEs):
+  Predictor            OR                   95% CI         p  Sig
+  ------------------------------------------------------------
+  SRP              1.1730         [1.0691, 1.2870]    0.0007  Yes
+  OCP              1.3600         [1.0960, 1.6875]    0.0052  Yes
+  DIP              0.8063         [0.6914, 0.9402]    0.0060  Yes
+  METHOD_LOC       1.8598         [1.4347, 2.4108]    0.0000  Yes
+
+Note: marginal McFadden R² = 1 - (llf_full / llf_null)
+      null already includes project FE + MethodLOC.
+      This is NOT total model fit and NOT variance explained.
+Project fixed effects: see pooled_regression_results.csv.

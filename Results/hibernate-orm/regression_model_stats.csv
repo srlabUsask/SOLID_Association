@@ -1,0 +1,3 @@
+clone_type,n_methods,n_cloned,log_likelihood,ll_null,mcfadden_r2,AIC,converged,controls
+overall,16404,1713,-5209.9241,-5490.4174,0.0511,10429.8482,True,SRP+OCP+DIP+METHOD_LOC
+T3,16402,1711,-5207.17,-5485.8978,0.0508,10424.34,True,SRP+OCP+DIP+METHOD_LOC

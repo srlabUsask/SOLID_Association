@@ -1,0 +1,194 @@
+{
+  "srp": {
+    "inter_rater_final": {
+      "n": 197,
+      "kappa": 0.4363009689796449,
+      "weighted_kappa_linear": 0.43573539440781994,
+      "raw_agreement": 0.7766497461928934
+    },
+    "llm_vs_consensus": {
+      "n": 162,
+      "kappa": 0.40149951102901227,
+      "weighted_kappa_linear": 0.4952443424073467,
+      "raw_agreement": 0.7901234567901234,
+      "per_class": [
+        {
+          "class": 0,
+          "precision": 0.35714285714285715,
+          "recall": 0.5555555555555556,
+          "f1": 0.43478260869565216,
+          "support": 9
+        },
+        {
+          "class": 1,
+          "precision": 0.25925925925925924,
+          "recall": 0.4117647058823529,
+          "f1": 0.3181818181818182,
+          "support": 17
+        },
+        {
+          "class": 2,
+          "precision": 0.9586776859504132,
+          "recall": 0.8529411764705882,
+          "f1": 0.9027237354085603,
+          "support": 136
+        }
+      ],
+      "confusion_matrix": [
+        [
+          5,
+          4,
+          0
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          4,
+          16,
+          116
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "consensus (truth)",
+        "cols": "llm"
+      }
+    },
+    "consensus_provenance": {
+      "agreed": 150,
+      "unresolved": 35,
+      "session": 12,
+      "missing": 3
+    }
+  },
+  "ocp": {
+    "inter_rater_final": {
+      "n": 197,
+      "kappa": 0.5793487378936932,
+      "weighted_kappa_linear": 0.6269130368019655,
+      "raw_agreement": 0.8578680203045685
+    },
+    "llm_vs_consensus": {
+      "n": 175,
+      "kappa": 0.43508524160193696,
+      "weighted_kappa_linear": 0.5611590972415714,
+      "raw_agreement": 0.8171428571428572,
+      "per_class": [
+        {
+          "class": 0,
+          "precision": 0.7647058823529411,
+          "recall": 0.9285714285714286,
+          "f1": 0.8387096774193549,
+          "support": 14
+        },
+        {
+          "class": 1,
+          "precision": 0.125,
+          "recall": 0.3,
+          "f1": 0.17647058823529413,
+          "support": 10
+        },
+        {
+          "class": 2,
+          "precision": 0.9477611940298507,
+          "recall": 0.8410596026490066,
+          "f1": 0.8912280701754386,
+          "support": 151
+        }
+      ],
+      "confusion_matrix": [
+        [
+          13,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          4,
+          20,
+          127
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "consensus (truth)",
+        "cols": "llm"
+      }
+    },
+    "consensus_provenance": {
+      "agreed": 166,
+      "unresolved": 22,
+      "session": 9,
+      "missing": 3
+    }
+  },
+  "dip": {
+    "inter_rater_final": {
+      "n": 197,
+      "kappa": 0.18117359413202927,
+      "weighted_kappa_linear": 0.13120176405733175,
+      "raw_agreement": 0.48223350253807107
+    },
+    "llm_vs_consensus": {
+      "n": 108,
+      "kappa": 0.3482577379793653,
+      "weighted_kappa_linear": 0.3990461049284578,
+      "raw_agreement": 0.7129629629629629,
+      "per_class": [
+        {
+          "class": 0,
+          "precision": 0.2857142857142857,
+          "recall": 0.25,
+          "f1": 0.26666666666666666,
+          "support": 8
+        },
+        {
+          "class": 1,
+          "precision": 0.38461538461538464,
+          "recall": 0.47619047619047616,
+          "f1": 0.425531914893617,
+          "support": 21
+        },
+        {
+          "class": 2,
+          "precision": 0.8666666666666667,
+          "recall": 0.8227848101265823,
+          "f1": 0.8441558441558441,
+          "support": 79
+        }
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          6,
+          0
+        ],
+        [
+          1,
+          10,
+          10
+        ],
+        [
+          4,
+          10,
+          65
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "consensus (truth)",
+        "cols": "llm"
+      }
+    },
+    "consensus_provenance": {
+      "agreed": 94,
+      "unresolved": 89,
+      "session": 14,
+      "missing": 3
+    }
+  }
+}

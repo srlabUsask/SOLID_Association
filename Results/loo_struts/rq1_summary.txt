@@ -1,0 +1,71 @@
+======================================================================
+RQ1 ANALYSIS SUMMARY  (analysis_rq1.py v2.0)
+======================================================================
+
+Research Question:
+How does variation in measured SOLID structural signals relate to
+clone participation in mature Java systems?
+
+======================================================================
+CORPUS STATISTICS
+======================================================================
+
+Total projects:              7
+Total methods (all):         77,797
+Linked methods (both sides): 77,797  [method-level analyses use this corpus]
+Total cloned methods:        12,399
+Overall clone rate:          15.94%
+
+======================================================================
+SYSTEM-LEVEL FINDINGS
+======================================================================
+
+Clone rate range: 7%–28%
+
+Clone rate by project (descending):
+  Commons Lang        :  28.1%  (2,693/9,589)  composite=5.799  prop_strong=99.5%
+  Jackson Databind    :  18.2%  (2,903/15,927)  composite=5.621  prop_strong=97.9%
+  JMeter              :  16.4%  (2,152/13,149)  composite=5.284  prop_strong=91.5%
+  JUnit 5             :  15.6%  (1,835/11,749)  composite=5.686  prop_strong=98.6%
+  Selenium            :  13.1%  (702/5,347)  composite=5.459  prop_strong=94.5%
+  Hibernate ORM       :  10.4%  (1,713/16,404)  composite=5.629  prop_strong=97.3%
+  FitNesse            :   7.1%  (401/5,632)  composite=5.286  prop_strong=92.1%
+
+======================================================================
+METHOD-LEVEL FINDINGS  (linked corpus, N=77,797)
+======================================================================
+
+SRP:
+  Cloned:       mean=1.932, median=2.0
+  Non-cloned:   mean=1.919, median=2.0
+  Difference:   +0.012
+  Mann-Whitney: U=408,962,277,  p = 0.0004
+  Effect size:  r_rb=-0.0087,  Cohen's d=+0.0397
+
+OCP:
+  Cloned:       mean=1.902, median=2.0
+  Non-cloned:   mean=1.891, median=2.0
+  Difference:   +0.012
+  Mann-Whitney: U=408,594,406,  p = 0.0061
+  Effect size:  r_rb=-0.0078,  Cohen's d=+0.0338
+
+DIP:
+  Cloned:       mean=1.690, median=2.0
+  Non-cloned:   mean=1.759, median=2.0
+  Difference:   -0.069
+  Mann-Whitney: U=379,833,813,  p < 10^{-58}
+  Effect size:  r_rb=+0.0631,  Cohen's d=-0.1267
+
+======================================================================
+INTERPRETATION NOTES
+======================================================================
+
+1. Clone rates vary 3.9-fold across projects (7%–28%)
+2. Positive r_rb → cloned methods rank LOWER (worse compliance)
+   Sign set by mannwhitneyu(cloned, non_cloned) argument order
+3. Higher SOLID scores = stronger compliance (fewer detected violations)
+4. SOLID(m) composite = SRP + OCP + DIP ∈ [0, 6]; strong = ≥ 4
+5. See per_project_method_comparison.csv for Bonferroni star labels
+6. Clone type counts in clone_type_distributions.csv are deduplicated
+   (T3 > T2 > T1 priority per method); system_level_summary.csv
+   n_t*_diag columns are PRE-dedup diagnostic counts only

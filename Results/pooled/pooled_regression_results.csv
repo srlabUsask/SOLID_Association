@@ -1,0 +1,13 @@
+predictor,coef,odds_ratio,OR_CI_lower_95,OR_CI_upper_95,p_value,significant_05
+Intercept,-1.058,0.3472,0.3317,0.3633,0.0,Yes
+SRP,0.1596,1.173,1.0691,1.287,0.0007,Yes
+OCP,0.3075,1.36,1.096,1.6875,0.0052,Yes
+DIP,-0.2153,0.8063,0.6914,0.9402,0.006,Yes
+METHOD_LOC,0.6205,1.8598,1.4347,2.4108,0.0,Yes
+Project: fitnesse,-1.4242,0.2407,0.2206,0.2626,0.0,Yes
+Project: hibernate-orm,-1.1203,0.3262,0.3181,0.3344,0.0,Yes
+Project: jackson-databind_,-0.5484,0.5779,0.5564,0.6002,0.0,Yes
+Project: jmeter,-0.6725,0.5104,0.4669,0.5581,0.0,Yes
+Project: junit5,-0.6049,0.5462,0.5269,0.5661,0.0,Yes
+Project: selenium-trunk,-0.8809,0.4144,0.3963,0.4334,0.0,Yes
+Project: struts,-0.2845,0.7524,0.6739,0.84,0.0,Yes

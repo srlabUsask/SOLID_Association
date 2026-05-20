@@ -1,0 +1,11 @@
+clone_type,predictor,coef,odds_ratio,OR_CI_lower_95,OR_CI_upper_95,p_value,significant_05
+overall,Intercept,-1.5549,0.2112,0.2025,0.2203,0.0,Yes
+overall,SRP,0.096,1.1008,1.0533,1.1503,0.0,Yes
+overall,OCP,0.2193,1.2452,1.1835,1.3101,0.0,Yes
+overall,DIP,-0.1774,0.8375,0.8063,0.8698,0.0,Yes
+overall,METHOD_LOC,0.4611,1.5859,1.5142,1.661,0.0,Yes
+T3,Intercept,-1.5549,0.2112,0.2025,0.2203,0.0,Yes
+T3,SRP,0.096,1.1008,1.0533,1.1503,0.0,Yes
+T3,OCP,0.2193,1.2452,1.1835,1.3101,0.0,Yes
+T3,DIP,-0.1774,0.8375,0.8063,0.8698,0.0,Yes
+T3,METHOD_LOC,0.4611,1.5859,1.5142,1.661,0.0,Yes

@@ -1,0 +1,14 @@
+Reconciliation report
+============================================================
+Worksheet cases: 35
+Resolved decisions: 35
+Deferred to PI: 0
+Issues flagged: 1
+
+Score distribution per principle:
+  SRP (n=12): 0=2, 1=4, 2=6
+  OCP (n=9): 1=2, 2=7
+  DIP (n=14): 0=2, 1=2, 2=10
+
+Issues:
+  [1] Case 29: score-rationale mismatch (score=0, rationale="No replaceable dependencies.").

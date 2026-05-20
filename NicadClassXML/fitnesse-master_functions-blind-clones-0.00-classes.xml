@@ -1,0 +1,1858 @@
+<clones>
+<systeminfo processor="nicad6" system="fitnesse-master" granularity="functions-blind" threshold="0%" minlines="5" maxlines="2500"/>
+<cloneinfo npcs="9988" npairs="986"/>
+<runinfo ncompares="1544608" cputime="44210"/>
+<classinfo nclasses="329"/>
+
+<class classid="1" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/BowlingGame.java" startline="50" endline="58" pcid="11"></source>
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/BowlingGame.java" startline="88" endline="96" pcid="14"></source>
+</class>
+
+<class classid="2" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/fixtures/ScoreGame.java" startline="18" endline="22" pcid="34"></source>
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/fixtures/SimpleScoreGame.java" startline="13" endline="17" pcid="54"></source>
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/fixtures/FinalScore.java" startline="13" endline="17" pcid="51"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/fixtures/FinalScore.java" startline="19" endline="26" pcid="52"></source>
+<source file="systems/NicadRun/fitnesse-master/src/eg/bowling/fixtures/SimpleScoreGame.java" startline="19" endline="26" pcid="55"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesseMain/ant/ExecuteFitnesseTestsTask.java" startline="125" endline="131" pcid="94"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesseMain/ant/ExecuteFitnesseTestsTask.java" startline="133" endline="139" pcid="95"></source>
+</class>
+
+<class classid="5" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fit/Counts.java" startline="12" endline="17" pcid="176"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/TestSummary.java" startline="12" endline="17" pcid="1204"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/PageHistory.java" startline="275" endline="280" pcid="5505"></source>
+</class>
+
+<class classid="6" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fit/decorator/performance/MaxTime.java" startline="27" endline="33" pcid="207"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fit/decorator/Loop.java" startline="19" endline="25" pcid="210"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fit/decorator/CopyAndAppendLastRow.java" startline="20" endline="26" pcid="216"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fit/TypeAdapter.java" startline="371" endline="377" pcid="492"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fit/TypeAdapter.java" startline="397" endline="403" pcid="495"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/SuiteSpecificationRunner.java" startline="83" endline="87" pcid="535"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/SuiteSpecificationRunner.java" startline="93" endline="97" pcid="537"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/ClassPathBuilder.java" startline="51" endline="56" pcid="572"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/VariableStore.java" startline="58" endline="64" pcid="2377"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/WikiTestPage.java" startline="202" endline="207" pcid="610"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/WikiTestPage.java" startline="209" endline="214" pcid="611"></source>
+</class>
+
+<class classid="11" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/run/PerTestSystemTestRun.java" startline="69" endline="73" pcid="661"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="231" endline="235" pcid="2084"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="87" endline="92" pcid="2066"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="191" endline="196" pcid="2079"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="207" endline="212" pcid="2081"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/run/PageListSetUpTearDownSurrounder.java" startline="73" endline="77" pcid="674"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/run/PageListSetUpTearDownSurrounder.java" startline="79" endline="83" pcid="675"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/run/PartitioningTestRunFactory.java" startline="70" endline="77" pcid="763"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/run/PartitioningTestRunFactory.java" startline="79" endline="86" pcid="764"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/WikiPageIdentity.java" startline="45" endline="50" pcid="775"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/WikiPageIdentity.java" startline="52" endline="57" pcid="776"></source>
+</class>
+
+<class classid="15" nclones="8" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/MultipleTestSystemFactory.java" startline="84" endline="89" pcid="785"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/JUnitHelper.java" startline="40" endline="45" pcid="2842"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/ScopeVariablesResponder.java" startline="70" endline="74" pcid="4290"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/ZipFileVersionsController.java" startline="286" endline="290" pcid="3427"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/http/UploadedFile.java" startline="13" endline="17" pcid="3653"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/tables/SlimTable.java" startline="566" endline="570" pcid="1677"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/html/template/TraverseDirectiveTraverser.java" startline="15" endline="19" pcid="1071"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/fit/CommandRunningFitClient.java" startline="222" endline="226" pcid="1925"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testrunner/RunningTestingTracker.java" startline="56" endline="62" pcid="795"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/updates/WikiContentUpdater.java" startline="97" endline="104" pcid="3966"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/fixtures/StringFixture.java" startline="47" endline="56" pcid="907"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/fixtures/StringFixture.java" startline="58" endline="67" pcid="908"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testutil/OutputWritingFixture.java" startline="10" endline="15" pcid="1010"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testutil/ErrorWritingFixture.java" startline="10" endline="15" pcid="1035"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/html/HtmlUtil.java" startline="34" endline="39" pcid="1059"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/html/HtmlUtil.java" startline="45" endline="50" pcid="1061"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/SlimCommandRunningClient.java" startline="167" endline="180" pcid="1237"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/InProcessSlimClient.java" startline="83" endline="96" pcid="1475"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/SlimClientBuilder.java" startline="252" endline="258" pcid="1265"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/InProcessSlimClientBuilder.java" startline="43" endline="49" pcid="1272"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/HtmlDiffUtil.java" startline="77" endline="82" pcid="1289"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/HtmlDiffUtil.java" startline="89" endline="94" pcid="1291"></source>
+</class>
+
+<class classid="23" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/InProcessSlimClient.java" startline="33" endline="38" pcid="1469"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Parser.java" startline="26" endline="31" pcid="4995"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/FileSystemSubWikiPageFactory.java" startline="16" endline="22" pcid="3325"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/tables/ScriptTable.java" startline="231" endline="236" pcid="1550"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/tables/ScriptTable.java" startline="238" endline="243" pcid="1551"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/tables/TableTable.java" startline="58" endline="62" pcid="1703"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/testsystems/slim/tables/QueryTable.java" startline="84" endline="88" pcid="1723"></source>
+</class>
+
+<class classid="26" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="73" endline="77" pcid="2064"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/SuiteHistoryFormatter.java" startline="75" endline="79" pcid="5393"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="135" endline="140" pcid="2072"></source>
+</class>
+
+<class classid="27" nclones="12" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="80" endline="84" pcid="2065"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="238" endline="243" pcid="2085"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="223" endline="228" pcid="2083"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="111" endline="116" pcid="2069"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="199" endline="204" pcid="2080"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="151" endline="156" pcid="2074"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="215" endline="220" pcid="2082"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="119" endline="124" pcid="2070"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="143" endline="148" pcid="2073"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="127" endline="132" pcid="2071"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="95" endline="100" pcid="2067"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="103" endline="108" pcid="2068"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="159" endline="164" pcid="2075"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/instructions/SystemExitSecurityManager.java" startline="183" endline="188" pcid="2078"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/converters/DoubleConverter.java" startline="10" endline="16" pcid="2130"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/converters/DateConverter.java" startline="21" endline="27" pcid="2169"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/converters/LongConverter.java" startline="8" endline="14" pcid="2140"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/converters/IntConverter.java" startline="10" endline="16" pcid="2170"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/StatementExecutor.java" startline="68" endline="74" pcid="2347"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/StatementExecutor.java" startline="77" endline="83" pcid="2348"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/SlimException.java" startline="19" endline="23" pcid="2393"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/slim/SlimException.java" startline="37" endline="41" pcid="2397"></source>
+</class>
+
+<class classid="33" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="49" endline="53" pcid="2700"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="131" endline="135" pcid="2709"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="137" endline="141" pcid="2710"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="143" endline="147" pcid="2711"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="149" endline="153" pcid="2712"></source>
+</class>
+
+<class classid="34" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="99" endline="103" pcid="2705"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="111" endline="115" pcid="2707"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PluginsLoader.java" startline="105" endline="109" pcid="2706"></source>
+</class>
+
+<class classid="35" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="25" endline="29" pcid="2716"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="39" endline="43" pcid="2718"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="46" endline="50" pcid="2719"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="32" endline="36" pcid="2717"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="53" endline="57" pcid="2720"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/LegacyPluginFeatureFactory.java" startline="60" endline="64" pcid="2721"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PropertyBasedPluginFeatureFactory.java" startline="74" endline="81" pcid="2731"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PropertyBasedPluginFeatureFactory.java" startline="84" endline="91" pcid="2733"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PropertyBasedPluginFeatureFactory.java" startline="120" endline="127" pcid="2740"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/plugins/PropertyBasedPluginFeatureFactory.java" startline="130" endline="137" pcid="2742"></source>
+</class>
+
+<class classid="38" nclones="3" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/FitNesseRunner.java" startline="316" endline="330" pcid="2799"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/FitNesseRunner.java" startline="418" endline="432" pcid="2807"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/FitNesseRunner.java" startline="340" endline="354" pcid="2801"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/FitNesseRunner.java" startline="356" endline="362" pcid="2802"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/FitNesseRunner.java" startline="364" endline="370" pcid="2803"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/DescriptionHelper.java" startline="25" endline="32" pcid="2831"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/DescriptionHelper.java" startline="38" endline="45" pcid="2832"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/JUnitXMLPerPageRunListener.java" startline="66" endline="71" pcid="2872"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/JUnitXMLPerPageRunListener.java" startline="87" endline="92" pcid="2874"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/JUnitXMLPerPageTestListener.java" startline="93" endline="106" pcid="2911"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/junit/JUnitXMLPerPageTestListener.java" startline="113" endline="126" pcid="2912"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/socketservice/SslParameters.java" startline="92" endline="101" pcid="2931"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/socketservice/SslParameters.java" startline="103" endline="112" pcid="2932"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/WikiFilePage.java" startline="36" endline="44" pcid="3348"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/FileSystemPage.java" startline="55" endline="63" pcid="3544"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/WikiFilePage.java" startline="66" endline="71" pcid="3353"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/FileSystemPage.java" startline="66" endline="71" pcid="3545"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/WikiFilePage.java" startline="88" endline="97" pcid="3356"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/FileSystemPage.java" startline="111" endline="120" pcid="3551"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/WikiFilePage.java" startline="220" endline="224" pcid="3368"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/FileSystemPage.java" startline="200" endline="204" pcid="3561"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/ExternalSuitePage.java" startline="20" endline="24" pcid="3478"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wiki/fs/ExternalTestPage.java" startline="17" endline="21" pcid="3530"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/http/RequestBuilder.java" startline="205" endline="209" pcid="3680"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/shared/ContentsItemBuilder.java" startline="26" endline="30" pcid="5212"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/util/TimeMeasurement.java" startline="31" endline="36" pcid="3929"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/util/TimeMeasurement.java" startline="60" endline="65" pcid="3934"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/ImportAndViewResponder.java" startline="47" endline="51" pcid="4055"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/slimResponder/SlimResponder.java" startline="51" endline="55" pcid="9073"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/testHistory/HistoryComparerResponder.java" startline="104" endline="110" pcid="4280"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/versions/VersionComparerResponder.java" startline="66" endline="72" pcid="4489"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/testHistory/HistoryComparerResponder.java" startline="121" endline="129" pcid="4282"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/versions/VersionComparerResponder.java" startline="85" endline="93" pcid="4491"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/testHistory/HistoryComparerResponder.java" startline="161" endline="175" pcid="4285"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/versions/VersionComparerResponder.java" startline="117" endline="131" pcid="4494"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/editing/PropertiesResponder.java" startline="69" endline="82" pcid="4351"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/account/AccountResponder.java" startline="34" endline="48" pcid="4464"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/editing/PropertiesResponder.java" startline="84" endline="93" pcid="4352"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/account/AccountResponder.java" startline="50" endline="58" pcid="4465"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/editing/SaveResponder.java" startline="57" endline="62" pcid="4375"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/editing/SaveResponder.java" startline="64" endline="69" pcid="4376"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/BasicResponder.java" startline="40" endline="45" pcid="4436"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/responders/DisabledResponder.java" startline="16" endline="21" pcid="4581"></source>
+</class>
+
+<class classid="59" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/AnchorReference.java" startline="8" endline="13" pcid="4743"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Evaluator.java" startline="9" endline="14" pcid="4944"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/AnchorName.java" startline="9" endline="14" pcid="5130"></source>
+</class>
+
+<class classid="60" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Comment.java" startline="6" endline="11" pcid="4756"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Contents.java" startline="10" endline="15" pcid="4941"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Headings.java" startline="20" endline="25" pcid="5096"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Include.java" startline="22" endline="27" pcid="4974"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Define.java" startline="6" endline="11" pcid="5068"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/LastModified.java" startline="6" endline="10" pcid="4851"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Literal.java" startline="6" endline="10" pcid="4874"></source>
+</class>
+
+<class classid="62" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Alias.java" startline="11" endline="16" pcid="4920"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Nesting.java" startline="6" endline="11" pcid="5081"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Variable.java" startline="8" endline="13" pcid="5168"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/HashTable.java" startline="8" endline="13" pcid="5132"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/wikitext/parser/Help.java" startline="10" endline="15" pcid="5084"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/SuiteXmlReformatter.java" startline="32" endline="37" pcid="5270"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/JunitReFormatter.java" startline="27" endline="32" pcid="5510"></source>
+</class>
+
+<class classid="64" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/SuiteHistoryFormatter.java" startline="165" endline="170" pcid="5403"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/SuiteHistoryFormatter.java" startline="189" endline="194" pcid="5406"></source>
+<source file="systems/NicadRun/fitnesse-master/src/fitnesse/reporting/history/SuiteHistoryFormatter.java" startline="173" endline="178" pcid="5404"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/eg/bowling/BowlingGameTest.java" startline="32" endline="38" pcid="5637"></source>
+<source file="systems/NicadRun/fitnesse-master/test/eg/bowling/BowlingGameTest.java" startline="41" endline="47" pcid="5638"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/eg/bowling/BowlingGameTest.java" startline="66" endline="71" pcid="5642"></source>
+<source file="systems/NicadRun/fitnesse-master/test/eg/bowling/BowlingGameTest.java" startline="85" endline="90" pcid="5645"></source>
+</class>
+
+<class classid="67" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/TimeRangeTest.java" startline="51" endline="59" pcid="5724"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/TimeRangeTest.java" startline="73" endline="81" pcid="5726"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/TimeRangeTest.java" startline="62" endline="70" pcid="5725"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/TimeRangeTest.java" startline="95" endline="103" pcid="5728"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/TimeRangeTest.java" startline="84" endline="92" pcid="5727"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/MaxTimeTest.java" startline="61" endline="69" pcid="5733"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/performance/MaxTimeTest.java" startline="72" endline="80" pcid="5734"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/FixtureDecoratorTestCase.java" startline="98" endline="106" pcid="5747"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/FixtureDecoratorTestCase.java" startline="109" endline="117" pcid="5748"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="30" endline="35" pcid="5757"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="38" endline="43" pcid="5758"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="90" endline="99" pcid="5765"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="102" endline="110" pcid="5766"></source>
+</class>
+
+<class classid="72" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="113" endline="121" pcid="5767"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/LoopTest.java" startline="36" endline="44" pcid="5824"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/CopyAndAppendLastRowTest.java" startline="54" endline="61" pcid="5818"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/IncrementColumnsValueTest.java" startline="124" endline="132" pcid="5768"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/util/DeltaTest.java" startline="72" endline="76" pcid="5776"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchFormResponderTest.java" startline="50" endline="54" pcid="8439"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/CopyAndAppendLastRowTest.java" startline="30" endline="37" pcid="5815"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/decorator/LoopTest.java" startline="19" endline="26" pcid="5822"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/FitServerTest.java" startline="98" endline="106" pcid="5832"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/FitServerTest.java" startline="109" endline="117" pcid="5833"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="120" endline="124" pcid="5869"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="127" endline="131" pcid="5870"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="189" endline="194" pcid="5876"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="197" endline="202" pcid="5877"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="205" endline="212" pcid="5878"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="215" endline="222" pcid="5879"></source>
+</class>
+
+<class classid="79" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="237" endline="248" pcid="5881"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="250" endline="261" pcid="5882"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/BindingTest.java" startline="263" endline="274" pcid="5883"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/FriendlyErrorTest.java" startline="35" endline="44" pcid="5893"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/FriendlyErrorTest.java" startline="47" endline="56" pcid="5894"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/FixtureLoaderTest.java" startline="32" endline="36" pcid="5904"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/FixtureLoaderTest.java" startline="39" endline="43" pcid="5905"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="72" endline="79" pcid="5916"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/ActionFixtureTest.java" startline="21" endline="28" pcid="5970"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="85" endline="91" pcid="5918"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/ActionFixtureTest.java" startline="34" endline="40" pcid="5972"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="121" endline="127" pcid="5922"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="130" endline="136" pcid="5923"></source>
+</class>
+
+<class classid="85" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="207" endline="211" pcid="5933"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="221" endline="225" pcid="5935"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/ColumnFixtureTest.java" startline="214" endline="218" pcid="5934"></source>
+</class>
+
+<class classid="86" nclones="4" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fit/TypeAdapterTest.java" startline="163" endline="171" pcid="5958"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/TypeAdapterTest.java" startline="174" endline="182" pcid="5959"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/TypeAdapterTest.java" startline="196" endline="204" pcid="5961"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fit/TypeAdapterTest.java" startline="185" endline="193" pcid="5960"></source>
+</class>
+
+<class classid="87" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/FitNesseExpediterTest.java" startline="158" endline="165" pcid="6003"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/fit/FitClientTest.java" startline="138" endline="145" pcid="6833"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiPageDescriptorTest.java" startline="26" endline="33" pcid="6009"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiPageDescriptorTest.java" startline="36" endline="43" pcid="6010"></source>
+</class>
+
+<class classid="89" nclones="4" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteContentsFinderTest.java" startline="32" endline="38" pcid="6016"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="87" endline="93" pcid="9166"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/MultipleTestsRunnerTest.java" startline="73" endline="79" pcid="6123"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PagesByTestSystemTest.java" startline="93" endline="99" pcid="6105"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteContentsFinderTest.java" startline="115" endline="125" pcid="6023"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteContentsFinderTest.java" startline="128" endline="137" pcid="6024"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteSpecificationRunnerTest.java" startline="42" endline="46" pcid="6039"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteSpecificationRunnerTest.java" startline="49" endline="53" pcid="6040"></source>
+</class>
+
+<class classid="92" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PageListSetUpTearDownInserterTest.java" startline="93" endline="112" pcid="6087"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PageListSetUpTearDownInserterTest.java" startline="115" endline="134" pcid="6088"></source>
+</class>
+
+<class classid="93" nclones="4" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PartitioningTestRunFactoryTest.java" startline="63" endline="76" pcid="6113"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PartitioningTestRunFactoryTest.java" startline="79" endline="92" pcid="6114"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PartitioningTestRunFactoryTest.java" startline="111" endline="124" pcid="6116"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/run/PartitioningTestRunFactoryTest.java" startline="95" endline="108" pcid="6115"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="25" endline="32" pcid="6129"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="34" endline="41" pcid="6130"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="65" endline="79" pcid="6133"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="207" endline="221" pcid="6143"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="169" endline="179" pcid="6139"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/SuiteFilterTest.java" startline="194" endline="204" pcid="6142"></source>
+</class>
+
+<class classid="97" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiTestPageTest.java" startline="89" endline="95" pcid="6149"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiTestPageTest.java" startline="177" endline="183" pcid="6156"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiTestPageTest.java" startline="186" endline="192" pcid="6157"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiTestPageTest.java" startline="139" endline="144" pcid="6152"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testrunner/WikiTestPageTest.java" startline="159" endline="164" pcid="6154"></source>
+</class>
+
+<class classid="99" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/fixtures/ResponseExaminerTest.java" startline="22" endline="26" pcid="6169"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/fixtures/ResponseExaminerTest.java" startline="36" endline="40" pcid="6171"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/fixtures/ResponseExaminerTest.java" startline="29" endline="33" pcid="6170"></source>
+</class>
+
+<class classid="100" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/logging/LogFormatterTest.java" startline="13" endline="18" pcid="6184"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/logging/LogFormatterTest.java" startline="29" endline="34" pcid="6186"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/logging/LogFormatterTest.java" startline="21" endline="26" pcid="6185"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/logging/LogFormatterTest.java" startline="37" endline="46" pcid="6187"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/logging/LogFormatterTest.java" startline="49" endline="58" pcid="6188"></source>
+</class>
+
+<class classid="102" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="44" endline="49" pcid="6214"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="52" endline="57" pcid="6215"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="68" endline="73" pcid="6217"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="60" endline="65" pcid="6216"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="139" endline="144" pcid="6226"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/html/HtmlUtilTest.java" startline="148" endline="153" pcid="6227"></source>
+</class>
+
+<class classid="104" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ClientBuilderTest.java" startline="42" endline="48" pcid="6241"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ClientBuilderTest.java" startline="60" endline="66" pcid="6243"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ClientBuilderTest.java" startline="51" endline="57" pcid="6242"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ClientBuilderTest.java" startline="80" endline="88" pcid="6245"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ClientBuilderTest.java" startline="91" endline="99" pcid="6246"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlTableTest.java" startline="106" endline="111" pcid="6322"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlTableTest.java" startline="114" endline="119" pcid="6323"></source>
+</class>
+
+<class classid="107" nclones="5" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="10" endline="18" pcid="6327"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="43" endline="51" pcid="6330"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="80" endline="88" pcid="6333"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="32" endline="40" pcid="6329"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="21" endline="29" pcid="6328"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="54" endline="64" pcid="6331"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/HtmlDiffUtilTest.java" startline="67" endline="77" pcid="6332"></source>
+</class>
+
+<class classid="109" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableScriptOnlyExtensionTest.java" startline="72" endline="95" pcid="6344"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableScriptOnlyExtensionTest.java" startline="180" endline="203" pcid="6348"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableScriptOnlyExtensionTest.java" startline="206" endline="229" pcid="6349"></source>
+</class>
+
+<class classid="110" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="81" endline="86" pcid="6364"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="179" endline="184" pcid="6378"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="89" endline="94" pcid="6365"></source>
+</class>
+
+<class classid="111" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="137" endline="141" pcid="6372"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="151" endline="155" pcid="6374"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="158" endline="162" pcid="6375"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="165" endline="169" pcid="6376"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="172" endline="176" pcid="6377"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ReturnedValueExpectationTest.java" startline="144" endline="148" pcid="6373"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="228" endline="240" pcid="6400"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="243" endline="255" pcid="6401"></source>
+</class>
+
+<class classid="113" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="258" endline="279" pcid="6402"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="349" endline="371" pcid="6407"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="299" endline="306" pcid="6404"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="309" endline="316" pcid="6405"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="431" endline="452" pcid="6413"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTest.java" startline="42" endline="63" pcid="6764"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="455" endline="480" pcid="6414"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/QueryTableTestBase.java" startline="483" endline="508" pcid="6415"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableFactoryTest.java" startline="49" endline="53" pcid="6417"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableFactoryTest.java" startline="56" endline="60" pcid="6418"></source>
+</class>
+
+<class classid="118" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="45" endline="49" pcid="6428"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="113" endline="117" pcid="6437"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="98" endline="102" pcid="6435"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="75" endline="79" pcid="6432"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="52" endline="56" pcid="6429"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="91" endline="95" pcid="6434"></source>
+</class>
+
+<class classid="119" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="59" endline="64" pcid="6430"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="67" endline="72" pcid="6431"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="129" endline="134" pcid="6439"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="105" endline="110" pcid="6436"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="82" endline="88" pcid="6433"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/SlimTableTest.java" startline="120" endline="126" pcid="6438"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="57" endline="68" pcid="6446"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="71" endline="82" pcid="6447"></source>
+</class>
+
+<class classid="122" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="85" endline="96" pcid="6448"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="258" endline="269" pcid="6456"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="272" endline="283" pcid="6457"></source>
+</class>
+
+<class classid="123" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="115" endline="137" pcid="6450"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="140" endline="162" pcid="6451"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="165" endline="186" pcid="6452"></source>
+</class>
+
+<class classid="124" nclones="3" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="286" endline="307" pcid="6458"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="310" endline="331" pcid="6459"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndScriptTableTest.java" startline="335" endline="356" pcid="6460"></source>
+</class>
+
+<class classid="125" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="76" endline="80" pcid="6478"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/TableTableTest.java" startline="44" endline="48" pcid="6698"></source>
+</class>
+
+<class classid="126" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="115" endline="122" pcid="6484"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="155" endline="162" pcid="6488"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="125" endline="132" pcid="6485"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="135" endline="142" pcid="6486"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="145" endline="152" pcid="6487"></source>
+</class>
+
+<class classid="128" nclones="10" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="165" endline="172" pcid="6489"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="255" endline="262" pcid="6498"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="305" endline="312" pcid="6503"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="235" endline="242" pcid="6496"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="195" endline="202" pcid="6492"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="285" endline="292" pcid="6501"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="245" endline="252" pcid="6497"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="175" endline="182" pcid="6490"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="275" endline="282" pcid="6500"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="265" endline="272" pcid="6499"></source>
+</class>
+
+<class classid="129" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="185" endline="192" pcid="6491"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="215" endline="222" pcid="6494"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="205" endline="212" pcid="6493"></source>
+</class>
+
+<class classid="130" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="315" endline="319" pcid="6504"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="336" endline="340" pcid="6507"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="329" endline="333" pcid="6506"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableExtensionTest.java" startline="322" endline="326" pcid="6505"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="53" endline="59" pcid="6526"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="49" endline="55" pcid="6666"></source>
+</class>
+
+<class classid="132" nclones="6" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="62" endline="70" pcid="6527"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="185" endline="194" pcid="6677"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="101" endline="110" pcid="6530"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="140" endline="148" pcid="6673"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="197" endline="205" pcid="6678"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="151" endline="159" pcid="6674"></source>
+</class>
+
+<class classid="133" nclones="5" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="73" endline="82" pcid="6528"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="113" endline="122" pcid="6531"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java" startline="125" endline="134" pcid="6532"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="162" endline="171" pcid="6675"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="128" endline="137" pcid="6672"></source>
+</class>
+
+<class classid="134" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="136" endline="143" pcid="6563"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="223" endline="230" pcid="6572"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="156" endline="163" pcid="6565"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="146" endline="153" pcid="6564"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="166" endline="173" pcid="6566"></source>
+</class>
+
+<class classid="136" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="176" endline="183" pcid="6567"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="196" endline="203" pcid="6569"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="206" endline="210" pcid="6570"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="186" endline="193" pcid="6568"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="213" endline="220" pcid="6571"></source>
+</class>
+
+<class classid="138" nclones="10" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="233" endline="240" pcid="6573"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="343" endline="350" pcid="6584"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="263" endline="270" pcid="6576"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="323" endline="330" pcid="6582"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="383" endline="390" pcid="6588"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="303" endline="310" pcid="6580"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="243" endline="250" pcid="6574"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="403" endline="410" pcid="6590"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="433" endline="440" pcid="6593"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="363" endline="370" pcid="6586"></source>
+</class>
+
+<class classid="139" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="253" endline="260" pcid="6575"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="283" endline="290" pcid="6578"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="273" endline="280" pcid="6577"></source>
+</class>
+
+<class classid="140" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="313" endline="320" pcid="6581"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="373" endline="380" pcid="6587"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="413" endline="420" pcid="6591"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="333" endline="340" pcid="6583"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="353" endline="360" pcid="6585"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="393" endline="400" pcid="6589"></source>
+</class>
+
+<class classid="141" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="443" endline="447" pcid="6594"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="471" endline="475" pcid="6598"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="464" endline="468" pcid="6597"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScriptTableTest.java" startline="457" endline="461" pcid="6596"></source>
+</class>
+
+<class classid="142" nclones="3" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="56" endline="79" pcid="6632"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="255" endline="278" pcid="6640"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="113" endline="136" pcid="6635"></source>
+</class>
+
+<class classid="143" nclones="4" nlines="14" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="139" endline="165" pcid="6636"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="226" endline="252" pcid="6639"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="197" endline="223" pcid="6638"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableTest.java" startline="168" endline="194" pcid="6637"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DynamicDecisionTableTest.java" startline="249" endline="263" pcid="6657"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DecisionTableTest.java" startline="250" endline="264" pcid="6748"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DynamicDecisionTableTest.java" startline="266" endline="280" pcid="6658"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DecisionTableTest.java" startline="267" endline="281" pcid="6749"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DynamicDecisionTableTest.java" startline="283" endline="302" pcid="6659"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DecisionTableTest.java" startline="284" endline="304" pcid="6750"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DynamicDecisionTableTest.java" startline="325" endline="355" pcid="6661"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/DecisionTableTest.java" startline="328" endline="358" pcid="6752"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="58" endline="67" pcid="6667"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="70" endline="79" pcid="6668"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="82" endline="93" pcid="6669"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioTableTest.java" startline="96" endline="107" pcid="6670"></source>
+</class>
+
+<class classid="150" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableExtensionTest.java" startline="66" endline="89" pcid="6682"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableExtensionTest.java" startline="155" endline="178" pcid="6686"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/ScenarioAndDecisionTableExtensionTest.java" startline="129" endline="152" pcid="6685"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/MethodExtractorRuleTest.java" startline="35" endline="39" pcid="6694"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/tables/MethodExtractorRuleTest.java" startline="42" endline="46" pcid="6695"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="58" endline="65" pcid="6768"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="68" endline="75" pcid="6769"></source>
+</class>
+
+<class classid="153" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="78" endline="84" pcid="6770"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="148" endline="154" pcid="6777"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="97" endline="103" pcid="6772"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="106" endline="112" pcid="6773"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java" startline="138" endline="145" pcid="6776"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/fit/SocketCatcherTest.java" startline="29" endline="35" pcid="6836"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/fit/SocketCatcherTest.java" startline="38" endline="44" pcid="6837"></source>
+</class>
+
+<class classid="156" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ExecutionResultTest.java" startline="12" endline="23" pcid="6848"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/testsystems/ExecutionResultTest.java" startline="26" endline="37" pcid="6849"></source>
+</class>
+
+<class classid="157" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DoubleConverterTest.java" startline="22" endline="28" pcid="6886"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/IntConverterTest.java" startline="22" endline="28" pcid="6932"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/LongConverterTest.java" startline="23" endline="29" pcid="6891"></source>
+</class>
+
+<class classid="158" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DoubleConverterTest.java" startline="34" endline="40" pcid="6887"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/IntConverterTest.java" startline="34" endline="40" pcid="6933"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/LongConverterTest.java" startline="35" endline="41" pcid="6892"></source>
+</class>
+
+<class classid="159" nclones="4" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DoubleConverterTest.java" startline="43" endline="52" pcid="6888"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/IntConverterTest.java" startline="43" endline="53" pcid="6934"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/LongConverterTest.java" startline="44" endline="54" pcid="6893"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DateConverterTest.java" startline="51" endline="61" pcid="6953"></source>
+</class>
+
+<class classid="160" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ListConverterHelperTest.java" startline="56" endline="63" pcid="6898"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ListConverterHelperTest.java" startline="76" endline="83" pcid="6900"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ListConverterHelperTest.java" startline="66" endline="73" pcid="6899"></source>
+</class>
+
+<class classid="161" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/PrimitiveDoubleConverterTest.java" startline="20" endline="27" pcid="6915"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/PrimitiveBooleanConverterTest.java" startline="21" endline="28" pcid="7020"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/PrimitiveLongConverterTest.java" startline="21" endline="28" pcid="6981"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/PrimitiveCharConverterTest.java" startline="21" endline="28" pcid="6978"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/PrimitiveIntConverterTest.java" startline="20" endline="27" pcid="6929"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/BooleanConverterTest.java" startline="27" endline="33" pcid="6923"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/BooleanConverterTest.java" startline="36" endline="42" pcid="6924"></source>
+</class>
+
+<class classid="163" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/GenericArrayConverterOnPrimitiveTest.java" startline="47" endline="53" pcid="6939"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/GenericArrayConverterOnPrimitiveTest.java" startline="56" endline="62" pcid="6940"></source>
+</class>
+
+<class classid="164" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/StringConverterTest.java" startline="20" endline="26" pcid="6942"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/StringConverterTest.java" startline="41" endline="47" pcid="6944"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/StringConverterTest.java" startline="50" endline="56" pcid="6945"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/StringConverterTest.java" startline="32" endline="38" pcid="6943"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/AbstractConverterTest.java" startline="22" endline="28" pcid="6947"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DateConverterTest.java" startline="33" endline="39" pcid="6951"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/DateConverterTest.java" startline="42" endline="48" pcid="6952"></source>
+</class>
+
+<class classid="167" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ConverterRegistryTest.java" startline="96" endline="103" pcid="7001"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ConverterRegistryTest.java" startline="106" endline="113" pcid="7002"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/converters/ConverterRegistryTest.java" startline="116" endline="123" pcid="7003"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="144" endline="149" pcid="7035"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="152" endline="157" pcid="7036"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="173" endline="178" pcid="7038"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="211" endline="216" pcid="7043"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="247" endline="254" pcid="7047"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="257" endline="264" pcid="7048"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="274" endline="283" pcid="7050"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimServiceTestBase.java" startline="286" endline="295" pcid="7051"></source>
+</class>
+
+<class classid="172" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/protocol/SlimDeserializerTest.java" startline="58" endline="62" pcid="7060"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/protocol/SlimDeserializerTest.java" startline="82" endline="86" pcid="7063"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/protocol/SlimDeserializerTest.java" startline="65" endline="69" pcid="7061"></source>
+</class>
+
+<class classid="173" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="59" endline="63" pcid="7076"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="73" endline="77" pcid="7078"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="66" endline="70" pcid="7077"></source>
+</class>
+
+<class classid="174" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="80" endline="85" pcid="7079"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="96" endline="101" pcid="7081"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="88" endline="93" pcid="7080"></source>
+</class>
+
+<class classid="175" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="104" endline="109" pcid="7082"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="112" endline="117" pcid="7083"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="120" endline="125" pcid="7084"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="127" endline="135" pcid="7085"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="147" endline="155" pcid="7087"></source>
+</class>
+
+<class classid="177" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="157" endline="162" pcid="7088"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementTimeoutExecutorTest.java" startline="170" endline="175" pcid="7090"></source>
+</class>
+
+<class classid="178" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementExecutorTestBase.java" startline="103" endline="108" pcid="7097"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementExecutorTestBase.java" startline="111" endline="116" pcid="7098"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementExecutorTestBase.java" startline="224" endline="228" pcid="7110"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/StatementExecutorTestBase.java" startline="232" endline="236" pcid="7111"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/ListExecutorTestBase.java" startline="178" endline="183" pcid="7133"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/ListExecutorTestBase.java" startline="186" endline="191" pcid="7134"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/Jsr223StatementExecutorTestBase.java" startline="256" endline="261" pcid="7195"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/Jsr223StatementExecutorTestBase.java" startline="264" endline="269" pcid="7196"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimMethodInvocationTestBase.java" startline="156" endline="166" pcid="7306"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimMethodInvocationTestBase.java" startline="181" endline="191" pcid="7309"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="63" endline="74" pcid="7320"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="77" endline="89" pcid="7321"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="116" endline="121" pcid="7324"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="124" endline="129" pcid="7325"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="132" endline="137" pcid="7326"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/fixtureInteraction/SimpleInteractionTest.java" startline="140" endline="145" pcid="7327"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimStreamReaderTest.java" startline="15" endline="19" pcid="7389"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/slim/SlimStreamReaderTest.java" startline="22" endline="26" pcid="7390"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/plugins/PluginsLoaderTest.java" startline="251" endline="257" pcid="7461"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/plugins/PluginsLoaderTest.java" startline="260" endline="266" pcid="7462"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="26" endline="35" pcid="7486"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="103" endline="112" pcid="7492"></source>
+</class>
+
+<class classid="189" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="51" endline="61" pcid="7488"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="90" endline="100" pcid="7491"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="64" endline="74" pcid="7489"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="77" endline="87" pcid="7490"></source>
+</class>
+
+<class classid="190" nclones="4" nlines="11" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="133" endline="149" pcid="7494"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="171" endline="187" pcid="7496"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="190" endline="206" pcid="7497"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageTestListenerTest.java" startline="152" endline="168" pcid="7495"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageRunListenerTest.java" startline="60" endline="81" pcid="7517"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLPerPageRunListenerTest.java" startline="84" endline="105" pcid="7518"></source>
+</class>
+
+<class classid="192" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLTestResultRecorderTest.java" startline="49" endline="66" pcid="7535"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLTestResultRecorderTest.java" startline="89" endline="106" pcid="7537"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitXMLTestResultRecorderTest.java" startline="69" endline="86" pcid="7536"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="45" endline="54" pcid="7557"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="118" endline="127" pcid="7563"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="82" endline="90" pcid="7560"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="107" endline="115" pcid="7562"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="93" endline="104" pcid="7561"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="130" endline="141" pcid="7564"></source>
+</class>
+
+<class classid="196" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="144" endline="155" pcid="7565"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="172" endline="183" pcid="7567"></source>
+</class>
+
+<class classid="197" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="186" endline="196" pcid="7568"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/junit/JUnitRunNotifierResultsListenerTest.java" startline="199" endline="209" pcid="7569"></source>
+</class>
+
+<class classid="198" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/socketservice/SocketServiceTest.java" startline="24" endline="31" pcid="7602"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/socketservice/SslSocketServiceTest.java" startline="26" endline="33" pcid="7615"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/authentication/SecureOperationTest.java" startline="52" endline="56" pcid="7649"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/WikiImportingResponderAuthenticationTest.java" startline="53" endline="57" pcid="8460"></source>
+</class>
+
+<class classid="200" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/FitNesseServerTest.java" startline="60" endline="65" pcid="7722"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchResponderTest.java" startline="125" endline="130" pcid="8421"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PageTypeTest.java" startline="36" endline="40" pcid="7731"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PageTypeTest.java" startline="59" endline="63" pcid="7735"></source>
+</class>
+
+<class classid="202" nclones="6" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="39" endline="43" pcid="7752"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="60" endline="64" pcid="7755"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="74" endline="78" pcid="7757"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="67" endline="71" pcid="7756"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="95" endline="99" pcid="7760"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="102" endline="106" pcid="7761"></source>
+</class>
+
+<class classid="203" nclones="8" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="46" endline="50" pcid="7753"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="53" endline="57" pcid="7754"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="116" endline="120" pcid="7763"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="88" endline="92" pcid="7759"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="123" endline="127" pcid="7764"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="81" endline="85" pcid="7758"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="130" endline="134" pcid="7765"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/MethodWikiPageFinderTest.java" startline="109" endline="113" pcid="7762"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/RegularExpressionWikiPageFinderTest.java" startline="35" endline="39" pcid="7768"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/RegularExpressionWikiPageFinderTest.java" startline="56" endline="60" pcid="7771"></source>
+</class>
+
+<class classid="205" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="36" endline="40" pcid="7781"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="57" endline="61" pcid="7784"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="64" endline="68" pcid="7785"></source>
+</class>
+
+<class classid="206" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="71" endline="76" pcid="7786"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="95" endline="100" pcid="7789"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="87" endline="92" pcid="7788"></source>
+</class>
+
+<class classid="207" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="111" endline="120" pcid="7791"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/WhereUsedPageFinderTest.java" startline="135" endline="144" pcid="7793"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/SuiteSpecificationMatchFinderTest.java" startline="27" endline="31" pcid="7797"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/SuiteSpecificationMatchFinderTest.java" startline="34" endline="38" pcid="7798"></source>
+</class>
+
+<class classid="209" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/SuiteSpecificationMatchFinderTest.java" startline="41" endline="45" pcid="7799"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/SuiteSpecificationMatchFinderTest.java" startline="62" endline="66" pcid="7802"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/SuiteSpecificationMatchFinderTest.java" startline="55" endline="59" pcid="7801"></source>
+</class>
+
+<class classid="210" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/AttributeWikiPageFinderTest.java" startline="74" endline="78" pcid="7809"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ContentsItemTest.java" startline="141" endline="145" pcid="9502"></source>
+</class>
+
+<class classid="211" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/AttributeWikiPageFinderTest.java" startline="111" endline="131" pcid="7812"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/AttributeWikiPageFinderTest.java" startline="157" endline="177" pcid="7814"></source>
+</class>
+
+<class classid="212" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/AttributeWikiPageFinderTest.java" startline="134" endline="154" pcid="7813"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/search/AttributeWikiPageFinderTest.java" startline="180" endline="200" pcid="7815"></source>
+</class>
+
+<class classid="213" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WildcardTest.java" startline="36" endline="43" pcid="7838"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WildcardTest.java" startline="46" endline="53" pcid="7839"></source>
+</class>
+
+<class classid="214" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/ContentReplacingSearchObserverTest.java" startline="20" endline="27" pcid="7905"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/MethodReplacingSearchObserverTest.java" startline="20" endline="27" pcid="7914"></source>
+</class>
+
+<class classid="215" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/ContentReplacingSearchObserverTest.java" startline="57" endline="63" pcid="7910"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/MethodReplacingSearchObserverTest.java" startline="97" endline="103" pcid="7918"></source>
+</class>
+
+<class classid="216" nclones="2" nlines="17" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/ContentReplacingSearchObserverTest.java" startline="65" endline="83" pcid="7911"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/MethodReplacingSearchObserverTest.java" startline="105" endline="123" pcid="7919"></source>
+</class>
+
+<class classid="217" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/PageReferenceRenamerTest.java" startline="79" endline="89" pcid="7932"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/PageReferenceRenamerTest.java" startline="92" endline="101" pcid="7933"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/PageReferenceRenamerTest.java" startline="113" endline="121" pcid="7935"></source>
+</class>
+
+<class classid="218" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/PageReferenceRenamerTest.java" startline="124" endline="130" pcid="7936"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/refactoring/PageReferenceRenamerTest.java" startline="133" endline="139" pcid="7937"></source>
+</class>
+
+<class classid="219" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/MockingPageCrawlerTest.java" startline="23" endline="29" pcid="7954"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/MockingPageCrawlerTest.java" startline="32" endline="38" pcid="7955"></source>
+</class>
+
+<class classid="220" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WikiImportPropertyTest.java" startline="33" endline="41" pcid="7961"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WikiImportPropertyTest.java" startline="44" endline="52" pcid="7962"></source>
+</class>
+
+<class classid="221" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WikiPageUtilTest.java" startline="35" endline="40" pcid="7997"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/WikiPageUtilTest.java" startline="43" endline="48" pcid="7998"></source>
+</class>
+
+<class classid="222" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PathParserTest.java" startline="18" endline="22" pcid="8001"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PathParserTest.java" startline="25" endline="29" pcid="8002"></source>
+</class>
+
+<class classid="223" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PathParserTest.java" startline="40" endline="46" pcid="8004"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PathParserTest.java" startline="77" endline="83" pcid="8009"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/PathParserTest.java" startline="86" endline="92" pcid="8010"></source>
+</class>
+
+<class classid="224" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="131" endline="135" pcid="8027"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="138" endline="142" pcid="8028"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="145" endline="149" pcid="8029"></source>
+</class>
+
+<class classid="225" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="152" endline="157" pcid="8030"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="160" endline="165" pcid="8031"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="168" endline="173" pcid="8032"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="196" endline="201" pcid="8035"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="176" endline="181" pcid="8033"></source>
+</class>
+
+<class classid="226" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="204" endline="208" pcid="8036"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageTest.java" startline="212" endline="216" pcid="8037"></source>
+</class>
+
+<class classid="227" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="45" endline="49" pcid="8046"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="52" endline="56" pcid="8047"></source>
+</class>
+
+<class classid="228" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="59" endline="64" pcid="8048"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="75" endline="80" pcid="8050"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="67" endline="72" pcid="8049"></source>
+</class>
+
+<class classid="229" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="83" endline="89" pcid="8051"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="101" endline="107" pcid="8053"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="92" endline="98" pcid="8052"></source>
+</class>
+
+<class classid="230" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="110" endline="116" pcid="8054"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/FileSystemPageFactoryTest.java" startline="119" endline="125" pcid="8055"></source>
+</class>
+
+<class classid="231" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/ExternalTestPageTest.java" startline="29" endline="33" pcid="8138"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wiki/fs/ExternalSuitePageTest.java" startline="19" endline="23" pcid="8163"></source>
+</class>
+
+<class classid="232" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="69" endline="74" pcid="8179"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="114" endline="119" pcid="8184"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="177" endline="182" pcid="8190"></source>
+</class>
+
+<class classid="233" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="86" endline="92" pcid="8181"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="105" endline="111" pcid="8183"></source>
+</class>
+
+<class classid="234" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="131" endline="138" pcid="8186"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="141" endline="148" pcid="8187"></source>
+</class>
+
+<class classid="235" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="395" endline="403" pcid="8203"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="417" endline="430" pcid="8205"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="406" endline="414" pcid="8204"></source>
+</class>
+
+<class classid="236" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="465" endline="471" pcid="8210"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/RequestTest.java" startline="474" endline="480" pcid="8211"></source>
+</class>
+
+<class classid="237" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/SimpleResponseTest.java" startline="62" endline="68" pcid="8252"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/SimpleResponseTest.java" startline="71" endline="77" pcid="8253"></source>
+</class>
+
+<class classid="238" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/InputStreamResponseTest.java" startline="66" endline="74" pcid="8261"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/InputStreamResponseTest.java" startline="89" endline="97" pcid="8263"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/http/InputStreamResponseTest.java" startline="77" endline="85" pcid="8262"></source>
+</class>
+
+<class classid="239" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/WikiPageLineProcessingUtilTest.java" startline="12" endline="22" pcid="8295"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/WikiPageLineProcessingUtilTest.java" startline="25" endline="35" pcid="8296"></source>
+</class>
+
+<class classid="240" nclones="2" nlines="17" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/partitioner/FunctionBasedListPartitionerTest.java" startline="151" endline="168" pcid="8309"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/partitioner/MapBasedListPartitionerTest.java" startline="190" endline="207" pcid="8319"></source>
+</class>
+
+<class classid="241" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/partitioner/FunctionBasedListPartitionerTest.java" startline="170" endline="175" pcid="8310"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/partitioner/MapBasedListPartitionerTest.java" startline="209" endline="214" pcid="8320"></source>
+</class>
+
+<class classid="242" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/util/TimeMeasurementTest.java" startline="163" endline="170" pcid="8338"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/ExecutionReportTest.java" startline="57" endline="64" pcid="9845"></source>
+</class>
+
+<class classid="243" nclones="2" nlines="22" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchResponderTest.java" startline="69" endline="94" pcid="8419"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchResponderTest.java" startline="97" endline="122" pcid="8420"></source>
+</class>
+
+<class classid="244" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchResponderTest.java" startline="206" endline="211" pcid="8431"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchResponderTest.java" startline="214" endline="219" pcid="8432"></source>
+</class>
+
+<class classid="245" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchPropertiesResponderTest.java" startline="102" endline="106" pcid="8447"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/search/SearchPropertiesResponderTest.java" startline="108" endline="112" pcid="8448"></source>
+</class>
+
+<class classid="246" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/WikiImportingResponderAuthenticationTest.java" startline="66" endline="72" pcid="8462"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/WikiImportingResponderTest.java" startline="194" endline="200" pcid="9012"></source>
+</class>
+
+<class classid="247" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/WikiImportingResponderAuthenticationTest.java" startline="80" endline="84" pcid="8464"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/WikiImportingResponderTest.java" startline="188" endline="192" pcid="9011"></source>
+</class>
+
+<class classid="248" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/SerializedPageResponderTest.java" startline="37" endline="41" pcid="8481"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="32" endline="36" pcid="8949"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/PropertiesResponderTest.java" startline="44" endline="48" pcid="8867"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SavePropertiesResponderTest.java" startline="29" endline="33" pcid="8816"></source>
+</class>
+
+<class classid="249" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/PacketResponderTest.java" startline="26" endline="31" pcid="8515"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/NewPageResponderTest.java" startline="24" endline="29" pcid="8911"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/EditResponderTest.java" startline="27" endline="32" pcid="8829"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/AccountResponderTest.java" startline="27" endline="32" pcid="8943"></source>
+</class>
+
+<class classid="250" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="24" endline="29" pcid="8551"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceResponderTest.java" startline="21" endline="26" pcid="8598"></source>
+</class>
+
+<class classid="251" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="37" endline="42" pcid="8553"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceResponderTest.java" startline="34" endline="39" pcid="8600"></source>
+</class>
+
+<class classid="252" nclones="3" nlines="25" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="45" endline="72" pcid="8554"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="133" endline="160" pcid="8557"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="103" endline="130" pcid="8556"></source>
+</class>
+
+<class classid="253" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="163" endline="168" pcid="8558"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceResponderTest.java" startline="50" endline="55" pcid="8602"></source>
+</class>
+
+<class classid="254" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java" startline="186" endline="192" pcid="8561"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/SearchReplaceResponderTest.java" startline="72" endline="78" pcid="8605"></source>
+</class>
+
+<class classid="255" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/MovePageResponderTest.java" startline="116" endline="120" pcid="8572"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/MovePageResponderTest.java" startline="123" endline="127" pcid="8573"></source>
+</class>
+
+<class classid="256" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/refactoring/RenamePageResponderTest.java" startline="153" endline="157" pcid="8596"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="606" endline="610" pcid="9210"></source>
+</class>
+
+<class classid="257" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/ResponderFactoryTest.java" startline="98" endline="102" pcid="8618"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/ResponderFactoryTest.java" startline="105" endline="109" pcid="8619"></source>
+</class>
+
+<class classid="258" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PurgeHistoryResponderTest.java" startline="64" endline="68" pcid="8663"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PurgeHistoryResponderTest.java" startline="71" endline="75" pcid="8664"></source>
+</class>
+
+<class classid="259" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TableListComparerTest.java" startline="74" endline="80" pcid="8675"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TableListComparerTest.java" startline="83" endline="89" pcid="8676"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TableListComparerTest.java" startline="92" endline="98" pcid="8677"></source>
+</class>
+
+<class classid="260" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/ExecutionLogResponderTest.java" startline="42" endline="46" pcid="8686"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="68" endline="72" pcid="8743"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="74" endline="78" pcid="8694"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/HistoryPurgerTest.java" startline="251" endline="255" pcid="9807"></source>
+</class>
+
+<class classid="261" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="80" endline="84" pcid="8695"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/HistoryPurgerTest.java" startline="239" endline="243" pcid="9805"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="163" endline="167" pcid="8753"></source>
+</class>
+
+<class classid="262" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="93" endline="97" pcid="8697"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="277" endline="281" pcid="8765"></source>
+</class>
+
+<class classid="263" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="150" endline="154" pcid="8700"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="157" endline="161" pcid="8701"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="164" endline="168" pcid="8702"></source>
+</class>
+
+<class classid="264" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="207" endline="214" pcid="8706"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="217" endline="224" pcid="8707"></source>
+</class>
+
+<class classid="265" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="227" endline="235" pcid="8708"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="238" endline="246" pcid="8709"></source>
+</class>
+
+<class classid="266" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="352" endline="359" pcid="8717"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="373" endline="380" pcid="8720"></source>
+</class>
+
+<class classid="267" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="419" endline="425" pcid="8724"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/PageHistoryResponderTest.java" startline="428" endline="434" pcid="8725"></source>
+</class>
+
+<class classid="268" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/HistoryComparerResponderTest.java" startline="95" endline="106" pcid="8732"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/HistoryComparerResponderTest.java" startline="109" endline="120" pcid="8733"></source>
+</class>
+
+<class classid="269" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="189" endline="193" pcid="8755"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="207" endline="211" pcid="8757"></source>
+</class>
+
+<class classid="270" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="332" endline="337" pcid="8770"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/testHistory/TestHistoryResponderTest.java" startline="340" endline="345" pcid="8771"></source>
+</class>
+
+<class classid="271" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SaveResponderTest.java" startline="80" endline="90" pcid="8805"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SaveResponderTest.java" startline="93" endline="103" pcid="8806"></source>
+</class>
+
+<class classid="272" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/TemplateUtilTest.java" startline="67" endline="75" pcid="8826"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/TemplateUtilTest.java" startline="77" endline="85" pcid="8827"></source>
+</class>
+
+<class classid="273" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/EditResponderTest.java" startline="130" endline="134" pcid="8835"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/EditResponderTest.java" startline="137" endline="141" pcid="8836"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/EditResponderTest.java" startline="144" endline="148" pcid="8837"></source>
+</class>
+
+<class classid="274" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="102" endline="113" pcid="8848"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="155" endline="166" pcid="8852"></source>
+</class>
+
+<class classid="275" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="116" endline="126" pcid="8849"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="142" endline="152" pcid="8851"></source>
+</class>
+
+<class classid="276" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="225" endline="234" pcid="8858"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="237" endline="246" pcid="8859"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/SymbolicLinkResponderTest.java" startline="313" endline="322" pcid="8864"></source>
+</class>
+
+<class classid="277" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/PropertiesResponderTest.java" startline="373" endline="380" pcid="8889"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/PropertiesResponderTest.java" startline="383" endline="390" pcid="8890"></source>
+</class>
+
+<class classid="278" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/AddChildPageResponderTest.java" startline="118" endline="124" pcid="8900"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/AddChildPageResponderTest.java" startline="136" endline="142" pcid="8902"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/AddChildPageResponderTest.java" startline="127" endline="133" pcid="8901"></source>
+</class>
+
+<class classid="279" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/AddChildPageResponderTest.java" startline="159" endline="165" pcid="8905"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/editing/AddChildPageResponderTest.java" startline="168" endline="174" pcid="8906"></source>
+</class>
+
+<class classid="280" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/FilterResponderFactoryTest.java" startline="44" endline="50" pcid="8937"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/FilterResponderFactoryTest.java" startline="53" endline="59" pcid="8938"></source>
+</class>
+
+<class classid="281" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="53" endline="63" pcid="8951"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="121" endline="131" pcid="8955"></source>
+</class>
+
+<class classid="282" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="66" endline="78" pcid="8952"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="81" endline="93" pcid="8953"></source>
+</class>
+
+<class classid="283" nclones="3" nlines="13" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="134" endline="148" pcid="8956"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="151" endline="165" pcid="8957"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="168" endline="182" pcid="8958"></source>
+</class>
+
+<class classid="284" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="224" endline="237" pcid="8961"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="240" endline="253" pcid="8962"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/account/SaveAccountResponderTest.java" startline="256" endline="269" pcid="8963"></source>
+</class>
+
+<class classid="285" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/versions/VersionComparerTest.java" startline="23" endline="27" pcid="8992"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/versions/VersionComparerTest.java" startline="30" endline="34" pcid="8993"></source>
+</class>
+
+<class classid="286" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/slimResponder/HtmlSlimResponderTest.java" startline="346" endline="352" pcid="9064"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/slimResponder/HtmlSlimResponderTest.java" startline="355" endline="361" pcid="9065"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/slimResponder/HtmlSlimResponderTest.java" startline="373" endline="379" pcid="9067"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/slimResponder/HtmlSlimResponderTest.java" startline="364" endline="370" pcid="9066"></source>
+</class>
+
+<class classid="287" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="164" endline="175" pcid="9096"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="178" endline="189" pcid="9097"></source>
+</class>
+
+<class classid="288" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="210" endline="220" pcid="9100"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="250" endline="260" pcid="9104"></source>
+</class>
+
+<class classid="289" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="355" endline="362" pcid="9116"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="365" endline="372" pcid="9117"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="375" endline="382" pcid="9118"></source>
+</class>
+
+<class classid="290" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="523" endline="541" pcid="9133"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="544" endline="562" pcid="9134"></source>
+</class>
+
+<class classid="291" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="828" endline="835" pcid="9160"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/TestResponderTest.java" startline="846" endline="853" pcid="9162"></source>
+</class>
+
+<class classid="292" nclones="10" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="252" endline="259" pcid="9181"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="332" endline="339" pcid="9189"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="311" endline="318" pcid="9187"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="262" endline="269" pcid="9182"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="291" endline="298" pcid="9185"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="321" endline="328" pcid="9188"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="343" endline="350" pcid="9190"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="301" endline="308" pcid="9186"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="281" endline="288" pcid="9184"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/run/SuiteResponderTest.java" startline="353" endline="360" pcid="9191"></source>
+</class>
+
+<class classid="293" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/DeleteFileResponderTest.java" startline="65" endline="71" pcid="9226"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/DeleteFileResponderTest.java" startline="74" endline="80" pcid="9227"></source>
+</class>
+
+<class classid="294" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/RenameFileResponderTest.java" startline="70" endline="77" pcid="9232"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/RenameFileResponderTest.java" startline="91" endline="98" pcid="9234"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/RenameFileResponderTest.java" startline="81" endline="88" pcid="9233"></source>
+</class>
+
+<class classid="295" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="65" endline="71" pcid="9245"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="164" endline="170" pcid="9256"></source>
+</class>
+
+<class classid="296" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="89" endline="95" pcid="9248"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="98" endline="104" pcid="9249"></source>
+</class>
+
+<class classid="297" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="182" endline="186" pcid="9258"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/FileResponderTest.java" startline="189" endline="193" pcid="9259"></source>
+</class>
+
+<class classid="298" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/UploadResponderTest.java" startline="45" endline="57" pcid="9262"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/UploadResponderTest.java" startline="81" endline="93" pcid="9264"></source>
+</class>
+
+<class classid="299" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/CreateDirectoryResponderTest.java" startline="53" endline="60" pcid="9293"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/responders/files/CreateDirectoryResponderTest.java" startline="63" endline="70" pcid="9294"></source>
+</class>
+
+<class classid="300" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/ContextConfiguratorTest.java" startline="24" endline="33" pcid="9316"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/ContextConfiguratorTest.java" startline="36" endline="45" pcid="9317"></source>
+</class>
+
+<class classid="301" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="98" endline="109" pcid="9331"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="112" endline="123" pcid="9332"></source>
+</class>
+
+<class classid="302" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="147" endline="152" pcid="9334"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="155" endline="160" pcid="9335"></source>
+</class>
+
+<class classid="303" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="252" endline="259" pcid="9345"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="272" endline="279" pcid="9347"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/IncludeTest.java" startline="262" endline="269" pcid="9346"></source>
+</class>
+
+<class classid="304" nclones="4" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/PreformatTest.java" startline="10" endline="14" pcid="9364"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/AliasTest.java" startline="14" endline="18" pcid="9390"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/LinkTest.java" startline="20" endline="24" pcid="9566"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/LiteralTest.java" startline="12" endline="16" pcid="9475"></source>
+</class>
+
+<class classid="305" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TextTest.java" startline="10" endline="20" pcid="9378"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TodayTest.java" startline="30" endline="40" pcid="9685"></source>
+</class>
+
+<class classid="306" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/StyleTest.java" startline="6" endline="12" pcid="9379"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/StyleTest.java" startline="14" endline="20" pcid="9380"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/StyleTest.java" startline="22" endline="28" pcid="9381"></source>
+</class>
+
+<class classid="307" nclones="5" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/StyleTest.java" startline="30" endline="35" pcid="9382"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/CollapsibleTest.java" startline="11" endline="16" pcid="9462"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TodayTest.java" startline="43" endline="48" pcid="9686"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ImageTest.java" startline="36" endline="41" pcid="9693"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TodayExtensionTest.java" startline="45" endline="50" pcid="9769"></source>
+</class>
+
+<class classid="308" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/PathTest.java" startline="12" endline="17" pcid="9386"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ContentsTest.java" startline="10" endline="15" pcid="9446"></source>
+</class>
+
+<class classid="309" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HeadingsTest.java" startline="95" endline="112" pcid="9405"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HeadingsTest.java" startline="157" endline="174" pcid="9408"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HeadingsTest.java" startline="115" endline="132" pcid="9406"></source>
+</class>
+
+<class classid="310" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/WikiWordBuilderTest.java" startline="8" endline="12" pcid="9414"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/WikiWordBuilderTest.java" startline="15" endline="19" pcid="9415"></source>
+</class>
+
+<class classid="311" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SymbolClassPropertyAppenderTest.java" startline="33" endline="38" pcid="9418"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SymbolClassPropertyAppenderTest.java" startline="41" endline="46" pcid="9419"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SymbolClassPropertyAppenderTest.java" startline="49" endline="54" pcid="9420"></source>
+</class>
+
+<class classid="312" nclones="5" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SlimTableDefaultColoringTest.java" startline="86" endline="92" pcid="9433"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SlimTableDefaultColoringTest.java" startline="95" endline="101" pcid="9434"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SlimTableDefaultColoringTest.java" startline="122" endline="128" pcid="9437"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SlimTableDefaultColoringTest.java" startline="104" endline="110" pcid="9435"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/decorator/SlimTableDefaultColoringTest.java" startline="113" endline="119" pcid="9436"></source>
+</class>
+
+<class classid="313" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/SeeTest.java" startline="23" endline="28" pcid="9443"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/SeeTest.java" startline="39" endline="44" pcid="9445"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/SeeTest.java" startline="31" endline="36" pcid="9444"></source>
+</class>
+
+<class classid="314" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ContentsTest.java" startline="17" endline="21" pcid="9447"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HelpTest.java" startline="8" endline="12" pcid="9477"></source>
+</class>
+
+<class classid="315" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HtmlWriterTest.java" startline="28" endline="34" pcid="9469"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/HtmlWriterTest.java" startline="53" endline="59" pcid="9472"></source>
+</class>
+
+<class classid="316" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/WikiTranslatorTest.java" startline="9" endline="13" pcid="9480"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/WikiTranslatorTest.java" startline="16" endline="20" pcid="9481"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/WikiTranslatorTest.java" startline="23" endline="27" pcid="9482"></source>
+</class>
+
+<class classid="317" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ContentsItemTest.java" startline="58" endline="69" pcid="9495"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ContentsItemTest.java" startline="72" endline="83" pcid="9496"></source>
+</class>
+
+<class classid="318" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/FrontMatterTest.java" startline="92" endline="106" pcid="9513"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/FrontMatterTest.java" startline="109" endline="123" pcid="9514"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/FrontMatterTest.java" startline="137" endline="151" pcid="9516"></source>
+</class>
+
+<class classid="319" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/AnchorReferenceTest.java" startline="7" endline="12" pcid="9532"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/EqualPairTest.java" startline="6" endline="11" pcid="9711"></source>
+</class>
+
+<class classid="320" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/LinkTest.java" startline="32" endline="39" pcid="9568"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ImageTest.java" startline="22" endline="28" pcid="9691"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TableTest.java" startline="18" endline="24" pcid="9738"></source>
+</class>
+
+<class classid="321" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/LastModifiedTest.java" startline="19" endline="23" pcid="9644"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/TodayTest.java" startline="17" endline="21" pcid="9683"></source>
+</class>
+
+<class classid="322" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ScannerTest.java" startline="16" endline="20" pcid="9763"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/wikitext/parser/ScannerTest.java" startline="22" endline="26" pcid="9764"></source>
+</class>
+
+<class classid="323" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/SuiteExecutionReportTest.java" startline="47" endline="51" pcid="9814"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/SuiteExecutionReportTest.java" startline="86" endline="90" pcid="9819"></source>
+</class>
+
+<class classid="324" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/TestXmlFormatterTest.java" startline="129" endline="133" pcid="9831"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/history/SuiteHistoryFormatterTest.java" startline="49" endline="53" pcid="9856"></source>
+</class>
+
+<class classid="325" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/SuiteHtmlFormatterTest.java" startline="56" endline="63" pcid="9883"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/SuiteHtmlFormatterTest.java" startline="75" endline="82" pcid="9886"></source>
+</class>
+
+<class classid="326" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/SuiteHtmlFormatterTest.java" startline="95" endline="100" pcid="9889"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/SuiteHtmlFormatterTest.java" startline="103" endline="108" pcid="9890"></source>
+</class>
+
+<class classid="327" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/RerunSuiteFormatterTest.java" startline="52" endline="60" pcid="9904"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/RerunSuiteFormatterTest.java" startline="90" endline="98" pcid="9907"></source>
+<source file="systems/NicadRun/fitnesse-master/test/fitnesse/reporting/RerunSuiteFormatterTest.java" startline="63" endline="71" pcid="9905"></source>
+</class>
+
+<class classid="328" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/util/FileUtilTest.java" startline="35" endline="41" pcid="9982"></source>
+<source file="systems/NicadRun/fitnesse-master/test/util/FileUtilTest.java" startline="61" endline="67" pcid="9984"></source>
+</class>
+
+<class classid="329" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/fitnesse-master/test/util/FileUtilTest.java" startline="44" endline="58" pcid="9983"></source>
+<source file="systems/NicadRun/fitnesse-master/test/util/FileUtilTest.java" startline="70" endline="84" pcid="9985"></source>
+</class>
+
+</clones>

@@ -1,0 +1,29 @@
+Effect                      r_observed Scenario                   r_corrected
+----------------------------------------------------------------------------
+RQ1 pooled DIP                  +0.140 kappa_round1 = 0.31             +0.251
+RQ1 pooled DIP                  +0.140 kappa_round3 = 0.20             +0.313
+RQ1 pooled DIP                  +0.140 kappa_optimistic = 0.50         +0.198
+
+RQ2 Q4 DIP                      +0.018 kappa_round1 = 0.31             +0.032
+RQ2 Q4 DIP                      +0.018 kappa_round3 = 0.20             +0.040
+RQ2 Q4 DIP                      +0.018 kappa_optimistic = 0.50         +0.025
+
+RQ2 Q1 DIP                      +0.184 kappa_round1 = 0.31             +0.330
+RQ2 Q1 DIP                      +0.184 kappa_round3 = 0.20             +0.411
+RQ2 Q1 DIP                      +0.184 kappa_optimistic = 0.50         +0.260
+
+Struts DIP                      +0.401 kappa_round1 = 0.31             +0.720
+Struts DIP                      +0.401 kappa_round3 = 0.20             +0.897
+Struts DIP                      +0.401 kappa_optimistic = 0.50         +0.567
+
+Hibernate DIP                   +0.033 kappa_round1 = 0.31             +0.059
+Hibernate DIP                   +0.033 kappa_round3 = 0.20             +0.074
+Hibernate DIP                   +0.033 kappa_optimistic = 0.50         +0.047
+
+
+============================================================================
+Q4 attenuation check (RQ1 pooled vs RQ2 Q4, disattenuated):
+============================================================================
+kappa_round1 = 0.31        pooled=+0.251  Q4=+0.032  Δ=+0.219
+kappa_round3 = 0.20        pooled=+0.313  Q4=+0.040  Δ=+0.273
+kappa_optimistic = 0.50    pooled=+0.198  Q4=+0.025  Δ=+0.173

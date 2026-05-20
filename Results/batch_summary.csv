@@ -1,0 +1,9 @@
+project,types_found,types_missing,total_cloned,n_T1,n_T2,n_T3,n_multiclass
+commonslang,T1;T2;T3,,2693,3,0,2690,1246
+fitnesse,T1;T2;T3,,1838,0,0,1838,864
+hibernate-orm,T1;T2;T3,,18700,0,11,18689,11233
+jackson-databind_,T1;T2;T3,,2908,0,0,2908,1284
+jmeter,T1;T2;T3,,2152,0,0,2152,1013
+junit5,T1;T2;T3,,1835,0,0,1835,847
+selenium-trunk,T1;T2;T3,,2431,2,3,2426,1151
+struts,T1;T2;T3,,3494,0,2,3492,1615

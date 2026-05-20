@@ -1,0 +1,1488 @@
+method_id,project,file_path,startline,endline,method_loc,srp,ocp,dip,clone_type,method_source
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/persister/entity/mutation/EntityTableMapping.java:314-325,hibernate-orm,main/java/org/hibernate/persister/entity/mutation/EntityTableMapping.java,314,325,12.0,2,2,2,T3,"public KeyColumn (String tableName, String columnName, String writeExpression, boolean formula, JdbcMapping jdbcMapping) {
+    this.tableName = tableName;
+    this.columnName = columnName;
+    this.writeExpression = writeExpression;
+    this.formula = formula;
+    this.jdbcMapping = jdbcMapping;
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java:98-108,junit5,test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java,98,108,11.0,2,2,2,T3,"void assertDoesNotThrowWithExecutableThatThrowsACheckedException () {
+    try {
+        assertDoesNotThrow ((Executable) () -> {
+            throw new IOException ();
+        });
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageEquals (ex, ""Unexpected exception thrown: "" + IOException.class.getName ());
+    }
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/models/xml/internal/XmlDocumentImpl.java:190-205,hibernate-orm,main/java/org/hibernate/boot/models/xml/internal/XmlDocumentImpl.java,190,205,16.0,2,2,2,T3,"private DefaultsImpl (String pckg, AccessType accessType, String accessorStrategy, String catalog, String schema, Boolean autoImport, Boolean impliedLaziness) {
+    this.pckg = pckg;
+    this.accessType = accessType;
+    this.accessorStrategy = accessorStrategy;
+    this.catalog = catalog;
+    this.schema = schema;
+    this.autoImport = NullnessHelper.nullif (autoImport, true);
+    this.impliedLaziness = NullnessHelper.nullif (impliedLaziness, false);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/ResetTest.java:449-473,struts,test/java/org/apache/struts2/views/jsp/ui/ResetTest.java,449,473,25.0,2,2,1,T3,"public void testSimpleThemeImageUsingActionOnly () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    ResetTag tag = new ResetTag ();
+    tag.setPageContext (pageContext);
+    tag.setTheme (""simple"");
+    tag.setType (""button"");
+    tag.setName (""myname"");
+    tag.setLabel (""mylabel"");
+    tag.setAction (""manager"");
+    tag.setMethod (null);
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Reset-8.txt""));
+    ResetTag freshTag = new ResetTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/validator/validators/ShortRangeFieldValidatorTest.java:64-76,struts,test/java/org/apache/struts2/validator/validators/ShortRangeFieldValidatorTest.java,64,76,13.0,2,2,1,T3,"public void testMaxValidation () throws Exception {
+    ValidationAction action = prepareAction ((short) 11);
+    ValidatorContext context = new DummyValidatorContext (action, tpf);
+    ShortRangeFieldValidator validator = prepareValidator (action, context);
+    validator.validate (action);
+    assertTrue (context.getFieldErrors ().size () == 1);
+    assertEquals (""Max is 10, min is 2 but value is 11"", context.getFieldErrors ().get (""shortRange"").get (0));
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertIterableEqualsAssertionsTests.java:377-386,junit5,test/java/org/junit/jupiter/api/AssertIterableEqualsAssertionsTests.java,377,386,10.0,2,2,2,T3,"void assertIterableEqualsDifferentIterablesAndMessage () {
+    try {
+        assertIterableEquals (listOf (1.1D, 2L, ""3""), listOf (1D, 2L, ""3""), ""message"");
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageStartsWith (ex, ""message"");
+        assertMessageEndsWith (ex, ""iterable contents differ at index [0], expected: <1.1> but was: <1.0>"");
+    }
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java:149-162,junit5,test/java/org/junit/jupiter/api/AssertThrowsAssertionsTests.java,149,162,14.0,2,2,2,T3,"void assertThrowsWithExecutableThatThrowsAnUnexpectedException () {
+    try {
+        assertThrows (IllegalStateException.class, () -> {
+            throw new NumberFormatException ();
+        });
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageStartsWith (ex, ""Unexpected exception type thrown, "");
+        assertMessageContains (ex, ""expected: <java.lang.IllegalStateException>"");
+        assertMessageContains (ex, ""but was: <java.lang.NumberFormatException>"");
+        assertThat (ex).hasCauseInstanceOf (NumberFormatException.class);
+    }
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertFalseAssertionsTests.java:76-85,junit5,test/java/org/junit/jupiter/api/AssertFalseAssertionsTests.java,76,85,10.0,2,2,2,T3,"void assertFalseWithBooleanSupplierTrueAndString () {
+    try {
+        assertFalse (() -> true, ""test"");
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageEquals (ex, ""test ==> expected: <false> but was: <true>"");
+        assertExpectedAndActualValues (ex, false, true);
+    }
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/persister/collection/mutation/CollectionTableMapping.java:58-69,hibernate-orm,main/java/org/hibernate/persister/collection/mutation/CollectionTableMapping.java,58,69,12.0,2,2,2,T3,"public boolean containsTableName (String tableName) {
+    if (this.tableName.equals (tableName)) {
+        return true;
+    }
+    for (String space : spaces) {
+        if (space.equals (tableName)) {
+            return true;
+        }
+    }
+    return false;
+}"
+systems/Projects/junit5-main/junit-platform-testkit/src/main/java/org/junit/platform/testkit/engine/Assertions.java:37-60,junit5,main/java/org/junit/platform/testkit/engine/Assertions.java,37,60,24.0,2,2,1,T3,"static void assertAll (String heading, Stream < Executable > executables) {
+    Preconditions.notNull (executables, ""executables stream must not be null"");
+    List < Throwable > failures = executables.map (executable -> {
+        Preconditions.notNull (executable, ""individual executables must not be null"");
+        try {
+            executable.execute ();
+            return null;
+        } catch (Throwable t) {
+            UnrecoverableExceptions.rethrowIfUnrecoverable (t);
+            return t;
+        }
+    }).filter (Objects :: nonNull).collect (Collectors.toList ());
+    if (! failures.isEmpty ()) {
+        MultipleFailuresError multipleFailuresError = new MultipleFailuresError (heading, failures);
+        failures.forEach (multipleFailuresError :: addSuppressed);
+        throw multipleFailuresError;
+    }
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java:178-190,junit5,test/java/org/junit/jupiter/api/AssertDoesNotThrowAssertionsTests.java,178,190,13.0,2,2,2,T3,"void assertDoesNotThrowWithExecutableThatThrowsAnExceptionWithMessageWithMessageString () {
+    String message = ""Runtime exception message"";
+    try {
+        assertDoesNotThrow ((Executable) () -> {
+            throw new IllegalStateException (message);
+        }, ""Custom message"");
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageEquals (ex, ""Custom message ==> Unexpected exception thrown: "" + IllegalStateException.class.getName () + "": "" + message);
+    }
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/conversion/impl/StringConverterTest.java:66-88,struts,test/java/org/apache/struts2/conversion/impl/StringConverterTest.java,66,88,23.0,2,2,1,T3,"public void testFloatToStringConversionPL () throws Exception {
+    StringConverter converter = new StringConverter ();
+    Map < String, Object > context = createContextWithLocale (new Locale (""pl"", ""PL""));
+    Object value = converter.convertValue (context, null, null, null, Float.MIN_VALUE, null);
+    assertEquals (""0,"" + StringUtils.repeat ('0', 44) + ""14"", value);
+    value = converter.convertValue (context, null, null, null, Float.MAX_VALUE, null);
+    assertEquals (""34028235"" + StringUtils.repeat ('0', 31), value);
+    value = converter.convertValue (context, null, null, null, 0.1f, null);
+    assertEquals (""0,1"", value);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/interceptor/CheckboxInterceptorTest.java:63-73,struts,test/java/org/apache/struts2/interceptor/CheckboxInterceptorTest.java,63,73,11.0,2,2,2,T3,"public void testPassthroughOne () throws Exception {
+    param.put (""user"", ""batman"");
+    prepare (ai);
+    interceptor.init ();
+    interceptor.intercept (ai);
+    interceptor.destroy ();
+    assertEquals (1, ai.getInvocationContext ().getParameters ().keySet ().size ());
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/IfTagTest.java:476-526,struts,test/java/org/apache/struts2/views/jsp/IfTagTest.java,476,526,51.0,2,2,1,T3,"public void testIfElseIf () throws Exception {
+    IfTag ifTag = new IfTag ();
+    ifTag.setPageContext (pageContext);
+    ifTag.setTest (""false"");
+    ElseIfTag elseIfTag1 = new ElseIfTag ();
+    elseIfTag1.setPageContext (pageContext);
+    elseIfTag1.setTest (""false"");
+    ElseIfTag elseIfTag2 = new ElseIfTag ();
+    elseIfTag2.setPageContext (pageContext);
+    elseIfTag2.setTest (""true"");
+    ElseIfTag elseIfTag3 = new ElseIfTag ();
+    elseIfTag3.setPageContext (pageContext);
+    elseIfTag3.setTest (""true"");
+    int r1 = ifTag.doStartTag ();
+    ifTag.doEndTag ();
+    int r2 = elseIfTag1.doStartTag ();
+    elseIfTag1.doEndTag ();
+    int r3 = elseIfTag2.doStartTag ();
+    elseIfTag2.doEndTag ();
+    int r4 = elseIfTag3.doStartTag ();
+    elseIfTag3.doEndTag ();
+    assertEquals (TagSupport.SKIP_BODY, r1);
+    assertEquals (TagSupport.SKIP_BODY, r2);
+    assertEquals (TagSupport.EVAL_BODY_INCLUDE, r3);
+    assertEquals (TagSupport.SKIP_BODY, r4);
+    IfTag freshTag = new IfTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", objectsAreReflectionEqual (ifTag, freshTag));
+    ElseIfTag freshTag2 = new ElseIfTag ();
+    freshTag2.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", objectsAreReflectionEqual (elseIfTag1, freshTag2));
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", objectsAreReflectionEqual (elseIfTag2, freshTag2));
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", objectsAreReflectionEqual (elseIfTag3, freshTag2));
+}"
+systems/Projects/junit5-main/junit-platform-suite-commons/src/main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java:48-58,junit5,main/java/org/junit/platform/suite/commons/AdditionalDiscoverySelectors.java,48,58,11.0,2,2,2,T3,"static List < DirectorySelector > selectDirectories (String...paths) {
+    Preconditions.notNull (paths, ""Directory paths must not be null"");
+    Preconditions.containsNoNullElements (paths, ""Individual directory paths must not be null"");
+    return uniqueStreamOf (paths).filter (StringUtils :: isNotBlank).map (DiscoverySelectors :: selectDirectory).collect (Collectors.toList ());
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/persister/entity/mutation/DeleteCoordinatorStandard.java:118-137,hibernate-orm,main/java/org/hibernate/persister/entity/mutation/DeleteCoordinatorStandard.java,118,137,20.0,2,2,2,T3,"protected void applyNonVersionOptLocking (OptimisticLockStyle lockStyle, MutationGroupBuilder mutationGroupBuilder, Object [] loadedState, SharedSessionContractImplementor session) {
+    final EntityPersister persister = entityPersister ();
+    assert loadedState != null;
+    assert lockStyle.isAllOrDirty ();
+    assert persister.optimisticLockStyle ().isAllOrDirty ();
+    assert session != null;
+    final boolean [] versionability = persister.getPropertyVersionability ();
+    for (int attributeIndex = 0; attributeIndex < versionability.length; attributeIndex ++) {
+        final AttributeMapping attribute;
+        if (versionability [attributeIndex] && ! (attribute = persister.getAttributeMapping (attributeIndex)).isPluralAttributeMapping ()) {
+            breakDownJdbcValues (mutationGroupBuilder, session, attribute, loadedState [attributeIndex]);
+        }
+    }
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/tool/schema/spi/SchemaManagementToolCoordinator.java:688-708,hibernate-orm,main/java/org/hibernate/tool/schema/spi/SchemaManagementToolCoordinator.java,688,708,21.0,2,2,2,T3,"public static Action determineJpaScriptActionSetting (Map < ?, ? > configurationValues, String contributor, Action defaultValue) {
+    final String jakartaSettingName = contributor == null ? JAKARTA_HBM2DDL_SCRIPTS_ACTION : JAKARTA_HBM2DDL_SCRIPTS_ACTION + ""."" + contributor;
+    final String javaxSettingName = contributor == null ? HBM2DDL_SCRIPTS_ACTION : HBM2DDL_SCRIPTS_ACTION + ""."" + contributor;
+    Object scriptsActionSetting = configurationValues.get (jakartaSettingName);
+    if (scriptsActionSetting == null) {
+        scriptsActionSetting = configurationValues.get (javaxSettingName);
+        if (scriptsActionSetting != null) {
+            DEPRECATION_LOGGER.deprecatedSetting (HBM2DDL_SCRIPTS_ACTION, JAKARTA_HBM2DDL_SCRIPTS_ACTION);
+        }
+    }
+    return scriptsActionSetting == null ? defaultValue : Action.interpretJpaSetting (scriptsActionSetting);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/interceptor/DefaultWorkflowInterceptorTest.java:173-195,struts,test/java/org/apache/struts2/interceptor/DefaultWorkflowInterceptorTest.java,173,195,23.0,2,2,1,T3,"protected void setUp () throws Exception {
+    super.setUp ();
+    ActionConfig config = new ActionConfig.Builder ("""", ""name"", """").build ();
+    Action action = EasyMock.createNiceMock (ValidateAction.class);
+    invocation = EasyMock.createNiceMock (ActionInvocation.class);
+    interceptor = new DefaultWorkflowInterceptor ();
+    ActionProxy proxy = EasyMock.createNiceMock (ActionProxy.class);
+    EasyMock.expect (invocation.getProxy ()).andReturn (proxy).anyTimes ();
+    EasyMock.expect (invocation.getAction ()).andReturn (action).anyTimes ();
+    EasyMock.expect (invocation.invoke ()).andAnswer (() -> result).anyTimes ();
+    EasyMock.expect (proxy.getConfig ()).andReturn (config).anyTimes ();
+    EasyMock.expect (proxy.getMethod ()).andReturn (""execute"").anyTimes ();
+    EasyMock.replay (invocation);
+    EasyMock.replay (action);
+    EasyMock.replay (proxy);
+    ActionContext.of ().withActionInvocation (invocation).bind ();
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/LabelTest.java:83-105,struts,test/java/org/apache/struts2/views/jsp/ui/LabelTest.java,83,105,23.0,1,2,1,T3,"public void testSimpleWithLabelPosition () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    LabelTag tag = new LabelTag ();
+    tag.setPageContext (pageContext);
+    tag.setLabel (""mylabel"");
+    tag.setName (""myname"");
+    tag.setValue (""%{foo}"");
+    tag.setLabelPosition (""top"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (LabelTest.class.getResource (""Label-3.txt""));
+    LabelTag freshTag = new LabelTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/AnyKeyPart.java:59-90,hibernate-orm,main/java/org/hibernate/metamodel/mapping/internal/AnyKeyPart.java,59,90,32.0,2,2,2,T3,"public AnyKeyPart (NavigableRole navigableRole, DiscriminatedAssociationModelPart anyPart, String table, String column, String customReadExpression, String customWriteExpression, String columnDefinition, Long length, Integer precision, Integer scale, boolean nullable, boolean insertable, boolean updateable, boolean partitioned, JdbcMapping jdbcMapping) {
+    this.navigableRole = navigableRole;
+    this.table = table;
+    this.column = column;
+    this.anyPart = anyPart;
+    this.customReadExpression = customReadExpression;
+    this.customWriteExpression = customWriteExpression;
+    this.columnDefinition = columnDefinition;
+    this.length = length;
+    this.precision = precision;
+    this.scale = scale;
+    this.nullable = nullable;
+    this.insertable = insertable;
+    this.updateable = updateable;
+    this.partitioned = partitioned;
+    this.jdbcMapping = jdbcMapping;
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java:976-995,struts,test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java,976,995,20.0,1,2,1,T3,"public void testNewJava8Format () throws Exception {
+    String format = ""EEEE MMMM dd, hh:mm a"";
+    LocalDateTime now = LocalDateTime.now ();
+    String formatted = DateTimeFormatter.ofPattern (format, ActionContext.getContext ().getLocale ()).format (now);
+    context.put (""myDate"", now);
+    tag.setName (""myDate"");
+    tag.setNice (false);
+    tag.setFormat (format);
+    tag.doStartTag ();
+    tag.doEndTag ();
+    assertEquals (formatted, writer.toString ());
+    DateTag freshTag = new DateTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/pretty/MessageHelper.java:117-140,hibernate-orm,main/java/org/hibernate/pretty/MessageHelper.java,117,140,24.0,2,2,2,T3,"public static String infoString (@Nullable
+EntityPersister persister,@Nullable
+Object id, Type identifierType, SessionFactoryImplementor factory) {
+    final StringBuilder info = new StringBuilder ();
+    info.append ('[');
+    if (persister == null) {
+        info.append (""unknown entity"");
+    }
+    else {
+        info.append (persister.getEntityName ());
+    }
+    if (id == null) {
+        info.append ("" with null id"");
+    }
+    else {
+        info.append ("" with id '"").append (identifierType.toLoggableString (id, factory)).append (""'"");
+    }
+    info.append (']');
+    return info.toString ();
+}"
+systems/Projects/struts-main/plugins/tiles/src/test/java/org/apache/tiles/ognl/NestedObjectDelegatePropertyAccessorTest.java:41-52,struts,test/java/org/apache/tiles/ognl/NestedObjectDelegatePropertyAccessorTest.java,41,52,12.0,2,2,1,T3,"public void testGetProperty () throws OgnlException {
+    NestedObjectExtractor < Integer > nestedObjectExtractor = createMock (NestedObjectExtractor.class);
+    PropertyAccessor propertyAccessor = createMock (PropertyAccessor.class);
+    Map < String, Object > context = createMock (Map.class);
+    expect (propertyAccessor.getProperty (context, ""nested"", ""property"")).andReturn (""value"");
+    expect (nestedObjectExtractor.getNestedObject (1)).andReturn (""nested"");
+    replay (nestedObjectExtractor, propertyAccessor, context);
+    PropertyAccessor accessor = new NestedObjectDelegatePropertyAccessor < > (nestedObjectExtractor, propertyAccessor);
+    assertEquals (""value"", accessor.getProperty (context, 1, ""property""));
+    verify (nestedObjectExtractor, propertyAccessor, context);
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java:173-191,junit5,test/java/org/junit/jupiter/engine/TestTemplateInvocationTests.java,173,191,19.0,2,2,2,T3,"void templateWithTwoInvocationsFromSingleExtensionIsInvoked () {
+    LauncherDiscoveryRequest request = request ().selectors (selectMethod (MyTestTemplateTestCase.class, ""templateWithTwoInvocationsFromSingleExtension"")).build ();
+    EngineExecutionResults executionResults = executeTests (request);
+    executionResults.allEvents ().assertEventsMatchExactly (wrappedInContainerEvents (MyTestTemplateTestCase.class, event (container (""templateWithTwoInvocationsFromSingleExtension""), started ()), event (dynamicTestRegistered (""test-template-invocation:#1""), displayName (""[1]"")), event (test (""test-template-invocation:#1""), started ()), event (test (""test-template-invocation:#1""), finishedWithFailure (message (""invocation is expected to fail""))), event (dynamicTestRegistered (""test-template-invocation:#2""), displayName (""[2]"")), event (test (""test-template-invocation:#2""), started ()), event (test (""test-template-invocation:#2""), finishedWithFailure (message (""invocation is expected to fail""))), event (container (""templateWithTwoInvocationsFromSingleExtension""), finishedSuccessfully ())));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/text/DefaultTextProviderTest.java:53-73,struts,test/java/org/apache/struts2/text/DefaultTextProviderTest.java,53,73,21.0,2,2,2,T3,"public void testGetTextsWithListArgs () {
+    List < Object > args = new ArrayList < > ();
+    args.add (""Santa"");
+    args.add (""loud"");
+    assertEquals (""Hello World"", tp.getText (""hello"", ""this is default"", args));
+    assertEquals (""Hello World Santa"", tp.getText (""hello.0"", ""this is default"", args));
+    assertEquals (""Hello World. This is Santa speaking loud"", tp.getText (""hello.1"", ""this is default"", args));
+    assertEquals (""this is default"", tp.getText (""not.in.bundle"", ""this is default"", args));
+    assertEquals (""this is default Santa"", tp.getText (""not.in.bundle"", ""this is default {0}"", args));
+    assertEquals (""this is default Santa speaking loud"", tp.getText (""not.in.bundle"", ""this is default {0} speaking {1}"", args));
+    assertEquals (""Hello World"", tp.getText (""hello"", args));
+    assertEquals (""Hello World Santa"", tp.getText (""hello.0"", args));
+    assertEquals (""Hello World. This is Santa speaking loud"", tp.getText (""hello.1"", args));
+    assertNull (tp.getText (""not.in.bundle"", args));
+    assertEquals (""Hello World"", tp.getText (""hello"", ""this is default"", (List) null));
+    assertEquals (""this is default"", tp.getText (""not.in.bundle"", ""this is default"", (List) null));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java:513-537,struts,test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java,513,537,25.0,1,2,0,T3,"public void testSimpleThemeImageUsingMethodOnly () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    SubmitTag tag = new SubmitTag ();
+    tag.setPageContext (pageContext);
+    tag.setTheme (""simple"");
+    tag.setType (""button"");
+    tag.setName (""myname"");
+    tag.setLabel (""mylabel"");
+    tag.setAction (null);
+    tag.setMethod (""update"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Submit-9.txt""));
+    SubmitTag freshTag = new SubmitTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/components/UIComponentTest.java:52-72,struts,test/java/org/apache/struts2/components/UIComponentTest.java,52,72,21.0,2,2,1,T3,"public void testActionErrorComponentDisposeItselfFromComponentStack () throws Exception {
+    ActionMessageTag t = new ActionMessageTag ();
+    t.setPageContext (pageContext);
+    try {
+        t.doStartTag ();
+        ActionErrorTag tag = new ActionErrorTag ();
+        tag.setPageContext (pageContext);
+        tag.doStartTag ();
+        assertEquals (tag.getComponent ().getComponentStack ().peek (), tag.getComponent ());
+        tag.doEndTag ();
+        assertEquals (t.getComponent ().getComponentStack ().peek (), t.getComponent ());
+        t.doEndTag ();
+    } catch (Exception e) {
+        e.printStackTrace ();
+        fail (e.toString ());
+    }
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/AnnotationUtilsTests.java:528-544,junit5,test/java/org/junit/platform/commons/util/AnnotationUtilsTests.java,528,544,17.0,2,2,2,T3,"void findAnnotatedFieldsDoesNotAllowInstanceFieldToHideStaticField () throws Exception {
+    final String TEMP_DIR = ""tempDir"";
+    Class < ? > superclass = SuperclassWithStaticPackagePrivateTempDirField.class;
+    Field staticField = superclass.getDeclaredField (TEMP_DIR);
+    Class < ? > subclass = SubclassWithNonStaticPackagePrivateTempDirField.class;
+    Field nonStaticField = subclass.getDeclaredField (TEMP_DIR);
+    var fields = findAnnotatedFields (superclass, ClassLevelDir.class, field -> true);
+    assertThat (fields).containsExactly (staticField);
+    fields = findAnnotatedFields (subclass, ClassLevelDir.class, field -> true);
+    assertThat (fields).containsExactly (staticField);
+    fields = findAnnotatedFields (subclass, InstanceLevelDir.class, field -> true);
+    assertThat (fields).containsExactly (nonStaticField);
+}"
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/dispatcher/listener/StrutsListener.java:37-52,struts,main/java/org/apache/struts2/dispatcher/listener/StrutsListener.java,37,52,16.0,1,2,0,T3,"public void contextInitialized (ServletContextEvent sce) {
+    InitOperations init = new InitOperations ();
+    Dispatcher dispatcher = null;
+    try {
+        ListenerHostConfig config = new ListenerHostConfig (sce.getServletContext ());
+        dispatcher = init.initDispatcher (config);
+        init.initStaticContentLoader (config, dispatcher);
+        prepare = new PrepareOperations (dispatcher);
+    } finally {
+        if (dispatcher != null) {
+            dispatcher.cleanUpAfterInit ();
+        }
+        init.cleanup ();
+    }
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/engine/jdbc/connections/internal/BasicConnectionCreator.java:37-50,hibernate-orm,main/java/org/hibernate/engine/jdbc/connections/internal/BasicConnectionCreator.java,37,50,14.0,2,2,2,T3,"public BasicConnectionCreator (ServiceRegistryImplementor serviceRegistry, String url, Properties connectionProps, boolean autocommit, Integer isolation, String initSql) {
+    this.serviceRegistry = serviceRegistry;
+    this.url = url;
+    this.connectionProps = connectionProps;
+    this.autoCommit = autocommit;
+    this.isolation = isolation;
+    this.initSql = initSql;
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java:261-271,struts,test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java,261,271,11.0,2,2,1,T3,"public void testGetUri () {
+    req.setParameters (new HashMap ());
+    req.setRequestURI (""/my/namespace/actionName.action"");
+    req.setServletPath (""/my/namespace/actionName.action"");
+    DefaultActionMapper mapper = new DefaultActionMapper ();
+    ActionMapping mapping = mapper.getMapping (req, configManager);
+    assertEquals (""/my/namespace/actionName.action"", mapper.getUriFromActionMapping (mapping));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java:868-891,struts,test/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapperTest.java,868,891,24.0,2,2,1,T3,"public void testAllowedActionNames () {
+    DefaultActionMapper mapper = new DefaultActionMapper ();
+    String actionName = ""action"";
+    assertEquals (actionName, mapper.cleanupActionName (actionName));
+    actionName = ""${action}"";
+    assertEquals (mapper.defaultActionName, mapper.cleanupActionName (actionName));
+    actionName = ""${${%{action}}}"";
+    assertEquals (mapper.defaultActionName, mapper.cleanupActionName (actionName));
+    actionName = ""${#foo='action',#foo}"";
+    assertEquals (mapper.defaultActionName, mapper.cleanupActionName (actionName));
+    actionName = ""test-action"";
+    assertEquals (""test-action"", mapper.cleanupActionName (actionName));
+    actionName = ""test_action"";
+    assertEquals (""test_action"", mapper.cleanupActionName (actionName));
+    actionName = ""test!bar.action"";
+    assertEquals (""test!bar.action"", mapper.cleanupActionName (actionName));
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java:397-407,junit5,test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java,397,407,11.0,2,2,2,T3,"void usesStandardIncludePatternWhenIncludeClassNamePatternsAnnotationIsPresentWithoutArguments () {
+    @IncludeClassNamePatterns
+    class TestCase {
+
+    }
+    var request = instantiateRunnerAndCaptureGeneratedRequest (TestCase.class);
+    var filters = request.getFiltersByType (ClassNameFilter.class);
+    assertThat (getOnlyElement (filters).toString ()).contains (STANDARD_INCLUDE_PATTERN);
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/collection/spi/PersistentCollection.java:262-271,hibernate-orm,main/java/org/hibernate/collection/spi/PersistentCollection.java,262,271,10.0,2,2,2,T3,"default boolean includeInInsert (Object entry, int entryPosition, PersistentCollection < ? > collection, PluralAttributeMapping attributeDescriptor) {
+    assert collection == this;
+    assert attributeDescriptor != null;
+    return needsInserting (entry, entryPosition, attributeDescriptor.getCollectionDescriptor ().getElementType ());
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/dialect/type/PostgreSQLStructCastingJdbcType.java:68-97,hibernate-orm,main/java/org/hibernate/dialect/type/PostgreSQLStructCastingJdbcType.java,68,97,30.0,2,2,1,T3,"public < X > ValueBinder < X > getBinder (JavaType < X > javaType) {
+    return new BasicBinder < > (javaType, this) {
+        @Override
+        protected void doBind (PreparedStatement st, X value, int index, WrapperOptions options) throws SQLException {
+            final String stringValue = ((PostgreSQLStructCastingJdbcType) getJdbcType ()).toString (value, getJavaType (), options);
+            st.setString (index, stringValue);
+        }@Override
+        protected void doBind (CallableStatement st, X value, String name, WrapperOptions options) throws SQLException {
+            final String stringValue = ((PostgreSQLStructCastingJdbcType) getJdbcType ()).toString (value, getJavaType (), options);
+            st.setString (name, stringValue);
+        }@Override
+        public Object getBindValue (X value, WrapperOptions options) throws SQLException {
+            return ((PostgreSQLStructCastingJdbcType) getJdbcType ()).getBindValue (value, options);
+        }
+    }
+    ;
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/conversion/impl/AnnotationXWorkConverterTest.java:100-119,struts,test/java/org/apache/struts2/conversion/impl/AnnotationXWorkConverterTest.java,100,119,20.0,2,2,1,T3,"public void testFieldErrorMessageAddedForComplexProperty () {
+    SimpleAnnotationAction action = new SimpleAnnotationAction ();
+    action.setBean (new AnnotatedTestBean ());
+    ValueStack stack = ActionContext.getContext ().getValueStack ();
+    stack.push (action);
+    Map < String, Object > ognlStackContext = stack.getContext ();
+    ognlStackContext.put (XWorkConverter.REPORT_CONVERSION_ERRORS, Boolean.TRUE);
+    ognlStackContext.put (XWorkConverter.CONVERSION_PROPERTY_FULLNAME, ""bean.birth"");
+    String [] value = new String [] {""invalid date""};
+    assertEquals (""Conversion should have failed."", OgnlRuntime.NoConversionPossible, converter.convertValue (ognlStackContext, action.getBean (), null, ""birth"", value, Date.class));
+    stack.pop ();
+    Map < String, ConversionData > conversionErrors = stack.getActionContext ().getConversionErrors ();
+    assertNotNull (conversionErrors);
+    assertEquals (1, conversionErrors.size ());
+    assertEquals (value, conversionErrors.get (""bean.birth"").getValue ());
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java:804-824,struts,test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java,804,824,21.0,0,2,1,T3,"public void testFutureLessOneYear () throws Exception {
+    Date now = new Date ();
+    Calendar future = Calendar.getInstance ();
+    future.setTime (now);
+    future.add (Calendar.HOUR, 40 * 24);
+    future.add (Calendar.SECOND, 5);
+    context.put (""myDate"", future.getTime ());
+    tag.setName (""myDate"");
+    tag.setNice (true);
+    tag.doStartTag ();
+    tag.doEndTag ();
+    assertEquals (""in 40 days"", writer.toString ());
+    DateTag freshTag = new DateTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/TooltipTest.java:743-803,struts,test/java/org/apache/struts2/views/jsp/ui/TooltipTest.java,743,803,61.0,1,2,0,T3,"public void testUsingParamValueToSetConfigurations () throws Exception {
+    FormTag formTag = new FormTag ();
+    formTag.setName (""myForm"");
+    formTag.setPageContext (pageContext);
+    formTag.setId (""myFormId"");
+    formTag.setAction (""testAction"");
+    ParamTag formParamTag = new ParamTag ();
+    formParamTag.setPageContext (pageContext);
+    formParamTag.setName (""tooltipConfig"");
+    formParamTag.setValue (""#{"" + ""'tooltipIcon':'/static/tooltip/myTooltip.gif', "" + ""'tooltipDelay':'500', "" + ""'jsTooltipEnabled':'true' "" + ""}"");
+    TextFieldTag tag = new TextFieldTag ();
+    tag.setPageContext (pageContext);
+    tag.setLabel (""MyLabel"");
+    tag.setId (""myId"");
+    tag.setTooltip (""myTooltip"");
+    ParamTag textFieldParamTag = new ParamTag ();
+    textFieldParamTag.setPageContext (pageContext);
+    textFieldParamTag.setName (""tooltipConfig"");
+    textFieldParamTag.setValue (""#{"" + ""'tooltipIcon':'/static/tooltip/myTooltip2.gif', "" + ""'tooltipDelay':'5000' "" + ""}"");
+    formTag.doStartTag ();
+    formParamTag.doStartTag ();
+    formParamTag.doEndTag ();
+    tag.doStartTag ();
+    textFieldParamTag.doStartTag ();
+    textFieldParamTag.doEndTag ();
+    tag.doEndTag ();
+    formTag.doEndTag ();
+    verify (TooltipTest.class.getResource (""tooltip-3.txt""));
+    TextFieldTag freshTag = new TextFieldTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+    FormTag freshFormTag = new FormTag ();
+    freshFormTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (formTag, freshFormTag));
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java:623-636,junit5,test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java,623,636,14.0,2,2,2,T3,"void doubleNestedTestResolutionFromClass () {
+    ClassSelector selector = selectClass (TestCaseWithNesting.NestedTestCase.DoubleNestedTestCase.class);
+    resolve (request ().selectors (selector));
+    List < UniqueId > uniqueIds = uniqueIds ();
+    assertThat (uniqueIds).hasSize (4);
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.class));
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.NestedTestCase.class));
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.NestedTestCase.DoubleNestedTestCase.class));
+    assertThat (uniqueIds).contains (uniqueIdForMethod (TestCaseWithNesting.NestedTestCase.DoubleNestedTestCase.class, ""testC()""));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/TextfieldTest.java:141-166,struts,test/java/org/apache/struts2/views/jsp/ui/TextfieldTest.java,141,166,26.0,2,2,1,T3,"public void testNoLabelJsp_clearTagStateSet () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    TextFieldTag tag = new TextFieldTag ();
+    tag.setPerformClearTagStateForTagPoolingServers (true);
+    tag.setPageContext (pageContext);
+    tag.setName (""myname"");
+    tag.setValue (""%{foo}"");
+    tag.setSize (""10"");
+    tag.setOnblur (""blahescape('somevalue');"");
+    tag.doStartTag ();
+    setComponentTagClearTagState (tag, true);
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Textfield-3.txt""));
+    TextFieldTag freshTag = new TextFieldTag ();
+    freshTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java:300-320,junit5,test/java/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutorTests.java,300,320,21.0,2,2,2,T3,"void exceptionInCleanUp () throws Exception {
+    var cleanUpException = new RuntimeException (""in cleanUp()"");
+    doThrow (cleanUpException).when (root).cleanUp (rootContext);
+    executor.execute ();
+    var rootExecutionResult = ArgumentCaptor.forClass (TestExecutionResult.class);
+    var inOrder = inOrder (listener, root);
+    inOrder.verify (root).prepare (rootContext);
+    inOrder.verify (root).shouldBeSkipped (rootContext);
+    inOrder.verify (listener).executionStarted (root);
+    inOrder.verify (root).execute (eq (rootContext), any ());
+    inOrder.verify (root).after (rootContext);
+    inOrder.verify (root).cleanUp (rootContext);
+    inOrder.verify (listener).executionFinished (eq (root), rootExecutionResult.capture ());
+    inOrder.verifyNoMoreInteractions ();
+    assertThat (rootExecutionResult.getValue ().getStatus ()).isEqualTo (FAILED);
+    assertThat (rootExecutionResult.getValue ().getThrowable ()).containsSame (cleanUpException);
+    assertThat (cleanUpException.getSuppressed ()).isEmpty ();
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java:169-179,junit5,test/java/org/junit/platform/engine/support/store/NamespacedHierarchicalStoreTests.java,169,179,11.0,2,2,2,T3,"void getWithTypeSafetyAndInvalidRequiredTypeThrowsException () {
+    Integer key = 42;
+    String value = ""enigma"";
+    store.put (namespace, key, value);
+    Exception exception = assertThrows (NamespacedHierarchicalStoreException.class, () -> store.get (namespace, key, Number.class));
+    assertEquals (""Object stored under key [42] is not of required type [java.lang.Number], but was [java.lang.String]: enigma"", exception.getMessage ());
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/TextfieldTest.java:832-858,struts,test/java/org/apache/struts2/views/jsp/ui/TextfieldTest.java,832,858,27.0,2,2,0,T3,"public void testErrorPositionTopCssXhtmlTheme () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    TextFieldTag tag = new TextFieldTag ();
+    tag.setPageContext (pageContext);
+    tag.setId (""myId"");
+    tag.setLabel (""mylabel"");
+    tag.setName (""foo"");
+    tag.setValue (""bar"");
+    tag.setTitle (""mytitle"");
+    tag.setErrorPosition (""top"");
+    tag.setTheme (""css_xhtml"");
+    testAction.addFieldError (""foo"", ""bar error message"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Textfield-11.txt""));
+    TextFieldTag freshTag = new TextFieldTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/dialect/function/array/HSQLArraySetFunction.java:24-43,hibernate-orm,main/java/org/hibernate/dialect/function/array/HSQLArraySetFunction.java,24,43,20.0,2,2,2,T3,"public void render (SqlAppender sqlAppender, List < ? extends SqlAstNode > sqlAstArguments, ReturnableType < ? > returnType, SqlAstTranslator < ? > walker) {
+    final Expression arrayExpression = (Expression) sqlAstArguments.get (0);
+    final Expression indexExpression = (Expression) sqlAstArguments.get (1);
+    final Expression elementExpression = (Expression) sqlAstArguments.get (2);
+    sqlAppender.append (""(select array_agg(case when i.idx="");
+    indexExpression.accept (walker);
+    sqlAppender.append ("" then "");
+    elementExpression.accept (walker);
+    sqlAppender.append ("" else t.val end) from unnest(sequence_array(1,greatest(cardinality("");
+    arrayExpression.accept (walker);
+    sqlAppender.append (""),"");
+    indexExpression.accept (walker);
+    sqlAppender.append (""),1)) i(idx) left join unnest("");
+    arrayExpression.accept (walker);
+    sqlAppender.append ("") with ordinality t(val, idx) on i.idx=t.idx)"");
+}"
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/views/jsp/ui/FormTag.java:57-73,struts,main/java/org/apache/struts2/views/jsp/ui/FormTag.java,57,73,17.0,2,2,2,T3,"protected void populateParams () {
+    super.populateParams ();
+    Form form = ((Form) component);
+    form.setAction (action);
+    form.setTarget (target);
+    form.setEnctype (enctype);
+    form.setMethod (method);
+    form.setNamespace (namespace);
+    form.setValidate (validate);
+    form.setOnreset (onreset);
+    form.setOnsubmit (onsubmit);
+    form.setPortletMode (portletMode);
+    form.setWindowState (windowState);
+    form.setAcceptcharset (acceptcharset);
+    form.setFocusElement (focusElement);
+    form.setIncludeContext (includeContext);
+}"
+systems/Projects/struts-main/plugins/tiles/src/test/java/org/apache/tiles/ognl/TilesContextPropertyAccessorDelegateFactoryTest.java:118-135,struts,test/java/org/apache/tiles/ognl/TilesContextPropertyAccessorDelegateFactoryTest.java,118,135,18.0,2,2,1,T3,"public void testGetPropertyAccessorSessionScope () {
+    PropertyAccessor objectPropertyAccessor = createMock (PropertyAccessor.class);
+    PropertyAccessor applicationContextPropertyAccessor = createMock (PropertyAccessor.class);
+    PropertyAccessor requestScopePropertyAccessor = createMock (PropertyAccessor.class);
+    PropertyAccessor sessionScopePropertyAccessor = createMock (PropertyAccessor.class);
+    PropertyAccessor applicationScopePropertyAccessor = createMock (PropertyAccessor.class);
+    Request request = createMock (Request.class);
+    replay (objectPropertyAccessor, applicationContextPropertyAccessor, requestScopePropertyAccessor, sessionScopePropertyAccessor, applicationScopePropertyAccessor, request);
+    PropertyAccessorDelegateFactory < Request > factory = new TilesContextPropertyAccessorDelegateFactory (objectPropertyAccessor, applicationContextPropertyAccessor, requestScopePropertyAccessor, sessionScopePropertyAccessor);
+    assertEquals (requestScopePropertyAccessor, factory.getPropertyAccessor (""attribute"", request));
+    verify (objectPropertyAccessor, applicationContextPropertyAccessor, requestScopePropertyAccessor, sessionScopePropertyAccessor, applicationScopePropertyAccessor, request);
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java:86-95,junit5,test/java/org/junit/platform/suite/commons/SuiteLauncherDiscoveryRequestBuilderTests.java,86,95,10.0,2,2,2,T3,"void configurationParameter () {
+    @ConfigurationParameter (key = ""com.example"", value = ""*"")
+    class Suite {
+
+    }
+    LauncherDiscoveryRequest request = builder.applyConfigurationParametersFromSuite (Suite.class).build ();
+    ConfigurationParameters configuration = request.getConfigurationParameters ();
+    Optional < String > parameter = configuration.get (""com.example"");
+    assertEquals (Optional.of (""*""), parameter);
+}"
+systems/Projects/struts-main/plugins/tiles/src/main/java/org/apache/tiles/request/servlet/ServletRequest.java:243-257,struts,main/java/org/apache/tiles/request/servlet/ServletRequest.java,243,257,15.0,2,2,1,T3,"public void doInclude (String path) throws IOException {
+    RequestDispatcher rd = request.getRequestDispatcher (path);
+    if (rd == null) {
+        throw new IOException (""No request dispatcher returned for path '"" + path + ""'"");
+    }
+    try {
+        rd.include (request, response);
+    } catch (ServletException ex) {
+        throw ServletUtil.wrapServletException (ex, ""ServletException including path '"" + path + ""'."");
+    }
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/result/StreamResultTest.java:191-215,struts,test/java/org/apache/struts2/result/StreamResultTest.java,191,215,25.0,2,2,2,T3,"public void testStreamResultParse2 () throws Exception {
+    result.setParse (true);
+    result.setInputName (""streamForImage"");
+    result.setBufferSize (128);
+    result.setContentLength (String.valueOf (contentLength));
+    result.setContentDisposition (""filename=\""logo.png\"""");
+    result.setContentType (""image/jpeg"");
+    result.doExecute (""helloworld"", mai);
+    assertEquals (String.valueOf (contentLength), result.getContentLength ());
+    assertEquals (""image/jpeg"", result.getContentType ());
+    assertEquals (""streamForImage"", result.getInputName ());
+    assertEquals (128, result.getBufferSize ());
+    assertEquals (""filename=\""logo.png\"""", result.getContentDisposition ());
+    assertEquals (""image/jpeg"", response.getContentType ());
+    assertEquals (contentLength, response.getContentLength ());
+    assertEquals (""filename=\""logo.png\"""", response.getHeader (""Content-disposition""));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java:1412-1470,struts,test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java,1412,1470,59.0,2,2,1,T3,"public void testFormTagForStackOverflowException2_clearTagStateSet () throws Exception {
+    withRequestPath (""/requestUri"");
+    FormTag form1 = new FormTag ();
+    form1.setPerformClearTagStateForTagPoolingServers (true);
+    form1.setPageContext (pageContext);
+    form1.doStartTag ();
+    setComponentTagClearTagState (form1, true);
+    assertEquals (form1.getComponent ().getComponentStack ().size (), 1);
+    FormTag form2 = new FormTag ();
+    form2.setPerformClearTagStateForTagPoolingServers (true);
+    form2.setPageContext (pageContext);
+    form2.doStartTag ();
+    setComponentTagClearTagState (form2, true);
+    assertEquals (form2.getComponent ().getComponentStack ().size (), 2);
+    ActionTag tag = new ActionTag ();
+    tag.setPerformClearTagStateForTagPoolingServers (true);
+    tag.setPageContext (pageContext);
+    tag.setName (""testAction"");
+    tag.doStartTag ();
+    setComponentTagClearTagState (tag, true);
+    assertEquals (tag.getComponent ().getComponentStack ().size (), 3);
+    tag.doEndTag ();
+    assertEquals (form2.getComponent ().getComponentStack ().size (), 2);
+    form2.doEndTag ();
+    assertEquals (form1.getComponent ().getComponentStack ().size (), 1);
+    form1.doEndTag ();
+    assertNull (form1.getComponent ());
+    FormTag freshFormTag = new FormTag ();
+    freshFormTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshFormTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (form1, freshFormTag));
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (form2, freshFormTag));
+    ActionTag freshTag = new ActionTag ();
+    freshTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/plugins/tiles/src/main/java/org/apache/tiles/web/jsp/taglib/SetCurrentContainerTag.java:68-79,struts,main/java/org/apache/tiles/web/jsp/taglib/SetCurrentContainerTag.java,68,79,12.0,1,2,0,T3,"public void doTag () throws JspException, IOException {
+    AutotagRuntime < org.apache.tiles.request.Request > runtime = new org.apache.tiles.request.jsp.autotag.JspAutotagRuntime ();
+    if (runtime instanceof SimpleTagSupport) {
+        SimpleTagSupport tag = (SimpleTagSupport) runtime;
+        tag.setJspContext (getJspContext ());
+        tag.setJspBody (getJspBody ());
+        tag.setParent (getParent ());
+        tag.doTag ();
+    }
+    org.apache.tiles.request.Request request = runtime.createRequest ();
+    model.execute (containerKey, request);
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/sql/results/jdbc/internal/AbstractResultSetAccess.java:31-45,hibernate-orm,main/java/org/hibernate/sql/results/jdbc/internal/AbstractResultSetAccess.java,31,45,15.0,2,2,2,T3,"protected ResultSetMetaData getMetaData () {
+    if (resultSetMetaData == null) {
+        try {
+            resultSetMetaData = getResultSet ().getMetaData ();
+        } catch (SQLException e) {
+            throw persistenceContext.getJdbcServices ().getSqlExceptionHelper ().convert (e, ""Unable to access ResultSetMetaData"");
+        }
+    }
+    return resultSetMetaData;
+}"
+systems/Projects/SolidLeaning/fitnesse/src/fitnesse/testsystems/slim/SlimCommandRunningClient.java:167-180,fitnesse,fitnesse/testsystems/slim/SlimCommandRunningClient.java,167,180,14.0,1,2,1,T3,"public Map < String, Object > invokeAndGetResponse (List < Instruction > statements) throws SlimCommunicationException {
+    if (statements.isEmpty ()) return Collections.emptyMap ();
+    String instructions = SlimSerializer.serialize (new SlimListBuilder (slimServerVersion).toList (statements));
+    String results;
+    try {
+        SlimStreamReader.sendSlimMessage (writer, instructions);
+        results = reader.getSlimMessage ();
+    } catch (IOException e) {
+        throw new SlimCommunicationException (""Could not send/receive data with SUT"", e);
+    }
+    List < Object > resultList = SlimDeserializer.deserialize (results);
+    return resultToMap (resultList);
+}"
+systems/Projects/struts-main/plugins/tiles/src/test/java/org/apache/tiles/core/definition/dao/ResolvingLocaleUrlDefinitionDAOTest.java:301-332,struts,test/java/org/apache/tiles/core/definition/dao/ResolvingLocaleUrlDefinitionDAOTest.java,301,332,32.0,1,2,1,T3,"public void testWildcardMapping () {
+    List < ApplicationResource > urls = new ArrayList < > ();
+    urls.add (urlWildcard);
+    definitionDao.setSources (urls);
+    definitionDao.setReader (new DigesterDefinitionsReader ());
+    Definition definition = definitionDao.getDefinition (""test.defName.subLayered"", Locale.ITALY);
+    assertEquals (""The template is not correct"", ""/testName.jsp"", definition.getTemplateAttribute ().getValue ());
+    assertEquals (""The header attribute is not correct"", ""/common/headerLayered.jsp"", definition.getAttribute (""header"").getValue ());
+    definition = definitionDao.getDefinition (""test.defName.subLayered"", Locale.ITALIAN);
+    assertEquals (""The template is not correct"", ""/testName.jsp"", definition.getTemplateAttribute ().getValue ());
+    assertEquals (""The header attribute is not correct"", ""/common/headerLayered.jsp"", definition.getAttribute (""header"").getValue ());
+    definition = definitionDao.getDefinition (""test.defName.subLayered"", null);
+    assertEquals (""The template is not correct"", ""/testName.jsp"", definition.getTemplateAttribute ().getValue ());
+    assertEquals (""The header attribute is not correct"", ""/common/headerLayered.jsp"", definition.getAttribute (""header"").getValue ());
+    definition = definitionDao.getDefinition (""test.defName.noAttribute"", null);
+    assertEquals (""/testName.jsp"", definition.getTemplateAttribute ().getValue ());
+    assertNull (definition.getLocalAttributeNames ());
+    definition = definitionDao.getDefinition (""test.def3"", null);
+    assertNotNull (""The simple definition is null"", definition);
+    definition = definitionDao.getDefinition (""test.extended.defName.subLayered"", null);
+    assertEquals (""test.defName.subLayered"", definition.getExtends ());
+    assertEquals (ATTRIBUTE_NAMES_COUNT, definition.getLocalAttributeNames ().size ());
+    assertEquals (""The template is not correct"", ""/testName.jsp"", definition.getTemplateAttribute ().getValue ());
+    assertEquals (""Overridden Title"", definition.getAttribute (""title"").getValue ());
+    assertEquals (""The header attribute is not correct"", ""/common/headerLayered.jsp"", definition.getAttribute (""header"").getValue ());
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/extension/ExtensionRegistryTests.java:187-201,junit5,test/java/org/junit/jupiter/engine/extension/ExtensionRegistryTests.java,187,201,15.0,2,2,2,T3,"void registeringSameExtensionImplementationInParentAndChildDoesNotResultInDuplicate () {
+    MutableExtensionRegistry parent = registry;
+    parent.registerExtension (MyExtension.class);
+    assertEquals (1, countExtensions (parent, MyExtensionApi.class));
+    MutableExtensionRegistry child = createRegistryFrom (parent, Stream.of (MyExtension.class, YourExtension.class));
+    assertExtensionRegistered (child, MyExtension.class);
+    assertExtensionRegistered (child, YourExtension.class);
+    assertEquals (2, countExtensions (child, MyExtensionApi.class));
+    ExtensionRegistry grandChild = createRegistryFrom (child, Stream.of (MyExtension.class, YourExtension.class));
+    assertExtensionRegistered (grandChild, MyExtension.class);
+    assertExtensionRegistered (grandChild, YourExtension.class);
+    assertEquals (2, countExtensions (grandChild, MyExtensionApi.class));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/sql/ast/spi/ExpressionReplacementWalker.java:477-492,hibernate-orm,main/java/org/hibernate/sql/ast/spi/ExpressionReplacementWalker.java,477,492,16.0,2,2,1,T3,"public void visitRelationalPredicate (ComparisonPredicate comparisonPredicate) {
+    final Expression lhs = replaceExpression (comparisonPredicate.getLeftHandExpression ());
+    final Expression rhs = replaceExpression (comparisonPredicate.getRightHandExpression ());
+    if (lhs != comparisonPredicate.getLeftHandExpression () || rhs != comparisonPredicate.getRightHandExpression ()) {
+        returnedNode = new ComparisonPredicate (lhs, comparisonPredicate.getOperator (), rhs, comparisonPredicate.getExpressionType ());
+    }
+    else {
+        returnedNode = comparisonPredicate;
+    }
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/dispatcher/DispatcherTest.java:473-495,struts,test/java/org/apache/struts2/dispatcher/DispatcherTest.java,473,495,23.0,2,2,1,T3,"public void testGetLocale_With_BadDefaultLocale_RequestLocale_en_UK () {
+    HttpServletRequest request = mock (HttpServletRequest.class);
+    MockHttpSession mockHttpSession = new MockHttpSession ();
+    when (request.getCharacterEncoding ()).thenReturn (UTF_8.name ());
+    when (request.getHeader (""X-Requested-With"")).thenReturn ("""");
+    when (request.getParameterMap ()).thenReturn (emptyMap ());
+    when (request.getSession (anyBoolean ())).thenReturn (mockHttpSession);
+    when (request.getLocale ()).thenReturn (Locale.UK);
+    HttpServletResponse response = new MockHttpServletResponse ();
+    initDispatcher (new HashMap < String, String > () {
+
+        {
+            put (StrutsConstants.STRUTS_I18N_ENCODING, UTF_8.name ());
+            put (StrutsConstants.STRUTS_LOCALE, ""This_is_not_a_valid_Locale_string"");
+        }
+
+    }
+    );
+    dispatcher.prepare (request, response);
+    ActionContext context = ActionContext.of (createTestContextMap (dispatcher, request, response));
+    assertEquals (Locale.UK, context.getLocale ());
+}"
+systems/Projects/struts-main/plugins/tiles/src/test/java/org/apache/tiles/core/definition/pattern/BasicPatternDefinitionResolverTest.java:46-77,struts,test/java/org/apache/tiles/core/definition/pattern/BasicPatternDefinitionResolverTest.java,46,77,32.0,2,2,1,T3,"public void testAddDefinitionsAsPatternMatchers () {
+    DefinitionPatternMatcherFactory factory = createMock (DefinitionPatternMatcherFactory.class);
+    PatternRecognizer recognizer = createMock (PatternRecognizer.class);
+    DefinitionPatternMatcher firstMatcher = createMock (DefinitionPatternMatcher.class);
+    DefinitionPatternMatcher thirdMatcher = createMock (DefinitionPatternMatcher.class);
+    expect (recognizer.isPatternRecognized (""first"")).andReturn (true);
+    expect (recognizer.isPatternRecognized (""second"")).andReturn (false);
+    expect (recognizer.isPatternRecognized (""third"")).andReturn (true);
+    Definition firstDefinition = new Definition (""first"", null, null);
+    Definition secondDefinition = new Definition (""second"", null, null);
+    Definition thirdDefinition = new Definition (""third"", null, null);
+    expect (factory.createDefinitionPatternMatcher (""first"", firstDefinition)).andReturn (firstMatcher);
+    expect (factory.createDefinitionPatternMatcher (""third"", thirdDefinition)).andReturn (thirdMatcher);
+    replay (factory, recognizer, firstMatcher, thirdMatcher);
+    BasicPatternDefinitionResolver < Integer > resolver = new BasicPatternDefinitionResolver < > (factory, recognizer);
+    Map < String, Definition > localeDefsMap = new LinkedHashMap < > ();
+    localeDefsMap.put (""first"", firstDefinition);
+    localeDefsMap.put (""second"", secondDefinition);
+    localeDefsMap.put (""third"", thirdDefinition);
+    List < DefinitionPatternMatcher > matchers = new ArrayList < > ();
+    resolver.addDefinitionsAsPatternMatchers (matchers, localeDefsMap);
+    assertEquals (2, matchers.size ());
+    assertEquals (firstMatcher, matchers.get (0));
+    assertEquals (thirdMatcher, matchers.get (1));
+    verify (factory, recognizer, firstMatcher, thirdMatcher);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/interceptor/CspInterceptorTest.java:48-59,struts,test/java/org/apache/struts2/interceptor/CspInterceptorTest.java,48,59,12.0,2,2,2,T3,"public void test_whenRequestReceived_thenNonceIsSetInSession_andCspHeaderContainsIt () throws Exception {
+    String reportUri = ""/barfoo"";
+    boolean reporting = false;
+    interceptor.setReportUri (reportUri);
+    interceptor.setEnforcingMode (reporting);
+    interceptor.intercept (mai);
+    assertNotNull (""Nonce key does not exist"", session.getAttribute (""nonce""));
+    assertFalse (""Nonce value is empty"", Strings.isEmpty ((String) session.getAttribute (""nonce"")));
+    checkHeader (reportUri, reporting);
+}"
+systems/Projects/SolidLeaning/fitnesse/src/fitnesse/slim/instructions/CallAndOptionalAssignInstruction.java:36-46,fitnesse,fitnesse/slim/instructions/CallAndOptionalAssignInstruction.java,36,46,11.0,2,2,2,T3,"public String toString () {
+    final StringBuilder sb = new StringBuilder ();
+    sb.append (""{id='"").append (getId ()).append ('\'');
+    sb.append ("", instruction='"").append (instructionName).append ('\'');
+    symbolName.ifPresent (sn -> sb.append ("", symbolName='"").append (sn).append ('\''));
+    sb.append ("", instanceName='"").append (instanceName).append ('\'');
+    sb.append ("", methodName='"").append (methodName).append ('\'');
+    sb.append ("", args="").append (Arrays.toString (args));
+    sb.append ('}');
+    return sb.toString ();
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/dispatcher/mapper/RestfulActionMapperTest.java:57-67,struts,test/java/org/apache/struts2/dispatcher/mapper/RestfulActionMapperTest.java,57,67,11.0,2,2,2,T3,"public void testGetUriParamId () {
+    Map < String, Object > param = new HashMap < > ();
+    param.put (""article"", ""123"");
+    param.put (""viewId"", ""456"");
+    ActionMapping am = new ActionMapping ();
+    am.setName (""view"");
+    am.setNamespace (""secure"");
+    am.setParams (param);
+    assertEquals (""secureview/456"", mapper.getUriFromActionMapping (am));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java:133-146,struts,test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java,133,146,14.0,1,2,2,T3,"public void testCustomGlobalFormatFormat () throws Exception {
+    String format = ""yyyy/MM/dd hh:mm:ss"";
+    LocalDateTime now = LocalDateTime.now ();
+    String formatted = DateTimeFormatter.ofPattern (format).format (now);
+    context.put (""myDate"", now);
+    ((TestAction) action).setText (org.apache.struts2.components.Date.DATETAG_PROPERTY, format);
+    tag.setName (""myDate"");
+    tag.setNice (false);
+    tag.doStartTag ();
+    tag.doEndTag ();
+    assertEquals (formatted, writer.toString ());
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java:824-852,junit5,test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java,824,852,29.0,2,2,1,T3,"void logsNonCriticalIssuesForExecutionFailure (@TrackLogRecords
+LogRecordListener listener) {
+    var result = execute (new TestEngineStub (""engine-id"") {
+        @Override
+        public TestDescriptor discover (EngineDiscoveryRequest discoveryRequest, UniqueId uniqueId) {
+            var listener = discoveryRequest.getDiscoveryListener ();
+            listener.issueEncountered (uniqueId, DiscoveryIssue.create (Severity.INFO, ""info""));
+            return new EngineDescriptor (uniqueId, ""Engine"");
+        }@Override
+        public void execute (ExecutionRequest request) {
+            throw new RuntimeException (""boom"");
+        }
+    }
+    );
+    assertThat (result.testIdentifier ().getDisplayName ()).isEqualTo (""Engine"");
+    assertThat (result.testExecutionResult ().getThrowable ().orElseThrow ()).hasMessage (""TestEngine with ID 'engine-id' failed to execute tests"").cause ().hasMessage (""boom"");
+    var logRecord = findFirstDiscoveryIssueLogRecord (listener, Level.INFO);
+    assertThat (logRecord.getMessage ()).startsWith (""TestEngine with ID 'engine-id' encountered a non-critical issue during test discovery"").contains (""(1) [INFO] info"");
+    assertThat (logRecord.getInstant ()).isBetween (result.startTime (), result.finishTime ());
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/model/relational/SqlStringGenerationContext.java:131-141,hibernate-orm,main/java/org/hibernate/boot/model/relational/SqlStringGenerationContext.java,131,141,11.0,2,2,1,T3,"default QualifiedSequenceName withDefaults (QualifiedSequenceName name) {
+    if (name.getCatalogName () == null && getDefaultCatalog () != null || name.getSchemaName () == null && getDefaultSchema () != null) {
+        return new QualifiedSequenceName (catalogWithDefault (name.getCatalogName ()), schemaWithDefault (name.getSchemaName ()), name.getSequenceName ());
+    }
+    return name;
+}"
+systems/Projects/struts-main/plugins/json/src/test/java/org/apache/struts2/json/JSONPopulatorTest.java:166-175,struts,test/java/org/apache/struts2/json/JSONPopulatorTest.java,166,175,10.0,2,2,1,T3,"public void testInfiniteLoop () throws JSONException {
+    try {
+        JSONReader reader = new JSONReader ();
+        reader.read (""[1,\""a]"");
+        fail (""Should have thrown an exception"");
+    } catch (JSONException e) {
+    }
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java:265-279,junit5,test/java/org/junit/jupiter/api/AssertThrowsExactlyAssertionsTests.java,265,279,15.0,2,2,1,T3,"void assertThrowsWithExecutableThatThrowsInstanceOfStaticNestedClassAsUnexpectedException () {
+    try {
+        assertThrowsExactly (IllegalStateException.class, () -> {
+            throw new LocalException ();
+        });
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageStartsWith (ex, ""Unexpected exception type thrown, "");
+        assertMessageContains (ex, ""expected: <java.lang.IllegalStateException>"");
+        assertMessageContains (ex, ""but was: <"" + LocalException.class.getName ().replace (""$"", ""."") + "">"");
+        assertThat (ex).hasCauseExactlyInstanceOf (LocalException.class);
+    }
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/validator/validators/RequiredStringValidatorTest.java:107-127,struts,test/java/org/apache/struts2/validator/validators/RequiredStringValidatorTest.java,107,127,21.0,2,2,0,T3,"public void testRequiredStringFails () throws Exception {
+    ValueStack valueStack = ActionContext.getContext ().getValueStack ();
+    ValidationAction action = new ValidationAction ();
+    valueStack.push (action);
+    ValidatorContext context = new DummyValidatorContext (action, tpf);
+    RequiredStringValidator validator = new RequiredStringValidator ();
+    validator.setValidatorContext (context);
+    validator.setFieldName (""stringValue"");
+    validator.setValueStack (valueStack);
+    validator.setDefaultMessage (""Field ${fieldName} is required"");
+    validator.validate (action);
+    assertTrue (context.getFieldErrors ().size () == 1);
+    assertEquals (context.getFieldErrors ().get (""stringValue"").get (0), ""Field stringValue is required"");
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java:299-321,struts,test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java,299,321,23.0,2,2,1,T3,"public void testImageSimple () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    SubmitTag tag = new SubmitTag ();
+    tag.setPageContext (pageContext);
+    tag.setType (""image"");
+    tag.setName (""myname"");
+    tag.setValue (""%{foo}"");
+    tag.setDisabled (""true"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Submit-5.txt""));
+    SubmitTag freshTag = new SubmitTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/AnchorTest.java:262-277,struts,test/java/org/apache/struts2/views/jsp/ui/AnchorTest.java,262,277,16.0,2,2,1,T3,"public void testSimpleWithBodyNotHTMLEscaped () throws Exception {
+    createAction ();
+    AnchorTag tag = createTag ();
+    tag.setHref (""a"");
+    tag.setEscapeHtmlBody (""false"");
+    StrutsBodyContent body = new StrutsBodyContent (null);
+    body.print (""should not HTML escape: < & >"");
+    tag.setBodyContent (body);
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verifyResource (""href-5.txt"");
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/URLTagTest.java:215-289,struts,test/java/org/apache/struts2/views/jsp/URLTagTest.java,215,289,75.0,0,2,1,T3,"public void testParametersPriority_clearTagStateSet () throws Exception {
+    request.setQueryString (""id1=urlId1&id2=urlId2&urlParam1=urlValue1&urlParam2=urlValue2"");
+    tag.setPerformClearTagStateForTagPoolingServers (true);
+    tag.setValue (""testAction.action?id1=tagId1&id2=tagId2&tagId=tagValue"");
+    ParamTag param1 = new ParamTag ();
+    param1.setPerformClearTagStateForTagPoolingServers (true);
+    param1.setPageContext (pageContext);
+    param1.setName (""param1"");
+    param1.setValue (""%{'param1value'}"");
+    ParamTag param2 = new ParamTag ();
+    param2.setPerformClearTagStateForTagPoolingServers (true);
+    param2.setPageContext (pageContext);
+    param2.setName (""param2"");
+    param2.setValue (""%{'param2value'}"");
+    ParamTag param3 = new ParamTag ();
+    param3.setPerformClearTagStateForTagPoolingServers (true);
+    param3.setPageContext (pageContext);
+    param3.setName (""id1"");
+    param3.setValue (""%{'paramId1'}"");
+    tag.doStartTag ();
+    setComponentTagClearTagState (tag, true);
+    param1.doStartTag ();
+    setComponentTagClearTagState (param1, true);
+    param1.doEndTag ();
+    param2.doStartTag ();
+    setComponentTagClearTagState (param2, true);
+    param2.doEndTag ();
+    param3.doStartTag ();
+    setComponentTagClearTagState (param3, true);
+    param3.doEndTag ();
+    URL url = (URL) tag.getComponent ();
+    Map parameters = url.getAttributes ();
+    assertNotNull (parameters);
+    assertEquals (parameters.size (), 7);
+    assertEquals (parameters.get (""id1""), ""paramId1"");
+    assertEquals (parameters.get (""id2""), ""tagId2"");
+    assertEquals (parameters.get (""urlParam1""), ""urlValue1"");
+    assertEquals (parameters.get (""urlParam2""), ""urlValue2"");
+    assertEquals (parameters.get (""tagId""), ""tagValue"");
+    assertEquals (parameters.get (""param1""), ""param1value"");
+    assertEquals (parameters.get (""param2""), ""param2value"");
+    tag.doEndTag ();
+    ParamTag freshParamTag = new ParamTag ();
+    freshParamTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshParamTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (param1, freshParamTag));
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (param2, freshParamTag));
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (param3, freshParamTag));
+    URLTag freshTag = new URLTag ();
+    freshTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/resource/transaction/backend/jta/internal/JtaTransactionAdapterTransactionManagerImpl.java:68-83,hibernate-orm,main/java/org/hibernate/resource/transaction/backend/jta/internal/JtaTransactionAdapterTransactionManagerImpl.java,68,83,16.0,1,2,2,T3,"public void rollback () {
+    try {
+        if (initiator) {
+            initiator = false;
+            log.trace (""Calling TransactionManager#rollback"");
+            transactionManager.rollback ();
+            log.trace (""Called TransactionManager#rollback"");
+        }
+        else {
+            markRollbackOnly ();
+        }
+    } catch (Exception e) {
+        throw new TransactionException (""JTA TransactionManager#rollback failed"", e);
+    }
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/IteratorGeneratorTagTest.java:200-237,struts,test/java/org/apache/struts2/views/jsp/IteratorGeneratorTagTest.java,200,237,38.0,1,2,1,T3,"public void testGeneratorWithConverter () throws Exception {
+    IteratorGeneratorTag tag = new IteratorGeneratorTag ();
+    tag.setPageContext (pageContext);
+    tag.setVal (""%{'aaa, bbb, ccc, ddd, eee'}"");
+    tag.setConverter (""myConverter"");
+    tag.doStartTag ();
+    Object topOfStack = stack.findValue (""top"");
+    tag.doEndTag ();
+    Object afterTopOfStack = stack.findValue (""top"");
+    assertTrue (topOfStack instanceof Iterator);
+    assertTrue (((Iterator) topOfStack).hasNext ());
+    assertEquals (((Iterator) topOfStack).next (), ""myConverter-aaa"");
+    assertTrue (((Iterator) topOfStack).hasNext ());
+    assertEquals (((Iterator) topOfStack).next (), ""myConverter-bbb"");
+    assertTrue (((Iterator) topOfStack).hasNext ());
+    assertEquals (((Iterator) topOfStack).next (), ""myConverter-ccc"");
+    assertTrue (((Iterator) topOfStack).hasNext ());
+    assertEquals (((Iterator) topOfStack).next (), ""myConverter-ddd"");
+    assertTrue (((Iterator) topOfStack).hasNext ());
+    assertEquals (((Iterator) topOfStack).next (), ""myConverter-eee"");
+    assertFalse (((Iterator) topOfStack).hasNext ());
+    assertNotSame (afterTopOfStack, topOfStack);
+    IteratorGeneratorTag freshTag = new IteratorGeneratorTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/NumberTagTest.java:85-109,struts,test/java/org/apache/struts2/views/jsp/NumberTagTest.java,85,109,25.0,1,2,1,T3,"public void testSimpleCurrencyUSFormat () throws Exception {
+    context = ActionContext.of (context).withLocale (Locale.US).getContextMap ();
+    TestAction testAction = (TestAction) action;
+    testAction.setFloatNumber (120.0f);
+    NumberTag tag = new NumberTag ();
+    tag.setPageContext (pageContext);
+    tag.setName (""floatNumber"");
+    tag.setType (""currency"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    assertEquals (""$120.00"", writer.toString ());
+    NumberTag freshTag = new NumberTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/interceptor/parameter/ParametersInterceptorTest.java:814-849,struts,test/java/org/apache/struts2/interceptor/parameter/ParametersInterceptorTest.java,814,849,36.0,1,2,1,T3,"public void testAcceptedParametersValuesAreIgnored () throws Exception {
+    ParametersInterceptor pi = createParametersInterceptor ();
+    pi.setAcceptedValuePatterns (""^\\$\\{foo\\}.*,^%\\{bar\\}.*,^fooValue"");
+    assertTrue (""${foo} was allowed by isParamValueAccepted"", pi.isParamValueAccepted (""${foo}""));
+    final Map < String, Object > actual = injectValueStackFactory (pi);
+    ValueStack stack = injectValueStack (actual);
+    final Map < String, Object > expected = new HashMap < String, Object > () {
+
+        {
+            put (""fooKey"", ""fooValue"");
+            put (""fooKey2"", """");
+            put (""allowedKey"", ""${foo}"");
+            put (""allowedKey2"", ""%{bar}"");
+        }
+
+    }
+    ;
+    Map < String, Object > parameters = new HashMap < String, Object > () {
+
+        {
+            put (""barKey$"", ""${2+2}"");
+            put (""barKey2$"", ""foo${2+2}"");
+            put (""barKey3$"", ""foo${2+2}foo"");
+            put (""barKey%"", ""%{2+2}"");
+            put (""barKey2%"", ""foo%{2+2}"");
+            put (""barKey3%"", ""foo%{2+2}foo"");
+            put (""allowedKey"", ""${foo}"");
+            put (""allowedKey2"", ""%{bar}"");
+            put (""fooKey"", ""fooValue"");
+            put (""fooKey2"", """");
+        }
+
+    }
+    ;
+    pi.applyParameters (new NoParametersAction (), stack, HttpParameters.create (parameters).build ());
+    assertEquals (expected, actual);
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java:410-420,junit5,test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java,410,420,11.0,2,2,2,T3,"void doesNotAddClassNameFilterWhenIncludeClassNamePatternsAnnotationIsPresentWithEmptyArguments () {
+    @IncludeClassNamePatterns ({})
+    class TestCase {
+
+    }
+    var request = instantiateRunnerAndCaptureGeneratedRequest (TestCase.class);
+    var filters = request.getFiltersByType (ClassNameFilter.class);
+    assertThat (filters).isEmpty ();
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java:320-330,junit5,test/java/org/junit/platform/runner/JUnitPlatformRunnerTests.java,320,330,11.0,2,2,2,T3,"void addsDefaultClassNameFilterToRequestWhenFilterClassNameAnnotationIsNotPresentOnTestSuite () {
+    @SelectPackages (""foo"")
+    class TestCase {
+
+    }
+    var request = instantiateRunnerAndCaptureGeneratedRequest (TestCase.class);
+    var filters = request.getFiltersByType (ClassNameFilter.class);
+    assertThat (getOnlyElement (filters).toString ()).contains (STANDARD_INCLUDE_PATTERN);
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java:757-785,junit5,test/java/org/junit/platform/launcher/core/DefaultLauncherTests.java,757,785,29.0,1,2,1,T3,"void logsNonCriticalIssuesForRegularEngineExecution (@TrackLogRecords
+LogRecordListener listener) {
+    var result = execute (new TestEngineStub (""engine-id"") {
+        @Override
+        public TestDescriptor discover (EngineDiscoveryRequest discoveryRequest, UniqueId uniqueId) {
+            var listener = discoveryRequest.getDiscoveryListener ();
+            listener.issueEncountered (uniqueId, DiscoveryIssue.create (Severity.INFO, ""info""));
+            return new EngineDescriptor (uniqueId, ""Engine"");
+        }@Override
+        public void execute (ExecutionRequest request) {
+            var executionListener = request.getEngineExecutionListener ();
+            var engineDescriptor = request.getRootTestDescriptor ();
+            executionListener.executionStarted (engineDescriptor);
+            executionListener.executionFinished (engineDescriptor, successful ());
+        }
+    }
+    );
+    assertThat (result.testIdentifier ().getDisplayName ()).isEqualTo (""Engine"");
+    assertThat (result.testExecutionResult ().getStatus ()).isEqualTo (Status.SUCCESSFUL);
+    var logRecord = findFirstDiscoveryIssueLogRecord (listener, Level.INFO);
+    assertThat (logRecord.getMessage ()).startsWith (""TestEngine with ID 'engine-id' encountered a non-critical issue during test discovery"").contains (""(1) [INFO] info"");
+    assertThat (logRecord.getInstant ()).isBetween (result.startTime (), result.finishTime ());
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java:294-333,struts,test/java/org/apache/struts2/interceptor/CookieInterceptorTest.java,294,333,40.0,2,2,0,T3,"public void testInterceptSelectedCookiesNameAndValue () throws Exception {
+    MockHttpServletRequest request = new MockHttpServletRequest ();
+    request.setCookies (new Cookie (""cookie1"", ""cookie1value""), new Cookie (""cookie2"", ""cookie2value""), new Cookie (""cookie3"", ""cookie3value""));
+    ServletActionContext.setRequest (request);
+    MockActionWithCookieAware action = new MockActionWithCookieAware ();
+    ActionContext.getContext ().getValueStack ().push (action);
+    ActionInvocation invocation = (ActionInvocation) createMock (ActionInvocation.class);
+    expect (invocation.getAction ()).andReturn (action);
+    expect (invocation.invoke ()).andReturn (Action.SUCCESS);
+    replay (invocation);
+    CookieInterceptor interceptor = new CookieInterceptor ();
+    interceptor.setExcludedPatternsChecker (new DefaultExcludedPatternsChecker ());
+    interceptor.setAcceptedPatternsChecker (new DefaultAcceptedPatternsChecker ());
+    interceptor.setCookiesName (""cookie1, cookie3"");
+    interceptor.setCookiesValue (""cookie1value"");
+    interceptor.intercept (invocation);
+    assertFalse (action.getCookiesMap ().isEmpty ());
+    assertEquals (action.getCookiesMap ().size (), 1);
+    assertEquals (action.getCookiesMap ().get (""cookie1""), ""cookie1value"");
+    assertEquals (action.getCookiesMap ().get (""cookie2""), null);
+    assertEquals (action.getCookiesMap ().get (""cookie3""), null);
+    assertEquals (action.getCookie1 (), ""cookie1value"");
+    assertEquals (action.getCookie2 (), null);
+    assertEquals (action.getCookie3 (), null);
+    assertEquals (ActionContext.getContext ().getValueStack ().findValue (""cookie1""), ""cookie1value"");
+    assertEquals (ActionContext.getContext ().getValueStack ().findValue (""cookie2""), null);
+    assertEquals (ActionContext.getContext ().getValueStack ().findValue (""cookie3""), null);
+    verify (invocation);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/validator/validators/DateRangeFieldValidatorTest.java:66-78,struts,test/java/org/apache/struts2/validator/validators/DateRangeFieldValidatorTest.java,66,78,13.0,2,2,1,T3,"public void testMaxValidation () throws Exception {
+    ValidationAction action = prepareAction (createDate (2014, Calendar.APRIL, 4));
+    ValidatorContext context = new DummyValidatorContext (action, tpf);
+    DateRangeFieldValidator validator = prepareValidator (action, context);
+    validator.validate (action);
+    assertEquals (1, context.getFieldErrors ().size ());
+    assertEquals (""Max is 12.12.13, min is 01.01.13 but value is 04.04.14"", context.getFieldErrors ().get (""dateRange"").get (0));
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/dialect/lock/PessimisticReadUpdateLockingStrategy.java:123-134,hibernate-orm,main/java/org/hibernate/dialect/lock/PessimisticReadUpdateLockingStrategy.java,123,134,12.0,2,2,1,T3,"protected String generateLockString () {
+    final SessionFactoryImplementor factory = lockable.getFactory ();
+    final Update update = new Update (factory);
+    update.setTableName (lockable.getRootTableName ());
+    update.addAssignment (lockable.getVersionColumnName ());
+    update.addRestriction (lockable.getRootTableIdentifierColumnNames ());
+    update.addRestriction (lockable.getVersionColumnName ());
+    if (factory.getSessionFactoryOptions ().isCommentsEnabled ()) {
+        update.setComment (lockMode + "" lock "" + lockable.getEntityName ());
+    }
+    return update.toStatementString ();
+}"
+systems/Projects/struts-main/plugins/bean-validation/src/test/java/org/apache/struts/beanvalidation/BeanValidationInterceptorTest.java:107-119,struts,test/java/org/apache/struts/beanvalidation/BeanValidationInterceptorTest.java,107,119,13.0,2,2,2,T3,"public void testModelDrivenActionSkipValidationByInterface () throws Exception {
+    ActionProxy baseActionProxy = actionProxyFactory.createActionProxy (""bean-validation"", ""modelDrivenActionSkipValidationByInterface"", null, null);
+    ModelDrivenAction action = (ModelDrivenAction) baseActionProxy.getAction ();
+    action.getModel ().setName (null);
+    action.getModel ().setEmail (null);
+    action.getModel ().getAddress ().setStreet (null);
+    baseActionProxy.execute ();
+    Map < String, List < String > > fieldErrors = ((ValidationAware) baseActionProxy.getAction ()).getFieldErrors ();
+    assertNotNull (fieldErrors);
+    assertEquals (0, fieldErrors.size ());
+}"
+systems/Projects/SolidLeaning/fitnesse/src/fitnesse/wiki/fs/WikiPageProperties.java:44-53,fitnesse,fitnesse/wiki/fs/WikiPageProperties.java,44,53,10.0,2,2,2,T3,"public void loadFromXmlStream (InputStream inputStream) {
+    Document document;
+    try {
+        document = XmlUtil.newDocument (inputStream);
+    } catch (Exception e) {
+        throw new WikiPageLoadException (""Unable to parse XML from stream"", e);
+    }
+    Element root = document.getDocumentElement ();
+    loadFromRootElement (root);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/IteratorTagTest.java:652-661,struts,test/java/org/apache/struts2/views/jsp/IteratorTagTest.java,652,661,10.0,2,2,2,T3,"public void testEmptyCollection () {
+    Foo foo = new Foo ();
+    foo.setList (new ArrayList < > ());
+    stack.push (foo);
+    tag.setValue (""list"");
+    validateSkipBody ();
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/model/naming/ImplicitNamingStrategyJpaCompliantImpl.java:200-209,hibernate-orm,main/java/org/hibernate/boot/model/naming/ImplicitNamingStrategyJpaCompliantImpl.java,200,209,10.0,2,2,2,T3,"public Identifier determineForeignKeyName (ImplicitForeignKeyNameSource source) {
+    final Identifier userProvidedIdentifier = source.getUserProvidedIdentifier ();
+    final MetadataBuildingContext buildingContext = source.getBuildingContext ();
+    return userProvidedIdentifier != null ? userProvidedIdentifier : toIdentifier (NamingHelper.withCharset (buildingContext.getBuildingOptions ().getSchemaCharset ()).generateHashedFkName (""FK"", source.getTableName (), source.getReferencedTableName (), source.getColumnNames ()), buildingContext);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java:1090-1116,struts,test/java/org/apache/struts2/views/jsp/ui/FormTagTest.java,1090,1116,27.0,1,2,1,T3,"public void testFormTagWithDifferentActionExtension () throws Exception {
+    initDispatcher (new HashMap < String, String > () {
+
+        {
+            put (StrutsConstants.STRUTS_ACTION_EXTENSION, ""jspa"");
+            put (""configProviders"", TestConfigurationProvider.class.getName ());
+        }
+
+    }
+    );
+    createMocks ();
+    request.setServletPath (""/testNamespace/testNamespaceAction"");
+    FormTag tag = new FormTag ();
+    tag.setPageContext (pageContext);
+    tag.setNamespace (""/testNamespace"");
+    tag.setAction (""testNamespaceAction"");
+    tag.setMethod (""post"");
+    tag.setName (""myForm"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (FormTag.class.getResource (""Formtag-5.txt""));
+    FormTag freshTag = new FormTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/junit5-main/junit-platform-commons/src/main/java/org/junit/platform/commons/util/ReflectionUtils.java:1715-1727,junit5,main/java/org/junit/platform/commons/util/ReflectionUtils.java,1715,1727,13.0,2,2,2,T3,"public static Stream < Method > streamMethods (Class < ? > clazz, Predicate < Method > predicate, HierarchyTraversalMode traversalMode) {
+    Preconditions.notNull (clazz, ""Class must not be null"");
+    Preconditions.notNull (predicate, ""Predicate must not be null"");
+    Preconditions.notNull (traversalMode, ""HierarchyTraversalMode must not be null"");
+    return findAllMethodsInHierarchy (clazz, traversalMode).stream ().filter (predicate).distinct ();
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java:273-284,junit5,test/java/org/junit/jupiter/api/AssertEqualsAssertionsTests.java,273,284,12.0,2,2,2,T3,"void assertEqualsFloat () {
+    assertEquals (1.0f, 1.0f);
+    assertEquals (1.0f, 1.0f, ""message"");
+    assertEquals (1.0f, 1.0f, () -> ""message"");
+    assertEquals (Float.NaN, Float.NaN);
+    assertEquals (Float.NEGATIVE_INFINITY, Float.NEGATIVE_INFINITY);
+    assertEquals (Float.POSITIVE_INFINITY, Float.POSITIVE_INFINITY);
+    assertEquals (Float.MIN_VALUE, Float.MIN_VALUE);
+    assertEquals (Float.MAX_VALUE, Float.MAX_VALUE);
+    assertEquals (Float.MIN_NORMAL, Float.MIN_NORMAL);
+    assertEquals (Double.NaN, Float.NaN);
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java:571-586,junit5,test/java/org/junit/jupiter/engine/discovery/DiscoverySelectorResolverTests.java,571,586,16.0,2,2,2,T3,"void nestedTestResolutionFromBaseClass () {
+    ClassSelector selector = selectClass (TestCaseWithNesting.class);
+    resolve (request ().selectors (selector));
+    List < UniqueId > uniqueIds = uniqueIds ();
+    assertThat (uniqueIds).hasSize (6);
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.class));
+    assertThat (uniqueIds).contains (uniqueIdForMethod (TestCaseWithNesting.class, ""testA()""));
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.NestedTestCase.class));
+    assertThat (uniqueIds).contains (uniqueIdForMethod (TestCaseWithNesting.NestedTestCase.class, ""testB()""));
+    assertThat (uniqueIds).contains (uniqueIdForClass (TestCaseWithNesting.NestedTestCase.DoubleNestedTestCase.class));
+    assertThat (uniqueIds).contains (uniqueIdForMethod (TestCaseWithNesting.NestedTestCase.DoubleNestedTestCase.class, ""testC()""));
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java:203-214,junit5,test/java/org/junit/jupiter/engine/discovery/predicates/TestClassPredicatesTests.java,203,214,12.0,2,2,1,T3,"void privateStaticTestClassEvaluatesToFalse () {
+    var candidate = TestCases.PrivateStaticTestCase.class;
+    assertTrue (predicates.looksLikeIntendedTestClass (candidate));
+    assertFalse (predicates.isValidStandaloneTestClass (candidate));
+    var notPrivateIssue = DiscoveryIssue.builder (Severity.WARNING, ""Test class '%s' must not be private. It will not be executed."".formatted (candidate.getName ())).source (ClassSource.from (candidate)).build ();
+    assertThat (discoveryIssues).containsExactly (notPrivateIssue);
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/IfTagTest.java:44-77,struts,test/java/org/apache/struts2/views/jsp/IfTagTest.java,44,77,34.0,2,2,1,T3,"public void testNonBooleanTest () {
+    Foo foo = new Foo ();
+    foo.setNum (1);
+    stack.push (foo);
+    tag.setTest (""num"");
+    int result = 0;
+    try {
+        result = tag.doStartTag ();
+    } catch (JspException e) {
+        e.printStackTrace ();
+        fail ();
+    }
+    assertEquals (TagSupport.EVAL_BODY_INCLUDE, result);
+    try {
+        result = tag.doEndTag ();
+    } catch (JspException e) {
+        e.printStackTrace ();
+        fail ();
+    }
+    IfTag freshTag = new IfTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", objectsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java:403-427,struts,test/java/org/apache/struts2/views/jsp/ui/SubmitTest.java,403,427,25.0,2,2,1,T3,"public void testSimpleThemeImageUsingActionAndMethod () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setFoo (""bar"");
+    SubmitTag tag = new SubmitTag ();
+    tag.setPageContext (pageContext);
+    tag.setTheme (""simple"");
+    tag.setType (""button"");
+    tag.setName (""myname"");
+    tag.setLabel (""mylabel"");
+    tag.setAction (""manager"");
+    tag.setMethod (""update"");
+    tag.doStartTag ();
+    tag.doEndTag ();
+    verify (TextFieldTag.class.getResource (""Submit-7.txt""));
+    SubmitTag freshTag = new SubmitTag ();
+    freshTag.setPageContext (pageContext);
+    assertFalse (""Tag state after doEndTag() under default tag clear state is equal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java:851-860,junit5,test/java/org/junit/platform/commons/util/ReflectionUtilsTests.java,851,860,10.0,2,2,2,T3,"void tryToLoadClassForBinaryPrimitiveArrayName () {
+    assertTryToLoadClass (""[Z"", boolean [].class);
+    assertTryToLoadClass (""[C"", char [].class);
+    assertTryToLoadClass (""[B"", byte [].class);
+    assertTryToLoadClass (""[S"", short [].class);
+    assertTryToLoadClass (""[I"", int [].class);
+    assertTryToLoadClass (""[J"", long [].class);
+    assertTryToLoadClass (""[F"", float [].class);
+    assertTryToLoadClass (""[D"", double [].class);
+}"
+systems/Projects/struts-main/plugins/json/src/test/java/org/apache/struts2/json/JSONEnumTest.java:76-124,struts,test/java/org/apache/struts2/json/JSONEnumTest.java,76,124,49.0,1,2,0,T3,"public void testEnumAsBean () throws Exception {
+    Bean bean1 = new Bean ();
+    bean1.setStringField (""str"");
+    bean1.setBooleanField (true);
+    bean1.setCharField ('s');
+    bean1.setDoubleField (10.1);
+    bean1.setFloatField (1.5f);
+    bean1.setIntField (10);
+    bean1.setLongField (100);
+    bean1.setEnumField (AnEnum.ValueA);
+    bean1.setEnumBean (AnEnumBean.Two);
+    JSONWriter jsonWriter = new DefaultJSONWriter ();
+    jsonWriter.setEnumAsBean (true);
+    String json = jsonWriter.write (bean1);
+    Map result = (Map) JSONUtil.deserialize (json);
+    assertEquals (""str"", result.get (""stringField""));
+    assertEquals (true, result.get (""booleanField""));
+    assertEquals (""s"", result.get (""charField""));
+    assertEquals (10.1, result.get (""doubleField""));
+    assertEquals (1.5, result.get (""floatField""));
+    assertEquals (10L, result.get (""intField""));
+    Map enumBean1 = (Map) result.get (""enumField"");
+    assertNotNull (enumBean1);
+    assertEquals (AnEnum.ValueA, AnEnum.valueOf ((String) enumBean1.get (""_name"")));
+    Map enumBean2 = (Map) result.get (""enumBean"");
+    assertEquals (AnEnumBean.Two, AnEnumBean.valueOf ((String) enumBean2.get (""_name"")));
+    assertEquals (AnEnumBean.Two.getPropA (), (String) enumBean2.get (""propA""));
+    assertEquals (AnEnumBean.Two.getPropB (), (String) enumBean2.get (""propB""));
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/HiddenTest.java:225-253,struts,test/java/org/apache/struts2/views/jsp/ui/HiddenTest.java,225,253,29.0,2,2,1,T3,"public void testDynamicAttributesWithStack_clearTagStateSet () throws Exception {
+    TestAction testAction = (TestAction) action;
+    testAction.setId (27357L);
+    HiddenTag tag = new HiddenTag ();
+    tag.setPerformClearTagStateForTagPoolingServers (true);
+    tag.setPageContext (pageContext);
+    tag.setId (""einszwei"");
+    tag.setName (""first"");
+    tag.setValue (""%{id}"");
+    tag.setDynamicAttribute ("""", ""data-wuffmiauww"", ""%{id}"");
+    tag.doStartTag ();
+    setComponentTagClearTagState (tag, true);
+    tag.doEndTag ();
+    assertSame (stack.pop (), testAction);
+    assertNotSame (stack.pop (), tag);
+    verify (TextFieldTag.class.getResource (""Hidden-3.txt""));
+    HiddenTag freshTag = new HiddenTag ();
+    freshTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/junit5-main/platform-tests/src/test/java/org/junit/platform/launcher/core/LauncherDiscoveryRequestBuilderTests.java:346-357,junit5,test/java/org/junit/platform/launcher/core/LauncherDiscoveryRequestBuilderTests.java,346,357,12.0,2,2,2,T3,"void configurationParametersResource_lastDeclaredResourceFileWins () {
+    var discoveryRequest = request ().configurationParametersResources (""config-test.properties"").configurationParametersResources (""config-test-override.properties"").build ();
+    var configParams = discoveryRequest.getConfigurationParameters ();
+    assertThat (configParams.get (""com.example.prop.first"")).contains (""first value from override file"");
+    assertThat (configParams.get (""com.example.prop.second"")).contains (""second value"");
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java:779-802,struts,test/java/org/apache/struts2/views/jsp/ui/DateTagTest.java,779,802,24.0,1,2,1,T3,"public void testFutureLessOneHour_clearTagStateSet () throws Exception {
+    Date now = new Date ();
+    Calendar future = Calendar.getInstance ();
+    future.setTime (now);
+    future.add (Calendar.MINUTE, 36);
+    future.add (Calendar.SECOND, 5);
+    context.put (""myDate"", future.getTime ());
+    tag.setPerformClearTagStateForTagPoolingServers (true);
+    tag.setName (""myDate"");
+    tag.setNice (true);
+    tag.doStartTag ();
+    setComponentTagClearTagState (tag, true);
+    tag.doEndTag ();
+    assertEquals (""in 36 minutes"", writer.toString ());
+    DateTag freshTag = new DateTag ();
+    freshTag.setPerformClearTagStateForTagPoolingServers (true);
+    freshTag.setPageContext (pageContext);
+    assertTrue (""Tag state after doEndTag() and explicit tag state clearing is inequal to new Tag with pageContext/parent set.  "" + ""May indicate that clearTagStateForTagPoolingServers() calls are not working properly."", strutsBodyTagsAreReflectionEqual (tag, freshTag));
+}"
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/validator/validators/ConditionalVisitorFieldValidator.java:85-104,struts,main/java/org/apache/struts2/validator/validators/ConditionalVisitorFieldValidator.java,85,104,20.0,1,2,2,T3,"public boolean validateExpression (Object object) throws ValidationException {
+    Boolean answer = Boolean.FALSE;
+    Object obj = null;
+    try {
+        obj = getFieldValue (expression, object);
+    } catch (ValidationException e) {
+        throw e;
+    } catch (Exception e) {
+    }
+    if (obj instanceof Boolean) {
+        answer = (Boolean) obj;
+    }
+    else {
+        LOG.warn (""Got result of {} when trying to get Boolean."", obj);
+    }
+    return answer;
+}"
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/result/ServletRedirectResultTest.java:81-94,struts,test/java/org/apache/struts2/result/ServletRedirectResultTest.java,81,94,14.0,2,2,2,T3,"public void testFullUrlRedirect () {
+    view.setLocation (""http://localhost/bar/foo.jsp"");
+    responseMock.expectAndReturn (""encodeRedirectURL"", C.args (C.eq (""http://localhost/bar/foo.jsp"")), ""http://localhost/bar/foo.jsp"");
+    responseMock.expect (""sendRedirect"", C.args (C.eq (""http://localhost/bar/foo.jsp"")));
+    try {
+        view.execute (ai);
+        requestMock.verify ();
+        responseMock.verify ();
+    } catch (Exception e) {
+        e.printStackTrace ();
+        fail ();
+    }
+}"
+systems/Projects/junit5-main/jupiter-tests/src/test/java/org/junit/jupiter/api/AssertArrayEqualsAssertionsTests.java:1745-1763,junit5,test/java/org/junit/jupiter/api/AssertArrayEqualsAssertionsTests.java,1745,1763,19.0,2,2,2,T3,"void assertArrayEqualsObjectArrayVsNullAndMessageSupplier () {
+    try {
+        assertArrayEquals (null, new Object [] {42, ""42"", new float [] {42F}, 42D}, () -> ""message"");
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageStartsWith (ex, ""message"");
+        assertMessageEndsWith (ex, ""expected array was <null>"");
+    }
+    try {
+        assertArrayEquals (new Object [] {new Object [] {""a""}, new Object ()}, null, () -> ""message"");
+        expectAssertionFailedError ();
+    } catch (AssertionFailedError ex) {
+        assertMessageStartsWith (ex, ""message"");
+        assertMessageEndsWith (ex, ""actual array was <null>"");
+    }
+}"
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/boot/model/process/internal/InferredBasicValueResolution.java:30-43,hibernate-orm,main/java/org/hibernate/boot/model/process/internal/InferredBasicValueResolution.java,30,43,14.0,2,2,2,T3,"public InferredBasicValueResolution (JdbcMapping jdbcMapping, JavaType < J > domainJtd, JavaType < T > relationalJtd, JdbcType jdbcType, BasicType < J > legacyType, MutabilityPlan < J > mutabilityPlan) {
+    this.jdbcMapping = jdbcMapping;
+    this.legacyType = legacyType;
+    this.domainJtd = domainJtd;
+    this.relationalJtd = relationalJtd;
+    this.jdbcType = jdbcType;
+    this.mutabilityPlan = mutabilityPlan == null ? domainJtd.getMutabilityPlan () : mutabilityPlan;
+}"

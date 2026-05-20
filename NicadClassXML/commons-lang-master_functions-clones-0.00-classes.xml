@@ -1,0 +1,249 @@
+<clones>
+<systeminfo processor="nicad6" system="commons-lang-master" granularity="functions" threshold="0%" minlines="5" maxlines="2500"/>
+<cloneinfo npcs="9590" npairs="100"/>
+<runinfo ncompares="900284" cputime="57526"/>
+<classinfo nclasses="44"/>
+
+<class classid="1" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/main/java/org/apache/commons/lang3/Functions.java" startline="523" endline="530" pcid="256"></source>
+<source file="systems/NicadRun/commons-lang-master/src/main/java/org/apache/commons/lang3/function/Failable.java" startline="410" endline="417" pcid="2452"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/main/java/org/apache/commons/lang3/stream/Streams.java" startline="233" endline="237" pcid="1086"></source>
+<source file="systems/NicadRun/commons-lang-master/src/main/java/org/apache/commons/lang3/Streams.java" startline="195" endline="199" pcid="1670"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/StreamsTest.java" startline="48" endline="55" pcid="4276"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/stream/StreamsTest.java" startline="50" endline="57" pcid="5263"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/StreamsTest.java" startline="57" endline="64" pcid="4277"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/stream/StreamsTest.java" startline="59" endline="66" pcid="5264"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/StreamsTest.java" startline="66" endline="71" pcid="4278"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/stream/StreamsTest.java" startline="68" endline="73" pcid="5265"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/StreamsTest.java" startline="179" endline="186" pcid="4285"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/stream/StreamsTest.java" startline="261" endline="268" pcid="5286"></source>
+</class>
+
+<class classid="7" nclones="3" nlines="11" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="133" endline="143" pcid="4292"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="148" endline="158" pcid="8095"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="132" endline="142" pcid="9203"></source>
+</class>
+
+<class classid="8" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="155" endline="159" pcid="4294"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="170" endline="174" pcid="8097"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="154" endline="158" pcid="9205"></source>
+</class>
+
+<class classid="9" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="172" endline="178" pcid="4297"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="187" endline="193" pcid="8100"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="171" endline="177" pcid="9208"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="236" endline="249" pcid="4304"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="251" endline="264" pcid="8107"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="235" endline="248" pcid="9215"></source>
+</class>
+
+<class classid="11" nclones="3" nlines="15" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="279" endline="311" pcid="4307"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="278" endline="310" pcid="9218"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="294" endline="326" pcid="8110"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="11" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="360" endline="371" pcid="4310"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="375" endline="386" pcid="8113"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/DoubleRangeTest.java" startline="359" endline="370" pcid="9221"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/IntegerRangeTest.java" startline="406" endline="412" pcid="4315"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/LongRangeTest.java" startline="421" endline="427" pcid="8118"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java" startline="783" endline="789" pcid="4392"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/time/DateFormatUtilsTest.java" startline="165" endline="171" pcid="4448"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerFailableCloserTest.java" startline="53" endline="61" pcid="4950"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerCloserTest.java" startline="44" endline="52" pcid="5033"></source>
+</class>
+
+<class classid="16" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerSimpleTest.java" startline="51" endline="56" pcid="4954"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerSingleInstanceTest.java" startline="60" endline="65" pcid="5084"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerAnonClassTest.java" startline="45" endline="50" pcid="5037"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="15" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java" startline="69" endline="84" pcid="4958"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerSupplierTest.java" startline="67" endline="82" pcid="5020"></source>
+</class>
+
+<class classid="18" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java" startline="74" endline="79" pcid="4959"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/AtomicInitializerObjectTest.java" startline="51" endline="56" pcid="5015"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerSupplierTest.java" startline="72" endline="77" pcid="5021"></source>
+</class>
+
+<class classid="19" nclones="4" nlines="7" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="49" endline="56" pcid="5857"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="49" endline="56" pcid="6423"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java" startline="444" endline="451" pcid="6187"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java" startline="77" endline="84" pcid="6017"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="59" endline="68" pcid="5858"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="59" endline="68" pcid="6424"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="76" endline="85" pcid="5860"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="76" endline="85" pcid="6426"></source>
+</class>
+
+<class classid="22" nclones="5" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="88" endline="92" pcid="5861"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java" startline="92" endline="96" pcid="6019"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="88" endline="92" pcid="6427"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java" startline="701" endline="705" pcid="6216"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/StandardToStringStyleTest.java" startline="165" endline="169" pcid="6455"></source>
+</class>
+
+<class classid="23" nclones="5" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="95" endline="102" pcid="5862"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java" startline="99" endline="106" pcid="6020"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java" startline="95" endline="102" pcid="6412"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java" startline="708" endline="715" pcid="6217"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="95" endline="102" pcid="6428"></source>
+</class>
+
+<class classid="24" nclones="5" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="105" endline="112" pcid="5863"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java" startline="718" endline="725" pcid="6218"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="105" endline="112" pcid="6429"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java" startline="109" endline="116" pcid="6021"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java" startline="105" endline="112" pcid="6413"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="115" endline="120" pcid="5864"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="115" endline="120" pcid="6430"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="123" endline="132" pcid="5865"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="123" endline="132" pcid="6431"></source>
+</class>
+
+<class classid="27" nclones="5" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java" startline="135" endline="142" pcid="5866"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/RecursiveToStringStyleTest.java" startline="140" endline="147" pcid="6023"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java" startline="135" endline="142" pcid="6432"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java" startline="135" endline="142" pcid="6416"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java" startline="746" endline="753" pcid="6220"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java" startline="77" endline="86" pcid="5924"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java" startline="45" endline="54" pcid="6321"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java" startline="175" endline="184" pcid="5937"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java" startline="82" endline="91" pcid="6327"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="65" endline="69" pcid="7009"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="71" endline="75" pcid="9024"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="95" endline="100" pcid="7014"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="101" endline="106" pcid="9029"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="126" endline="130" pcid="7019"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="132" endline="136" pcid="9034"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="168" endline="172" pcid="7027"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="174" endline="178" pcid="9042"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="178" endline="183" pcid="7029"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="184" endline="189" pcid="9044"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="189" endline="194" pcid="7031"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="195" endline="200" pcid="9046"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="200" endline="205" pcid="7033"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="206" endline="211" pcid="9048"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="211" endline="216" pcid="7035"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="217" endline="222" pcid="9050"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="222" endline="227" pcid="7037"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="228" endline="233" pcid="9052"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="245" endline="250" pcid="7041"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="240" endline="245" pcid="9054"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="262" endline="266" pcid="7044"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="257" endline="261" pcid="9057"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="268" endline="272" pcid="7045"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="263" endline="267" pcid="9058"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/function/FailableFunctionsTest.java" startline="274" endline="278" pcid="7046"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/FunctionsTest.java" startline="269" endline="273" pcid="9059"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/tuple/PairTest.java" startline="150" endline="157" pcid="8603"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/tuple/PairTest.java" startline="182" endline="189" pcid="8608"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/reflect/ConstructorUtilsTest.java" startline="143" endline="150" pcid="8731"></source>
+<source file="systems/NicadRun/commons-lang-master/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java" startline="431" endline="438" pcid="8924"></source>
+</class>
+
+</clones>

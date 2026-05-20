@@ -1,0 +1,363 @@
+<clones>
+<systeminfo processor="nicad6" system="selenium-trunk" granularity="functions" threshold="0%" minlines="5" maxlines="2500"/>
+<cloneinfo npcs="9625" npairs="112"/>
+<runinfo ncompares="1235564" cputime="53866"/>
+<classinfo nclasses="67"/>
+
+<class classid="1" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/MutableCapabilities.java" startline="129" endline="134" pcid="99"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/PersistentCapabilities.java" startline="110" endline="115" pcid="129"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/ImmutableCapabilities.java" startline="175" endline="180" pcid="2431"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/safari/SafariDriverService.java" startline="109" endline="115" pcid="481"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/safari/SafariTechPreviewDriverService.java" startline="110" endline="116" pcid="517"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/safari/SafariDriverService.java" startline="156" endline="162" pcid="486"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/safari/SafariTechPreviewDriverService.java" startline="158" endline="164" pcid="522"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="11" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/firefox/FirefoxDriver.java" startline="261" endline="281" pcid="646"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/chromium/ChromiumDriver.java" startline="332" endline="352" pcid="5203"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/edge/EdgeDriverService.java" startline="206" endline="212" pcid="918"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/chrome/ChromeDriverService.java" startline="212" endline="218" pcid="1707"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/edge/EdgeDriverService.java" startline="220" endline="226" pcid="919"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/chrome/ChromeDriverService.java" startline="226" endline="232" pcid="1708"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/By.java" startline="447" endline="453" pcid="975"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/remote/codec/w3c/W3CHttpCommandCodec.java" startline="394" endline="400" pcid="2997"></source>
+</class>
+
+<class classid="8" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/support/ui/ExpectedConditions.java" startline="463" endline="469" pcid="1041"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/support/ui/ExpectedConditions.java" startline="543" endline="549" pcid="1050"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/support/ui/ExpectedConditions.java" startline="516" endline="522" pcid="1047"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/interactions/WheelInput.java" startline="125" endline="131" pcid="1610"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/interactions/PointerInput.java" startline="259" endline="265" pcid="1657"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Target.java" startline="49" endline="73" pcid="2008"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Target.java" startline="49" endline="73" pcid="2344"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Target.java" startline="49" endline="73" pcid="2097"></source>
+</class>
+
+<class classid="11" nclones="3" nlines="25" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Network.java" startline="116" endline="161" pcid="2023"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Network.java" startline="116" endline="161" pcid="2382"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Network.java" startline="116" endline="161" pcid="2089"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="11" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Network.java" startline="185" endline="203" pcid="2027"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Network.java" startline="185" endline="203" pcid="2386"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Network.java" startline="185" endline="203" pcid="2093"></source>
+</class>
+
+<class classid="13" nclones="3" nlines="11" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Network.java" startline="206" endline="224" pcid="2028"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Network.java" startline="206" endline="224" pcid="2387"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Network.java" startline="206" endline="224" pcid="2094"></source>
+</class>
+
+<class classid="14" nclones="3" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Events.java" startline="64" endline="74" pcid="2034"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Events.java" startline="64" endline="74" pcid="2393"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Events.java" startline="64" endline="74" pcid="2076"></source>
+</class>
+
+<class classid="15" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Log.java" startline="43" endline="57" pcid="2038"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Log.java" startline="43" endline="57" pcid="2351"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Log.java" startline="43" endline="57" pcid="2103"></source>
+</class>
+
+<class classid="16" nclones="3" nlines="14" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Log.java" startline="59" endline="76" pcid="2039"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Log.java" startline="59" endline="76" pcid="2352"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Log.java" startline="59" endline="76" pcid="2104"></source>
+</class>
+
+<class classid="17" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v133/v133Log.java" startline="78" endline="84" pcid="2040"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v134/v134Log.java" startline="78" endline="84" pcid="2105"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/v135/v135Log.java" startline="78" endline="84" pcid="2353"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/idealized/Network.java" startline="301" endline="309" pcid="2178"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/devtools/NetworkInterceptor.java" startline="106" endline="114" pcid="2418"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/sessionmap/remote/RemoteSessionMap.java" startline="67" endline="73" pcid="3494"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/sessionqueue/remote/RemoteNewSessionQueue.java" startline="203" endline="209" pcid="3943"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/graphql/Types.java" startline="42" endline="52" pcid="3523"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/graphql/Types.java" startline="101" endline="111" pcid="3527"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/node/httpd/NodeServer.java" startline="257" endline="263" pcid="3687"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/TemplateGridServerCommand.java" startline="54" endline="60" pcid="4374"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/node/remote/RemoteNode.java" startline="107" endline="113" pcid="3775"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/grid/distributor/remote/RemoteDistributor.java" startline="62" endline="68" pcid="4273"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/network/Initiator.java" startline="43" endline="52" pcid="4506"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/script/RemoteValue.java" startline="75" endline="84" pcid="4923"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="28" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/StackFrame.java" startline="58" endline="92" pcid="4624"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/script/StackFrame.java" startline="56" endline="90" pcid="5021"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="8" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/StackFrame.java" startline="94" endline="103" pcid="4625"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/script/StackFrame.java" startline="92" endline="101" pcid="5022"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/StackTrace.java" startline="43" endline="59" pcid="4634"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/script/StackTrace.java" startline="41" endline="57" pcid="5051"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/StackTrace.java" startline="61" endline="66" pcid="4635"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/script/StackTrace.java" startline="59" endline="64" pcid="5052"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/JavascriptLogEntry.java" startline="94" endline="103" pcid="4642"></source>
+<source file="systems/NicadRun/selenium-trunk/java/src/org/openqa/selenium/bidi/log/GenericLogEntry.java" startline="94" endline="103" pcid="4646"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementAttributeTest.java" startline="102" endline="109" pcid="5663"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementDomAttributeTest.java" startline="97" endline="104" pcid="5702"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementAttributeTest.java" startline="112" endline="122" pcid="5664"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementDomAttributeTest.java" startline="107" endline="117" pcid="5703"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementAttributeTest.java" startline="126" endline="137" pcid="5665"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementDomAttributeTest.java" startline="121" endline="132" pcid="5704"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementAttributeTest.java" startline="140" endline="144" pcid="5666"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementDomAttributeTest.java" startline="135" endline="139" pcid="5705"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementAttributeTest.java" startline="147" endline="155" pcid="5667"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/ElementDomAttributeTest.java" startline="142" endline="150" pcid="5706"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java" startline="168" endline="185" pcid="6239"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/TakesScreenshotTest.java" startline="310" endline="327" pcid="7144"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="20" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java" startline="195" endline="223" pcid="6240"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/TakesScreenshotTest.java" startline="337" endline="365" pcid="7145"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java" startline="231" endline="251" pcid="6241"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/TakesScreenshotTest.java" startline="373" endline="393" pcid="7146"></source>
+</class>
+
+<class classid="37" nclones="3" nlines="6" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/logging/AvailableLogsTest.java" startline="41" endline="46" pcid="6385"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/logging/GetLogsTest.java" startline="43" endline="48" pcid="6395"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/logging/PerformanceLogTypeTest.java" startline="40" endline="45" pcid="6399"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/edge/EdgeDriverFunctionalTest.java" startline="135" endline="147" pcid="6436"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/chrome/ChromeDriverFunctionalTest.java" startline="121" endline="133" pcid="7307"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="16" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/edge/EdgeDriverFunctionalTest.java" startline="168" endline="187" pcid="6438"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/chrome/ChromeDriverFunctionalTest.java" startline="174" endline="193" pcid="7310"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/edge/EdgeDriverFunctionalTest.java" startline="190" endline="197" pcid="6439"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/chrome/ChromeDriverFunctionalTest.java" startline="196" endline="203" pcid="7311"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DefaultMouseTest.java" startline="91" endline="95" pcid="7180"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java" startline="110" endline="114" pcid="9038"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="6" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DefaultMouseTest.java" startline="101" endline="106" pcid="7181"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java" startline="119" endline="124" pcid="9039"></source>
+</class>
+
+<class classid="43" nclones="3" nlines="8" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DefaultMouseTest.java" startline="108" endline="115" pcid="7182"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java" startline="126" endline="133" pcid="9040"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/PenPointerTest.java" startline="116" endline="123" pcid="7235"></source>
+</class>
+
+<class classid="44" nclones="3" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DefaultMouseTest.java" startline="413" endline="422" pcid="7200"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/PenPointerTest.java" startline="442" endline="451" pcid="7251"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java" startline="452" endline="461" pcid="9056"></source>
+</class>
+
+<class classid="45" nclones="3" nlines="12" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DefaultMouseTest.java" startline="424" endline="437" pcid="7201"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java" startline="463" endline="476" pcid="9057"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/PenPointerTest.java" startline="453" endline="466" pcid="7252"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/CombinedInputActionsTest.java" startline="228" endline="237" pcid="7210"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/CombinedInputActionsTest.java" startline="225" endline="234" pcid="9069"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DragAndDropTest.java" startline="42" endline="48" pcid="7290"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java" startline="54" endline="60" pcid="9114"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="13" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DragAndDropTest.java" startline="51" endline="63" pcid="7291"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java" startline="63" endline="75" pcid="9115"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DragAndDropTest.java" startline="121" endline="127" pcid="7296"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java" startline="127" endline="133" pcid="9119"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/interactions/DragAndDropTest.java" startline="153" endline="164" pcid="7298"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java" startline="163" endline="174" pcid="9121"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/UploadTest.java" startline="177" endline="186" pcid="7439"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/node/NodeTest.java" startline="926" endline="935" pcid="8575"></source>
+</class>
+
+<class classid="52" nclones="4" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqLocalhostTest.java" startline="58" endline="68" pcid="7551"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqInProcTest.java" startline="52" endline="62" pcid="7556"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqTcpTest.java" startline="61" endline="71" pcid="7562"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/EventBusGuavaTest.java" startline="48" endline="58" pcid="7567"></source>
+</class>
+
+<class classid="53" nclones="4" nlines="6" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqLocalhostTest.java" startline="72" endline="80" pcid="7552"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqInProcTest.java" startline="66" endline="74" pcid="7557"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/EventBusGuavaTest.java" startline="62" endline="70" pcid="7568"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqTcpTest.java" startline="75" endline="83" pcid="7563"></source>
+</class>
+
+<class classid="54" nclones="4" nlines="15" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqLocalhostTest.java" startline="83" endline="100" pcid="7553"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqTcpTest.java" startline="86" endline="103" pcid="7564"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/ZeroMqInProcTest.java" startline="77" endline="94" pcid="7558"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/events/EventBusGuavaTest.java" startline="73" endline="90" pcid="7569"></source>
+</class>
+
+<class classid="55" nclones="3" nlines="9" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/os/ExternalProcessTest.java" startline="116" endline="123" pcid="7578"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/os/OsProcessTest.java" startline="110" endline="117" pcid="7600"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/os/CommandLineTest.java" startline="163" endline="170" pcid="7591"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="12" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/SessionCleanUpTest.java" startline="379" endline="391" pcid="8412"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/EndToEndTest.java" startline="141" endline="153" pcid="8470"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/EndToEndTest.java" startline="123" endline="137" pcid="8469"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/ReverseProxyEndToEndTest.java" startline="120" endline="134" pcid="8518"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/SessionQueueGridWithTimeoutTest.java" startline="199" endline="207" pcid="8483"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/router/SessionQueueGridTest.java" startline="247" endline="255" pcid="8508"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/node/local/LocalNodeTest.java" startline="208" endline="212" pcid="8652"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/grid/distributor/local/LocalDistributorTest.java" startline="250" endline="254" pcid="8813"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="5" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="358" endline="362" pcid="9006"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/script/LocalValueTest.java" startline="514" endline="518" pcid="9219"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="368" endline="374" pcid="9008"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="530" endline="536" pcid="9532"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="376" endline="382" pcid="9009"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="538" endline="544" pcid="9533"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="384" endline="390" pcid="9010"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="546" endline="552" pcid="9534"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="392" endline="400" pcid="9011"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="554" endline="562" pcid="9535"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="7" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="402" endline="410" pcid="9012"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="564" endline="572" pcid="9536"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="10" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="412" endline="421" pcid="9013"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="574" endline="583" pcid="9537"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="22" similarity="100">
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java" startline="435" endline="456" pcid="9017"></source>
+<source file="systems/NicadRun/selenium-trunk/java/test/org/openqa/selenium/CookieImplementationTest.java" startline="597" endline="618" pcid="9541"></source>
+</class>
+
+</clones>

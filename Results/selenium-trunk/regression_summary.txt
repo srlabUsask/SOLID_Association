@@ -1,0 +1,54 @@
+COMPLEMENTARY LOGISTIC REGRESSION: is_cloned ~ SRP+OCP+DIP+LOC
+Primary RQ2 analysis: Mann-Whitney U (see mann_whitney_results.csv)
+McFadden R² = likelihood-ratio index vs intercept-only null.
+NOT variance explained. Per-project results are DESCRIPTIVE.
+======================================================================
+
+Clone Type  : overall
+  N         : 5,347  |  Cloned: 702
+  McF R²    : 0.0321  (intercept-only null; NOT var. explained)
+  AIC       : 4034.7897
+  Controls  : SRP+OCP+DIP+METHOD_LOC
+
+  Pred                 OR                   95% CI         p   Sig
+  --------------------------------------------------------------
+  Intercept        0.1423         [0.1309, 0.1546]    0.0000   Yes
+  SRP              1.3452         [1.1986, 1.5098]    0.0000   Yes
+  OCP              1.1616         [1.0499, 1.2851]    0.0037   Yes
+  DIP              1.1797         [1.0726, 1.2975]    0.0007   Yes
+  METHOD_LOC       1.7903         [1.6014, 2.0016]    0.0000   Yes
+
+----------------------------------------------------------------------
+
+Clone Type  : T3
+  N         : 5,342  |  Cloned: 697
+  McF R²    : 0.0322  (intercept-only null; NOT var. explained)
+  AIC       : 4014.5352
+  Controls  : SRP+OCP+DIP+METHOD_LOC
+
+  Pred                 OR                   95% CI         p   Sig
+  --------------------------------------------------------------
+  Intercept        0.1412         [0.1299, 0.1535]    0.0000   Yes
+  SRP              1.3448         [1.1980, 1.5097]    0.0000   Yes
+  OCP              1.1689         [1.0558, 1.2942]    0.0027   Yes
+  DIP              1.1759         [1.0690, 1.2935]    0.0009   Yes
+  METHOD_LOC       1.7970         [1.6068, 2.0099]    0.0000   Yes
+
+----------------------------------------------------------------------
+
+Clone Type  : T1
+  N         : 4,647  |  Cloned: 2
+  McF R²    : 0.1657  (intercept-only null; NOT var. explained)
+  AIC       : 39.2027
+  Controls  : SRP+OCP+DIP+METHOD_LOC
+
+  Pred                 OR                   95% CI         p   Sig
+  --------------------------------------------------------------
+  Intercept        0.0000               [nan, nan]       nan    No
+  SRP            4453.8677            [0.0000, inf]    1.0000    No
+  OCP              0.3671         [0.1621, 0.8315]    0.0163   Yes
+  DIP            51499308068087611392.0000               [nan, nan]       nan    No
+  METHOD_LOC       0.7210         [0.1518, 3.4253]    0.6807    No
+
+----------------------------------------------------------------------
+

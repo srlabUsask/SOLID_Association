@@ -1,0 +1,36 @@
+method_id,principle,agreed_score,pattern,rationale
+systems/Projects/SolidLeaning/fitnesse/test/fitnesse/responders/files/PublisherTest.java:72-79,srp,2,TRUE,"Method adds pages, traverses, and then checks to confirm."
+systems/Projects/SolidLeaning/fitnesse/test/fitnesse/responders/refactoring/SearchReplaceMethodResponderTest.java:103-130,srp,2,TRUE,Method adds pages and tests the assertion.
+systems/Projects/SolidLeaning/fitnesse/test/fitnesse/wiki/fs/DiskFileSystemTest.java:24-34,srp,2,TRUE,Method creates files and then checks to confirm operation.
+systems/Projects/jackson-databind-2.19/src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java:154-197,srp,0,FALSE,The ENUM case should be delegated to a separate method as the other cases are.
+systems/Projects/jmeter-master/src/components/src/main/java/org/apache/jmeter/visualizers/backend/graphite/GraphiteBackendListenerClient.java:301-331,srp,1,FALSE,Method mainly does one responsibility (setup) but does too many things for setup when it could delegate more.
+systems/Projects/jmeter-master/src/core/src/main/java/org/apache/jmeter/testbeans/gui/ComboStringEditor.java:110-145,srp,2,FALSE,Method acts as a constructor and it is difficult to find any parts that could be delegated.
+systems/Projects/jmeter-master/src/core/src/main/java/org/apache/jmeter/threads/JMeterThread.java:773-785,srp,1,FALSE,"It is unclear whether this method violates SRP, based on the function of the other methods being called."
+systems/Projects/jmeter-master/src/protocol/http/src/test/java/org/apache/jmeter/gui/action/ParseCurlCommandActionTest.java:459-468,srp,2,TRUE,Method creates objects and then checks to confirm operation.
+systems/Projects/jmeter-master/src/protocol/jdbc/src/main/java/org/apache/jmeter/protocol/jdbc/AbstractJDBCTestElement.java:163-239,srp,0,FALSE,"Too many cases, cases should delegate to another method instead of handling the responsibility of each case."
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/text/AbstractLocalizedTextProvider.java:111-133,srp,1,FALSE,Unclear if LOG messages are outside the scope of one responsibility.
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/FieldErrorTagTest.java:96-114,srp,1,TRUE,Method instantiates objects and values and then checks to confirm operation. It is unclear whether these responsibilities violate SRP.
+systems/Projects/struts-main/plugins/json/src/main/java/org/apache/struts2/json/JSONReader.java:75-123,srp,2,FALSE,Method only has one responsibility
+systems/Projects/jackson-databind-2.19/src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java:746-778,ocp,2,FALSE,Method has minimal branching and nothing hard-coded.
+systems/Projects/jackson-databind-2.19/src/test/java/com/fasterxml/jackson/databind/cfg/CacheProviderTest.java:120-122,ocp,1,FALSE,Some hard-coded logic but unclear without knowing the intent/function of the method.
+systems/Projects/jmeter-master/src/core/src/main/java/org/apache/jmeter/util/JsseSSLManager.java:98-120,ocp,2,FALSE,Method has minimal branching and nothing hard-coded.
+systems/Projects/jmeter-master/src/protocol/http/src/test/java/org/apache/jmeter/protocol/http/sampler/TestHTTPSamplersAgainstHttpMirrorServer.java:647-672,ocp,2,FALSE,Method has no branching and nothing hard-coded.
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/docker/v1_41/PullImage.java:45-79,ocp,2,FALSE,Method has minimal branching and does not encode variants.
+systems/Projects/selenium-trunk/java/src/org/openqa/selenium/remote/http/RetryRequest.java:39-80,ocp,2,FALSE,Method has minimal branching and nothing hard-coded.
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/ActionSupport.java:345-360,ocp,1,FALSE,Method branches off but does not have divergent behavior.
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/text/AbstractLocalizedTextProvider.java:111-133,ocp,2,FALSE,Method has minimal branching and nothing hard-coded.
+systems/Projects/struts-main/core/src/test/java/org/apache/struts2/views/jsp/ui/FieldErrorTagTest.java:116-138,ocp,2,FALSE,Method has no branching and nothing hard-coded.
+systems/Projects/SolidLeaning/fitnesse/src/fitnesse/wiki/RecentChangesWikiPage.java:21-24,dip,2,TRUE,"No replaceable dependencies, only uses class parameters."
+systems/Projects/SolidLeaning/fitnesse/test/fit/BindingTest.java:70-72,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/SolidLeaning/fitnesse/test/fitnesse/responders/refactoring/RenamePageResponderTest.java:27-29,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/commons-lang-master/src/main/java/org/apache/commons/lang3/RandomUtils.java:168-170,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/commons-lang-master/src/main/java/org/apache/commons/lang3/function/Failable.java:471-473,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/commons-lang-master/src/test/java/org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java:318-320,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/engine/transaction/jta/platform/internal/AtomikosJtaPlatform.java:20-30,dip,0,FALSE,Method uses static singletons for replaceable collaborators.
+systems/Projects/hibernate-orm-main/hibernate-core/src/main/java/org/hibernate/sql/exec/spi/ExecutionContext.java:85-87,dip,2,TRUE,No replaceable dependencies.
+systems/Projects/jackson-databind-2.19/src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1280-1320,dip,2,FALSE,No replaceable dependencies.
+systems/Projects/jackson-databind-2.19/src/test/java/com/fasterxml/jackson/databind/deser/builder/BuilderErrorHandlingTest.java:43-45,dip,1,TRUE,It is unclear whether the parameters x and y violate DIP.
+systems/Projects/jackson-databind-2.19/src/test/java/com/fasterxml/jackson/databind/jsontype/TestDoubleJsonCreator.java:167-169,dip,2,FALSE,"No replaceable dependencies, only uses class parameters."
+systems/Projects/jmeter-master/src/components/src/main/java/org/apache/jmeter/assertions/ResponseAssertion.java:205-207,dip,2,TRUE,Uses given parameters.
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/ognl/SecurityMemberAccess.java:433-435,dip,1,TRUE,toNewPatternsSet uses a parameter that was not specified in the method.
+systems/Projects/struts-main/core/src/main/java/org/apache/struts2/util/TextParseUtil.java:256-258,dip,2,TRUE,"No replaceable dependencies, only uses class parameters."
